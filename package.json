@@ -1,6 +1,6 @@
 {
   "name": "@twtcer/lw-ui-plus",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "基于Vue3|Element-plus|Vite|Ts|二开组件|文档",
   "author": "twtcer",
   "license": "MIT",
@@ -86,15 +86,15 @@
     "url": "https://github.com/twtcer/lw-ui-plus.git"
   },
   "homepage": "https://twtcer.github.io/lw-ui-plus/",
-  "keywords": [ 
+  "keywords": [
     "element-plus",
     "vite",
     "vite3",
     "vitepress",
     "vue",
-    "vue3", 
-    "lw-ui-plus", 
-    "vitepress-theme-demoblock", 
+    "vue3",
+    "lw-ui-plus",
+    "vitepress-theme-demoblock",
     "封装组件",
     "components",
     "document",
