@@ -1,6 +1,6 @@
 <template>
-  <t-layout-page>
-    <t-layout-page-item style="display: flex">
+  <lw-layout-page>
+    <lw-layout-page-item style="display: flex">
       <t-select-table
         ref="selectTable"
         :table="table"
@@ -11,8 +11,8 @@
         :keywords="{ label: 'name', value: 'id' }"
         @radioChange="radioChange"
       />
-    </t-layout-page-item>
-  </t-layout-page>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 <script setup lang="ts">
 import { nextTick, ref } from "vue"

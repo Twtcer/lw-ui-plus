@@ -1,9 +1,9 @@
 <template>
-  <t-layout-page class="t_module_form_demo">
-    <t-layout-page-item>
+  <lw-layout-page class="t_module_form_demo">
+    <lw-layout-page-item>
       <t-module-form title="表单对齐方式" ref="sourceForm" :formOpts="formOpts" :submit="submit" />
-    </t-layout-page-item>
-  </t-layout-page>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 <script setup lang="ts">
 import { ref, reactive } from "vue"

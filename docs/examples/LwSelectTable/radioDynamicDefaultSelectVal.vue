@@ -1,6 +1,6 @@
 <template>
-  <t-layout-page>
-    <t-layout-page-item style="display: flex; flex-direction: column">
+  <lw-layout-page>
+    <lw-layout-page-item style="display: flex; flex-direction: column">
       <el-button type="danger" style="margin-bottom: 10px; width: 200px" @click="mod"
         >动态赋值</el-button
       >
@@ -12,8 +12,8 @@
         :keywords="{ label: 'name', value: 'id' }"
         @radioChange="radioChange"
       ></t-select-table>
-    </t-layout-page-item>
-  </t-layout-page>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 <script setup lang="ts">
 import { ref } from "vue"

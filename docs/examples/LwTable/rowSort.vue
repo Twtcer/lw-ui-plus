@@ -1,7 +1,7 @@
 <template>
-  <t-layout-page>
-    <t-layout-page-item>
-      <t-table
+  <lw-layout-page>
+    <lw-layout-page-item>
+      <lw-table
         title="行--拖拽排序"
         :table="table"
         :columns="table.columns"
@@ -10,8 +10,8 @@
         row-key="id"
         @rowSort="rowSort"
       />
-    </t-layout-page-item>
-  </t-layout-page>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 
 <script setup lang="ts">

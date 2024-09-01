@@ -1,6 +1,6 @@
 <template>
-  <t-layout-page>
-    <t-layout-page-item>
+  <lw-layout-page>
+    <lw-layout-page-item>
       <t-select
         placeholder="请选择(虚拟列表--单选)"
         v-model="selectVlaue"
@@ -8,8 +8,8 @@
         useVirtual
         @change="selectChange"
       />
-    </t-layout-page-item>
-  </t-layout-page>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 <script setup lang="ts" name="useVirtual">
 import { ref } from "vue"

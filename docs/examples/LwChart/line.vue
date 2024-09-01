@@ -1,6 +1,6 @@
 <template>
-  <t-layout-page>
-    <t-layout-page-item>
+  <lw-layout-page>
+    <lw-layout-page-item>
       <el-button @click="isShow = !isShow">{{ isShow ? "隐藏" : "显示" }}</el-button>
       <el-button @click="addData()">增加数据</el-button>
       <t-chart
@@ -17,8 +17,8 @@
         @contextmenu="contextmenu"
         @chart="chart"
       />
-    </t-layout-page-item>
-  </t-layout-page>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 <script setup lang="ts">
 import { ref } from "vue"

@@ -1,9 +1,9 @@
 <template>
-  <t-layout-page>
-    <t-layout-page-item>
-      <t-table title="排序" :table="table" :columns="table.columns" :isShowPagination="false" />
-    </t-layout-page-item>
-  </t-layout-page>
+  <lw-layout-page>
+    <lw-layout-page-item>
+      <lw-table title="排序" :table="table" :columns="table.columns" :isShowPagination="false" />
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 
 <script setup lang="ts">

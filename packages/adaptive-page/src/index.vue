@@ -9,20 +9,20 @@
         <slot name="leftContent" />
       </div>
     </div>
-    <t-layout-page class="right_content" :style="pageStyle">
-      <t-layout-page-item class="table_search" :style="queryPageStyle" v-if="$attrs.opts">
-        <t-query-condition v-bind="$attrs" ref="TQueryConditionPage">
+    <lw-layout-page class="right_content" :style="pageStyle">
+      <lw-layout-page-item class="table_search" :style="queryPageStyle" v-if="$attrs.opts">
+        <lw-query-condition v-bind="$attrs" ref="TQueryConditionPage">
           <template v-for="(index, name) in slots" #[name]="data">
             <slot :name="name" v-bind="data" />
           </template>
-        </t-query-condition>
-      </t-layout-page-item>
-      <t-layout-page-item
+        </lw-query-condition>
+      </lw-layout-page-item>
+      <lw-layout-page-item
         class="table_main"
         :class="{ 't_table_self-filling': isTTableSelfFilling }"
         :style="tablePageStyle"
       >
-        <t-table
+        <lw-table
           v-bind="{ columnSetting, ...$attrs }"
           :isSlotToolbar="isShow('toolbar')"
           :isSlotTitle="isShow('title')"
@@ -31,10 +31,10 @@
           <template v-for="(index, name) in slots" #[name]="data">
             <slot :name="name" v-bind="data" />
           </template>
-        </t-table>
-      </t-layout-page-item>
+        </lw-table>
+      </lw-layout-page-item>
       <slot />
-    </t-layout-page>
+    </lw-layout-page>
   </div>
 </template>
 
@@ -121,7 +121,7 @@ defineExpose({ ...instance.exposed, TQueryConditionPage, TTablePage })
       overflow-y: auto;
       width: 100%;
       height: 100vh;
-      .t-table {
+      .lw-table {
         display: flex;
         flex: 1;
         flex-direction: column;
@@ -130,7 +130,7 @@ defineExpose({ ...instance.exposed, TQueryConditionPage, TTablePage })
       }
     }
     .t_table_self-filling {
-      .t-table {
+      .lw-table {
         :deep(.el-table) {
           height: 100vh;
         }

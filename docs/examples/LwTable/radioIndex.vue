@@ -1,7 +1,7 @@
 <template>
-  <t-layout-page>
-    <t-layout-page-item>
-      <t-table
+  <lw-layout-page>
+    <lw-layout-page-item>
+      <lw-table
         title="第一列显示单选框和序列号"
         ref="selectionTable"
         :table="table"
@@ -10,8 +10,8 @@
         :rowClickRadio="false"
         :isShowPagination="false"
       />
-    </t-layout-page-item>
-  </t-layout-page>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 
 <script setup lang="ts">

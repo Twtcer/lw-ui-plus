@@ -1,5 +1,5 @@
 <template>
-  <t-adaptive-page
+  <lw-adaptive-page
     class="menu_mange"
     tableTitle="用户管理列表"
     row-key="path"
@@ -28,7 +28,7 @@
     <template #nickName="{ scope }">
       <div>{{ scope.row.nickName }}</div>
     </template>
-  </t-adaptive-page>
+  </lw-adaptive-page>
 </template>
 
 <script setup lang="tsx" name="accountManage">

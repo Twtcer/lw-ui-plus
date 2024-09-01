@@ -1,6 +1,6 @@
 <template>
-  <t-layout-page class="t_module_form_demo">
-    <t-layout-page-item>
+  <lw-layout-page class="t_module_form_demo">
+    <lw-layout-page-item>
       <t-module-form
         title="模块Title右侧插槽使用"
         ref="sourceForm"
@@ -13,7 +13,7 @@
           <el-button type="danger">信息按钮</el-button>
         </template>
         <template #lineMessage>
-          <t-table title="模块插槽使用" :table="table" :columns="table.columns" isCopy />
+          <lw-table title="模块插槽使用" :table="table" :columns="table.columns" isCopy />
         </template>
         <!-- title右侧按钮插槽 -->
         <template #material>
@@ -22,8 +22,8 @@
           <el-button size="small">导出</el-button>
         </template>
       </t-module-form>
-    </t-layout-page-item>
-  </t-layout-page>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 <script setup lang="ts">
 import { ref, reactive } from "vue"

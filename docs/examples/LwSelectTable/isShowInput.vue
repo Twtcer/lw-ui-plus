@@ -1,6 +1,6 @@
 <template>
-  <t-layout-page>
-    <t-layout-page-item>
+  <lw-layout-page>
+    <lw-layout-page-item>
       <t-select-table
         ref="selectTable"
         :table="table"
@@ -13,8 +13,8 @@
         @input-click="clickInput"
         @radioChange="radioChange"
       ></t-select-table>
-    </t-layout-page-item>
-  </t-layout-page>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 <script setup lang="ts">
 import { onMounted, ref } from "vue"

@@ -1,15 +1,15 @@
 <template>
-  <t-layout-page>
-    <t-layout-page-item>
-      <t-query-condition
+  <lw-layout-page>
+    <lw-layout-page-item>
+      <lw-query-condition
         ref="queryConditionRef"
         :opts="opts"
         @submit="conditionEnter"
         @handleEvent="handleEvent"
         :isFooter="false"
       />
-    </t-layout-page-item>
-  </t-layout-page>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 
 <script setup lang="ts">

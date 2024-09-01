@@ -1,6 +1,6 @@
 <template>
-  <t-layout-page class="t_module_form_demo">
-    <t-layout-page-item>
+  <lw-layout-page class="t_module_form_demo">
+    <lw-layout-page-item>
       <t-module-form
         title="表单校验错误提示"
         ref="sourceForm"
@@ -14,8 +14,8 @@
           <el-button type="danger" @click="save">保存</el-button>
         </template>
       </t-module-form>
-    </t-layout-page-item>
-  </t-layout-page>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 <script setup lang="ts">
 import { ElMessage } from "element-plus"

@@ -1,10 +1,10 @@
 <template>
-  <t-layout-page>
-    <t-layout-page-item>
+  <lw-layout-page>
+    <lw-layout-page-item>
       <t-radio v-model="theme" :options="themeList" type="button" style="margin-bottom: 20px" />
       <t-chart :options="options" :theme="theme" style="width: 100%; height: 500px" />
-    </t-layout-page-item>
-  </t-layout-page>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 <script setup lang="ts">
 import { ref } from "vue"

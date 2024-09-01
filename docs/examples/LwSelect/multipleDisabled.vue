@@ -1,6 +1,6 @@
 <template>
-  <t-layout-page>
-    <t-layout-page-item>
+  <lw-layout-page>
+    <lw-layout-page-item>
       <t-select
         placeholder="多选禁用"
         v-model="selectVlaue"
@@ -9,8 +9,8 @@
         @change="selectChange"
         multiple
       />
-    </t-layout-page-item>
-  </t-layout-page>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 <script setup lang="ts" name="Multiple">
 import { ref, onMounted } from "vue"

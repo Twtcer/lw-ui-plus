@@ -1,7 +1,7 @@
 <template>
-  <t-layout-page>
-    <t-layout-page-item>
-      <t-table
+  <lw-layout-page>
+    <lw-layout-page-item>
+      <lw-table
         title="集成分页器--序列号显示-累加"
         :table="table"
         :columns="table.columns"
@@ -11,9 +11,9 @@
         <template #pagination>
           <div>测试插槽</div>
         </template>
-      </t-table>
-    </t-layout-page-item>
-  </t-layout-page>
+      </lw-table>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 
 <script setup lang="tsx">

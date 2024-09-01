@@ -1,7 +1,7 @@
 <template>
-  <t-layout-page>
-    <t-layout-page-item>
-      <t-table
+  <lw-layout-page>
+    <lw-layout-page-item>
+      <lw-table
         title="自定义表头渲染"
         :table="table"
         :columns="table.columns"
@@ -11,9 +11,9 @@
         <template #date1="{ scope }">
           <div>{{ scope.row.date1 }}</div>
         </template>
-      </t-table>
-    </t-layout-page-item>
-  </t-layout-page>
+      </lw-table>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 
 <script setup lang="tsx">

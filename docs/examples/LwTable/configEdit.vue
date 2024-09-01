@@ -1,7 +1,7 @@
 <template>
-  <t-layout-page class="single_edit_demo">
-    <t-layout-page-item>
-      <t-table
+  <lw-layout-page class="single_edit_demo">
+    <lw-layout-page-item>
+      <lw-table
         title="单元格编辑功能"
         ref="singleEdit"
         :table="state.table"
@@ -24,9 +24,9 @@
             >另一种获取table数据</el-button
           >
         </template>
-      </t-table>
-    </t-layout-page-item>
-  </t-layout-page>
+      </lw-table>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 
 <script setup lang="ts">

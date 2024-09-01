@@ -1,6 +1,6 @@
 <template>
-  <t-layout-page class="t-module-form_demo">
-    <t-layout-page-item>
+  <lw-layout-page class="t-module-form_demo">
+    <lw-layout-page-item>
       <t-module-form
         title="模块表单组件运用"
         subTitle="模块表单222"
@@ -51,8 +51,8 @@
           <el-button type="primary" @click="resetForm">重置</el-button>
         </template>
       </t-module-form>
-    </t-layout-page-item>
-  </t-layout-page>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 
 <script setup lang="tsx">

@@ -9,7 +9,7 @@ LwTable/base
 :::
 
 ### 斑马线表格
-:::demo 在`t-table`标签中添加`stripe`
+:::demo 在`lw-table`标签中添加`stripe`
 LwTable/stripe
 :::
 
@@ -278,7 +278,7 @@ LwTable/expand
 ### 1、代码示例
 
 ```html
-<t-table
+<lw-table
   :table="table"
   :columns="table.columns"
   @size-change="handlesSizeChange"

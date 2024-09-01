@@ -1,15 +1,15 @@
 <template>
-  <t-layout-page>
-    <t-layout-page-item>
-      <t-table
+  <lw-layout-page>
+    <lw-layout-page-item>
+      <lw-table
         title="远程排序"
         :table="table"
         :columns="table.columns"
         :isShowPagination="false"
         @sort-change="sortChange"
       />
-    </t-layout-page-item>
-  </t-layout-page>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 
 <script setup lang="ts">

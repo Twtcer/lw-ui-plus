@@ -1,12 +1,12 @@
 <template>
-  <t-layout-page>
-    <t-layout-page-item>
+  <lw-layout-page>
+    <lw-layout-page-item>
       <el-radio-group v-model="align" size="small" style="margin-bottom: 15px">
         <el-radio-button value="left">左对齐</el-radio-button>
         <el-radio-button value="center">居中</el-radio-button>
         <el-radio-button value="right">右对齐</el-radio-button>
       </el-radio-group>
-      <t-table
+      <lw-table
         title="对齐方式"
         :table="table"
         :align="align"
@@ -17,9 +17,9 @@
           <el-button size="default" type="danger" @click="setDateLeft">点击{{ setDate }}左对齐</el-button>
           <el-button size="default" type="primary" @click="setNameRight">点击{{ setName }}右对齐</el-button>
         </template>
-      </t-table>
-    </t-layout-page-item>
-  </t-layout-page>
+      </lw-table>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 
 <script setup lang="ts">

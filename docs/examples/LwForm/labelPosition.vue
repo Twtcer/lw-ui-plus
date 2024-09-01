@@ -1,14 +1,14 @@
 <template>
-  <t-layout-page>
-    <t-layout-page-item>
+  <lw-layout-page>
+    <lw-layout-page-item>
       <el-radio-group v-model="formOpts.labelPosition" size="small" style="margin-bottom: 15px">
         <el-radio-button value="left">左对齐</el-radio-button>
         <el-radio-button value="right">右对齐</el-radio-button>
         <el-radio-button value="top">顶部对齐</el-radio-button>
       </el-radio-group>
       <t-form ref="TFormDemo" v-model="formOpts.ref" :formOpts="formOpts" :widthSize="1" />
-    </t-layout-page-item>
-  </t-layout-page>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 
 <script setup lang="ts">

@@ -1,15 +1,15 @@
 <template>
-  <t-layout-page>
-    <t-layout-page-item>
-      <t-table
+  <lw-layout-page>
+    <lw-layout-page-item>
+      <lw-table
         title="表格--筛选功能"
         ref="selectionTable"
         :table="state.table"
         :columns="state.table.columns"
         :isShowPagination="false"
       />
-    </t-layout-page-item>
-  </t-layout-page>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 
 <script setup lang="ts">

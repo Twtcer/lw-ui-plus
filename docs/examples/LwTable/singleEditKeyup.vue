@@ -1,7 +1,7 @@
 <template>
-  <t-layout-page>
-    <t-layout-page-item>
-      <t-table
+  <lw-layout-page>
+    <lw-layout-page-item>
+      <lw-table
         title="单元格编辑--键盘事件功能"
         :table="state.table"
         :columns="state.table.columns"
@@ -12,8 +12,8 @@
         @save="save"
         @handleEvent="handleEvent"
       />
-    </t-layout-page-item>
-  </t-layout-page>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 
 <script setup lang="ts">

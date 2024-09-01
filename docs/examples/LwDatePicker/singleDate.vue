@@ -1,6 +1,6 @@
 <template>
-  <t-layout-page class="single_Date">
-    <t-layout-page-item>
+  <lw-layout-page class="single_Date">
+    <lw-layout-page-item>
       <el-radio-group v-model="size" aria-label="size control" size="small">
         <el-radio-button value="large">large</el-radio-button>
         <el-radio-button value="default">default</el-radio-button>
@@ -65,8 +65,8 @@
           />
         </div>
       </div>
-    </t-layout-page-item>
-  </t-layout-page>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 
 <script setup lang="ts">

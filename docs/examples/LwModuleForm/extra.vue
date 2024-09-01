@@ -1,6 +1,6 @@
 <template>
-  <t-layout-page class="t_module_form_demo">
-    <t-layout-page-item>
+  <lw-layout-page class="t_module_form_demo">
+    <lw-layout-page-item>
       <t-module-form
         title="Title右侧插槽使用"
         ref="sourceForm"
@@ -13,8 +13,8 @@
           <el-button type="danger">信息按钮</el-button>
         </template>
       </t-module-form>
-    </t-layout-page-item>
-  </t-layout-page>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 <script setup lang="tsx">
 import { ref, reactive } from "vue"

@@ -1,7 +1,7 @@
 <template>
-  <t-layout-page class="dept_mange">
-    <t-layout-page-item>
-      <t-table
+  <lw-layout-page class="dept_mange">
+    <lw-layout-page-item>
+      <lw-table
         title="菜单管理"
         row-key="path"
         isTree
@@ -51,9 +51,9 @@
             >收起第七行</el-button
           >
         </template>
-      </t-table>
-    </t-layout-page-item>
-  </t-layout-page>
+      </lw-table>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 
 <script setup lang="tsx">

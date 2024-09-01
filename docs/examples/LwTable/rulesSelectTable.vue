@@ -1,7 +1,7 @@
 <template>
-  <t-layout-page>
-    <t-layout-page-item>
-      <t-table
+  <lw-layout-page>
+    <lw-layout-page-item>
+      <lw-table
         title="单元格编辑TSelectTable--rules"
         :table="state.table"
         :columns="state.table.columns"
@@ -22,9 +22,9 @@
           <el-button @click="clearValidate">清除校验规则</el-button>
           <el-button type="primary" @click="reset">重置表单</el-button>
         </template>
-      </t-table>
-    </t-layout-page-item>
-  </t-layout-page>
+      </lw-table>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 
 <script setup lang="tsx">

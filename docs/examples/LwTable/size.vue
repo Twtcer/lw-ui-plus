@@ -1,21 +1,21 @@
 <template>
-  <t-layout-page>
-    <t-layout-page-item>
+  <lw-layout-page>
+    <lw-layout-page-item>
       <el-radio-group v-model="size" size="small" style="margin-bottom: 15px">
         <el-radio-button value="">默认</el-radio-button>
         <el-radio-button value="large">Large</el-radio-button>
         <el-radio-button value="default">Default</el-radio-button>
         <el-radio-button value="small">Small</el-radio-button>
       </el-radio-group>
-      <t-table
+      <lw-table
         title="表格大小"
         :table="table"
         :size="size"
         :columns="table.columns"
         :isShowPagination="false"
       />
-    </t-layout-page-item>
-  </t-layout-page>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 
 <script setup lang="ts">

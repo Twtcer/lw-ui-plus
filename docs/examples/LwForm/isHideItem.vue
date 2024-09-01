@@ -1,10 +1,10 @@
 <template>
-  <t-layout-page>
-    <t-layout-page-item>
+  <lw-layout-page>
+    <lw-layout-page-item>
       <el-button type="danger" @click="add">新增</el-button>
       <el-button type="danger" @click="edit">编辑</el-button>
       <el-button type="primary" @click="onDisabled">禁用输入框</el-button>
-    </t-layout-page-item>
+    </lw-layout-page-item>
     <el-dialog :title="title" width="40%" v-model="dialogSelectEnt" draggable>
       <t-form ref="TFormDemo" v-model="formOpts.ref" :formOpts="formOpts" :widthSize="1" />
       <template #footer>
@@ -14,7 +14,7 @@
         </div>
       </template>
     </el-dialog>
-  </t-layout-page>
+  </lw-layout-page>
 </template>
 
 <script setup lang="ts">

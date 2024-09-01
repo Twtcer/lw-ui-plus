@@ -1,17 +1,17 @@
 <template>
-  <t-layout-page class="t_detail_demo">
-    <t-layout-page-item>
+  <lw-layout-page class="t_detail_demo">
+    <lw-layout-page-item>
       <el-radio-group v-model="descColumn" size="small" style="margin-bottom: 15px">
         <el-radio-button :value="1">一行展示</el-radio-button>
         <el-radio-button :value="2">一行展示2项</el-radio-button>
         <el-radio-button :value="3">一行展示3项</el-radio-button>
         <el-radio-button :value="4">一行展示4项</el-radio-button>
       </el-radio-group>
-    </t-layout-page-item>
-    <t-layout-page-item>
+    </lw-layout-page-item>
+    <lw-layout-page-item>
       <t-detail :descData="DataSource.descData" :descColumn="descColumn" />
-    </t-layout-page-item>
-  </t-layout-page>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 <script setup lang="ts">
 import { ref, reactive, onMounted } from "vue"

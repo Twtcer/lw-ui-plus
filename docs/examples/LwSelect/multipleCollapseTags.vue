@@ -1,6 +1,6 @@
 <template>
-  <t-layout-page>
-    <t-layout-page-item>
+  <lw-layout-page>
+    <lw-layout-page-item>
       <div>use collapse-tags</div>
       <t-select
         placeholder="请选择(多选)"
@@ -11,8 +11,8 @@
         multiple
         @change="selectChange($event, '1')"
       />
-    </t-layout-page-item>
-    <t-layout-page-item>
+    </lw-layout-page-item>
+    <lw-layout-page-item>
       <div>use collapse-tags-tooltip</div>
       <t-select
         placeholder="请选择(多选)"
@@ -24,8 +24,8 @@
         multiple
         @change="selectChange($event, '2')"
       />
-    </t-layout-page-item>
-    <t-layout-page-item>
+    </lw-layout-page-item>
+    <lw-layout-page-item>
       <div>use max-collapse-tags</div>
       <t-select
         placeholder="请选择(多选)"
@@ -38,8 +38,8 @@
         multiple
         @change="selectChange($event, '3')"
       />
-    </t-layout-page-item>
-  </t-layout-page>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 <script setup lang="ts" name="multipleCollapseTags">
 import { ref } from "vue"

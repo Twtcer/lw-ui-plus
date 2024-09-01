@@ -31,7 +31,7 @@ LwAdaptivePage/treeTable
 ### 1、代码示例
 
 ```html
-<t-adaptive-page
+<lw-adaptive-page
   title="用户管理列表"
   :table="state.table"
   :columns="state.table.columns"
@@ -47,7 +47,7 @@ LwAdaptivePage/treeTable
 | 参数                | 说明                                                         | 类型          | 默认值 |
 | :------------------ | :----------------------------------------------------------- | :------------ | :----- |
 | leftWidth           | 左侧宽度                                                     | number,String | 260    |
-| pageStyle           | t-layout-page 行内样式                                       | object        | -      |
-| queryPageStyle      | 查询条件组件的 t-layout-page-item 行内样式                   | object        | -      |
-| tablePageStyle      | table 组件的 t-layout-page-item 行内样式                     | object        | -      |
+| pageStyle           | lw-layout-page 行内样式                                       | object        | -      |
+| queryPageStyle      | 查询条件组件的 lw-layout-page-item 行内样式                   | object        | -      |
+| tablePageStyle      | table 组件的 lw-layout-page-item 行内样式                     | object        | -      |
 | isTTableSelfFilling | 一屏组件 LwTable 自动撑满（即分页器显示最下，table 内容撑满） | Boolean       | false  |

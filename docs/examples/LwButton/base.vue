@@ -1,6 +1,6 @@
 <template>
-  <t-layout-page class="t_button_demo">
-    <t-layout-page-item>
+  <lw-layout-page class="t_button_demo">
+    <lw-layout-page-item>
       <div style="display: flex; align-items: center">
         <div style="width: 140px; font-weight: 700">输入防抖时间：</div>
         <el-input-number
@@ -16,8 +16,8 @@
       <t-button style="margin-top: 15px" color="#626aef" :time="time" @click="exportExcel"
         >导出</t-button
       >
-    </t-layout-page-item>
-  </t-layout-page>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 <script setup lang="ts">
 import { ElMessage } from "element-plus"

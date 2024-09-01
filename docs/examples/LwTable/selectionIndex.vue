@@ -1,7 +1,7 @@
 <template>
-  <t-layout-page>
-    <t-layout-page-item>
-      <t-table
+  <lw-layout-page>
+    <lw-layout-page-item>
+      <lw-table
         title="第一列显示复选框和序列号"
         ref="selectionTable"
         :table="state.table"
@@ -17,9 +17,9 @@
           >
           <el-button size="default" type="primary" :disabled="state.ids.length < 1" @click="cancelSelect">取消选中</el-button>
         </template>
-      </t-table>
-    </t-layout-page-item>
-  </t-layout-page>
+      </lw-table>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 
 <script setup lang="tsx">

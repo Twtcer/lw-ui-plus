@@ -1,7 +1,7 @@
 <template>
-  <t-layout-page>
-    <t-layout-page-item>
-      <t-table title="展开行" :table="table" :columns="table.columns" :isShowPagination="false">
+  <lw-layout-page>
+    <lw-layout-page-item>
+      <lw-table title="展开行" :table="table" :columns="table.columns" :isShowPagination="false">
         <template #expand="{ scope }">
           <el-tabs v-model="activeName" class="demo-tabs" @tab-click="handleClick">
             <el-tab-pane label="姓名" name="name">
@@ -22,9 +22,9 @@
             </el-tab-pane>
           </el-tabs>
         </template>
-      </t-table>
-    </t-layout-page-item>
-  </t-layout-page>
+      </lw-table>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 
 <script setup lang="ts">

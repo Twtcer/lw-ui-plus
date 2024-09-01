@@ -1,6 +1,6 @@
 <template>
-  <t-layout-page>
-    <t-layout-page-item>
+  <lw-layout-page>
+    <lw-layout-page-item>
       <t-tabs :tabs="tabs" type="border-card" @tab-click="tabsChange">
         <template #tab1>
           <div>订单数据</div>
@@ -15,8 +15,8 @@
           <div>页面数据</div>
         </template>
       </t-tabs>
-    </t-layout-page-item>
-  </t-layout-page>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 <script setup lang="ts">
 import { ref } from "vue"

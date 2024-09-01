@@ -1,6 +1,6 @@
 <template>
-  <t-layout-page>
-    <t-layout-page-item>
+  <lw-layout-page>
+    <lw-layout-page-item>
       <t-form ref="TFormDemo" v-model="formOpts.ref" :formOpts="formOpts" :widthSize="1">
         <template #wechat>
           <el-input v-model="formOpts.formData.wechat" placeholder="自定义输入框插槽"></el-input>
@@ -23,8 +23,8 @@
           ></el-option>
         </template>
       </t-form>
-    </t-layout-page-item>
-  </t-layout-page>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 
 <script setup lang="ts">

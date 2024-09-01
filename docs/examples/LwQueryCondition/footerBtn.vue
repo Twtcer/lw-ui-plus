@@ -1,7 +1,7 @@
 <template>
-  <t-layout-page>
-    <t-layout-page-item>
-      <t-query-condition
+  <lw-layout-page>
+    <lw-layout-page-item>
+      <lw-query-condition
         ref="queryConditionRef"
         :opts="opts"
         @submit="conditionEnter"
@@ -11,9 +11,9 @@
           <el-button type="danger" @click="queryConditionRef.resetHandle()">重置</el-button>
           <el-button type="primary" @click="queryConditionRef.checkHandle()">查询</el-button>
         </template>
-      </t-query-condition>
-    </t-layout-page-item>
-  </t-layout-page>
+      </lw-query-condition>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 
 <script setup lang="ts">

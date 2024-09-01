@@ -1,6 +1,6 @@
 <template>
-  <t-layout-page class="t_module_form_demo">
-    <t-layout-page-item>
+  <lw-layout-page class="t_module_form_demo">
+    <lw-layout-page-item>
       <t-module-form title="自定义底部按钮" ref="sourceForm" :formOpts="formOpts" :submit="submit">
         <template #footer>
           <el-button type="primary" @click="clearValidate">清除校验</el-button>
@@ -8,8 +8,8 @@
           <el-button type="danger" @click="save">保存</el-button>
         </template>
       </t-module-form>
-    </t-layout-page-item>
-  </t-layout-page>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 <script setup lang="tsx">
 import { ref, reactive } from "vue"

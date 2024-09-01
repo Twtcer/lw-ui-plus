@@ -1,6 +1,6 @@
 <template>
-  <t-layout-page>
-    <t-layout-page-item>
+  <lw-layout-page>
+    <lw-layout-page-item>
       <t-select-table
         :table="table"
         :columns="table.columns"
@@ -10,8 +10,8 @@
         multiple
         @selectionChange="selectionChange"
       ></t-select-table>
-    </t-layout-page-item>
-  </t-layout-page>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 <script setup lang="ts">
 import { ref } from "vue"

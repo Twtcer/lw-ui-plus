@@ -1,6 +1,6 @@
 <template>
-  <t-layout-page class="t_detail_demo">
-    <t-layout-page-item>
+  <lw-layout-page class="t_detail_demo">
+    <lw-layout-page-item>
       <t-detail
         :listTypeInfo="DataSource.listTypeInfo"
         :dataList="DataSource.dataList"
@@ -13,8 +13,8 @@
           <span>{{ DataSource.dataList.planStocktakeUserName }}</span>
         </template>
       </t-detail>
-    </t-layout-page-item>
-  </t-layout-page>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 <script setup lang="ts">
 import { ref, reactive, onMounted } from "vue"

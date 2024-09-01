@@ -1,6 +1,6 @@
 <template>
-  <t-layout-page class="t_button_demo">
-    <t-layout-page-item>
+  <lw-layout-page class="t_button_demo">
+    <lw-layout-page-item>
       <el-switch
         v-model="isDebounce"
         size="large"
@@ -27,8 +27,8 @@
         @click="exportExcel"
         >点击事件</t-button
       >
-    </t-layout-page-item>
-  </t-layout-page>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 <script setup lang="ts">
 import { ElMessage } from "element-plus"

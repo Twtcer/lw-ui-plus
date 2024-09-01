@@ -1,6 +1,6 @@
 <template>
-  <t-layout-page class="slotCustomize">
-    <t-layout-page-item>
+  <lw-layout-page class="slotCustomize">
+    <lw-layout-page-item>
       <div class="box_content">
         <div class="box_flex">
           <div>插槽使用及自定义日期面板</div>
@@ -14,8 +14,8 @@
           </t-date-picker>
         </div>
       </div>
-    </t-layout-page-item>
-  </t-layout-page>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 
 <script setup lang="ts">

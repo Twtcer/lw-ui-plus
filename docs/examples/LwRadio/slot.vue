@@ -1,6 +1,6 @@
 <template>
-  <t-layout-page>
-    <t-layout-page-item>
+  <lw-layout-page>
+    <lw-layout-page-item>
       <div>
         <h4>自定义单个选项插槽</h4>
         <t-radio v-model="value" :options="options" size="large">
@@ -25,8 +25,8 @@
           <el-radio-button value="深圳" />
         </t-radio>
       </div>
-    </t-layout-page-item>
-  </t-layout-page>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 <script setup lang="ts">
 import { ref } from "vue"

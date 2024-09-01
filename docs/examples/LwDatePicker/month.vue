@@ -1,6 +1,6 @@
 <template>
-  <t-layout-page class="month">
-    <t-layout-page-item>
+  <lw-layout-page class="month">
+    <lw-layout-page-item>
       <div class="box_content">
         <div class="box_flex">
           <div>选择月份范围</div>
@@ -20,8 +20,8 @@
           />
         </div>
       </div>
-    </t-layout-page-item>
-  </t-layout-page>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 
 <script setup lang="ts">

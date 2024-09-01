@@ -1,7 +1,7 @@
 <template>
-  <t-layout-page>
-    <t-layout-page-item>
-      <t-table
+  <lw-layout-page>
+    <lw-layout-page-item>
+      <lw-table
         title="动态显示隐藏列且可以拖动排序"
         :table="table"
         name="Vuepress2Docs"
@@ -24,9 +24,9 @@
             <t-button @click="restColumnSet" type="danger">更新缓存数据</t-button>
           </el-tooltip>
         </template>
-      </t-table>
-    </t-layout-page-item>
-  </t-layout-page>
+      </lw-table>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 
 <script setup lang="ts">

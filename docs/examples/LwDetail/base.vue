@@ -1,9 +1,9 @@
 <template>
-  <t-layout-page class="t_detail_demo">
-    <t-layout-page-item>
+  <lw-layout-page class="t_detail_demo">
+    <lw-layout-page-item>
       <t-detail :descData="DataSource.descData" />
-    </t-layout-page-item>
-  </t-layout-page>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 <script setup lang="ts">
 import { ref, reactive, onMounted } from "vue"

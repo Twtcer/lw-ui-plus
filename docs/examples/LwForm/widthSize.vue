@@ -1,6 +1,6 @@
 <template>
-  <t-layout-page>
-    <t-layout-page-item>
+  <lw-layout-page>
+    <lw-layout-page-item>
       <el-radio-group v-model="widthSize" size="small" style="margin-bottom: 15px">
         <el-radio-button :value="1">一行展示</el-radio-button>
         <el-radio-button :value="2">一行展示2项</el-radio-button>
@@ -9,8 +9,8 @@
         <el-radio-button :value="5">一行展示5项</el-radio-button>
       </el-radio-group>
       <t-form ref="TFormDemo" v-model="formOpts.ref" :formOpts="formOpts" :widthSize="widthSize" />
-    </t-layout-page-item>
-  </t-layout-page>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 
 <script setup lang="tsx">

@@ -1,7 +1,7 @@
 <template>
-  <t-layout-page>
-    <t-layout-page-item>
-      <t-table
+  <lw-layout-page>
+    <lw-layout-page-item>
+      <lw-table
         title="表头合并--插槽使用"
         :table="table"
         :columns="table.columns"
@@ -10,9 +10,9 @@
         <template #slotNameMergeDate1="{ scope }">{{ scope.row.date1 }}</template>
         <template #slotNameMergename="{ scope }">{{ scope.row.name }}</template>
         <template #slotNameMergeaddress="{ scope }">{{ scope.row.address }}</template>
-      </t-table>
-    </t-layout-page-item>
-  </t-layout-page>
+      </lw-table>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 
 <script setup lang="ts">

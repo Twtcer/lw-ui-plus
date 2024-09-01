@@ -5,7 +5,7 @@
     :label-width="labelWidth"
     :form="queryState.form"
     size="default"
-    class="t-query-condition"
+    class="lw-query-condition"
     :style="{
       'grid-template-areas': gridAreas,
       'grid-template-columns': `repeat(${colLength}, minmax(0px, ${100 / colLength}%))`
@@ -585,7 +585,7 @@ defineExpose({
 </script>
 
 <style lang="scss">
-.t-query-condition.el-form {
+.lw-query-condition.el-form {
   position: relative;
   display: grid;
   gap: 2px 8px;

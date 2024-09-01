@@ -1,6 +1,6 @@
 <template>
-  <t-layout-page class="t_button_demo">
-    <t-layout-page-item>
+  <lw-layout-page class="t_button_demo">
+    <lw-layout-page-item>
       <t-button text style="font-size: 28px" tip="编辑" icon="Edit" />
       <t-button text tip="删除" icon="Delete" />
       <t-button link tip="primary" icon="Search" />
@@ -19,6 +19,6 @@
           placement: 'bottom'
         }"
       />
-    </t-layout-page-item>
-  </t-layout-page>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>

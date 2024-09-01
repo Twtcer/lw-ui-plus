@@ -1,7 +1,7 @@
 <template>
-  <t-layout-page>
-    <t-layout-page-item>
-      <t-table
+  <lw-layout-page>
+    <lw-layout-page-item>
+      <lw-table
         title="自定义排序--指定姓名是'张三3'的行不需要排序"
         :table="table"
         :columns="table.columns"
@@ -9,8 +9,8 @@
         sortable="custom"
         @sort-change="sortChange"
       />
-    </t-layout-page-item>
-  </t-layout-page>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 
 <script setup lang="ts">

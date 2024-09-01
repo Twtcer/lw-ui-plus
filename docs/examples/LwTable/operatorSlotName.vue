@@ -1,7 +1,7 @@
 <template>
-  <t-layout-page>
-    <t-layout-page-item>
-      <t-table
+  <lw-layout-page>
+    <lw-layout-page-item>
+      <lw-table
         title="操作按钮插槽方式"
         ref="selectionTable"
         :table="state.table"
@@ -27,9 +27,9 @@
           <el-button type="danger" icon="Search" @click="edit(scope.row)">编辑</el-button>
           <el-button size="default" type="primary" @click="nullify(scope.row)">作废</el-button>
         </template>
-      </t-table>
-    </t-layout-page-item>
-  </t-layout-page>
+      </lw-table>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 
 <script setup lang="tsx">

@@ -1,5 +1,5 @@
 <template>
-  <t-adaptive-page
+  <lw-adaptive-page
     class="menu_mange"
     tableTitle="操作TTable取消复选功能"
     ref="TAdaptivePageDemo"
@@ -26,7 +26,7 @@
         >取消选中</el-button
       >
     </template>
-  </t-adaptive-page>
+  </lw-adaptive-page>
 </template>
 
 <script setup lang="tsx" name="selection">

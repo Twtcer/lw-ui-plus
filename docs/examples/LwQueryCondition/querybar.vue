@@ -1,13 +1,13 @@
 <template>
-  <t-layout-page>
-    <t-layout-page-item>
-      <t-query-condition :opts="opts" @submit="conditionEnter" @handleEvent="handleEvent">
+  <lw-layout-page>
+    <lw-layout-page-item>
+      <lw-query-condition :opts="opts" @submit="conditionEnter" @handleEvent="handleEvent">
         <template #querybar>
           <el-button type="danger">导出</el-button>
         </template>
-      </t-query-condition>
-    </t-layout-page-item>
-  </t-layout-page>
+      </lw-query-condition>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 
 <script setup lang="ts">

@@ -1,5 +1,5 @@
 <template>
-  <div class="t-table" ref="TTableBox">
+  <div class="lw-table" ref="TTableBox">
     <div
       class="header_wrap"
       :style="{
@@ -254,11 +254,11 @@
           </el-table-column>
         </template>
         <!-- 表头合并单元格 -->
-        <t-table-column v-else :key="index + 'm'" :item="item" :align="align" v-bind="$attrs">
+        <lw-table-column v-else :key="index + 'm'" :item="item" :align="align" v-bind="$attrs">
           <template v-for="(index, name) in slots" v-slot:[name]="data">
             <slot :name="name" v-bind="data"></slot>
           </template>
-        </t-table-column>
+        </lw-table-column>
       </template>
       <slot></slot>
       <!-- 操作按钮 -->
@@ -1013,7 +1013,7 @@ defineExpose({
 })
 </script>
 <style lang="scss" scoped>
-.t-table {
+.lw-table {
   z-index: 0;
   background-color: var(--el-bg-color);
   :deep(.el-table__header-wrapper) {

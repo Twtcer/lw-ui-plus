@@ -1,6 +1,6 @@
 <template>
-  <t-layout-page>
-    <t-layout-page-item>
+  <lw-layout-page>
+    <lw-layout-page-item>
       <el-radio-group v-model="tabPosition" style="margin-bottom: 10px">
         <el-radio-button value="top">top</el-radio-button>
         <el-radio-button value="right">right</el-radio-button>
@@ -21,8 +21,8 @@
           <div>页面数据</div>
         </template>
       </t-tabs>
-    </t-layout-page-item>
-  </t-layout-page>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 <script setup lang="ts">
 import { ref } from "vue"

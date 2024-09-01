@@ -97,7 +97,7 @@ LwQueryCondition/isDropDownSelectMore
 ### 1、代码示例
 
 ```html
-<t-query-condition
+<lw-query-condition
   :opts="opts"
   @submit="conditionEnter"
   @handleEvent="handleEvent"

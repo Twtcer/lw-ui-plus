@@ -1,7 +1,7 @@
 <template>
-  <t-layout-page>
-    <t-layout-page-item>
-      <t-table
+  <lw-layout-page>
+    <lw-layout-page-item>
+      <lw-table
         title="单选框(默认选中)"
         ref="selectionTable"
         :table="table"
@@ -13,9 +13,9 @@
         <template #toolbar>
           <el-button size="default" type="primary" @click="RadioSelect">选中第二条</el-button>
         </template>
-      </t-table>
-    </t-layout-page-item>
-  </t-layout-page>
+      </lw-table>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 
 <script setup lang="ts">

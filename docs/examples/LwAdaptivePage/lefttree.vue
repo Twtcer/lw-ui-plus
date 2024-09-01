@@ -1,5 +1,5 @@
 <template>
-  <t-adaptive-page
+  <lw-adaptive-page
     class="menu_mange"
     tableTitle="显示左侧tree结构"
     isCopy
@@ -26,7 +26,7 @@
     <template #nickName="{ scope }">
       <div>{{ scope.row.nickName }}</div>
     </template>
-  </t-adaptive-page>
+  </lw-adaptive-page>
 </template>
 
 <script setup lang="tsx" name="accountManage">

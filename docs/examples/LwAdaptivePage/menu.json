@@ -766,9 +766,9 @@
           ]
         },
         {
-          "path": "/assembly/t-table",
+          "path": "/assembly/lw-table",
           "name": "LwTable",
-          "redirect": "/assembly/t-table/base",
+          "redirect": "/assembly/lw-table/base",
           "meta": {
             "icon": "Menu",
             "title": "TTable组件",
@@ -780,7 +780,7 @@
           },
           "children": [
             {
-              "path": "/assembly/t-table/base",
+              "path": "/assembly/lw-table/base",
               "name": "baseTTable",
               "component": "/LwTable/base/index",
               "meta": {
@@ -794,7 +794,7 @@
               }
             },
             {
-              "path": "/assembly/t-table/border",
+              "path": "/assembly/lw-table/border",
               "name": "border",
               "component": "/LwTable/border/index",
               "meta": {
@@ -808,7 +808,7 @@
               }
             },
             {
-              "path": "/assembly/t-table/columnSetting",
+              "path": "/assembly/lw-table/columnSetting",
               "name": "columnSetting",
               "component": "/LwTable/columnSetting/index",
               "meta": {
@@ -822,7 +822,7 @@
               }
             },
             {
-              "path": "/assembly/t-table/copy",
+              "path": "/assembly/lw-table/copy",
               "name": "copy",
               "component": "/LwTable/copy/index",
               "meta": {
@@ -836,7 +836,7 @@
               }
             },
             {
-              "path": "/assembly/t-table/filters",
+              "path": "/assembly/lw-table/filters",
               "name": "filters",
               "component": "/LwTable/filters/index",
               "meta": {
@@ -850,7 +850,7 @@
               }
             },
             {
-              "path": "/assembly/t-table/headMerge",
+              "path": "/assembly/lw-table/headMerge",
               "name": "headMerge",
               "component": "/LwTable/headMerge/index",
               "meta": {
@@ -864,7 +864,7 @@
               }
             },
             {
-              "path": "/assembly/t-table/operator",
+              "path": "/assembly/lw-table/operator",
               "name": "operator",
               "component": "/LwTable/operator/index",
               "meta": {
@@ -878,7 +878,7 @@
               }
             },
             {
-              "path": "/assembly/t-table/pagination",
+              "path": "/assembly/lw-table/pagination",
               "name": "pagination",
               "component": "/LwTable/pagination/index",
               "meta": {
@@ -892,7 +892,7 @@
               }
             },
             {
-              "path": "/assembly/t-table/radio",
+              "path": "/assembly/lw-table/radio",
               "name": "radio",
               "component": "/LwTable/radio/index",
               "meta": {
@@ -906,7 +906,7 @@
               }
             },
             {
-              "path": "/assembly/t-table/renderCol",
+              "path": "/assembly/lw-table/renderCol",
               "name": "renderCol",
               "component": "/LwTable/renderCol/index",
               "meta": {
@@ -920,7 +920,7 @@
               }
             },
             {
-              "path": "/assembly/t-table/renderHeader",
+              "path": "/assembly/lw-table/renderHeader",
               "name": "renderHeader",
               "component": "/LwTable/renderHeader/index",
               "meta": {
@@ -934,7 +934,7 @@
               }
             },
             {
-              "path": "/assembly/t-table/selection",
+              "path": "/assembly/lw-table/selection",
               "name": "selection",
               "component": "/LwTable/selection/index",
               "meta": {
@@ -948,7 +948,7 @@
               }
             },
             {
-              "path": "/assembly/t-table/singleEdit",
+              "path": "/assembly/lw-table/singleEdit",
               "name": "singleEdit",
               "component": "/LwTable/singleEdit/index",
               "meta": {
@@ -962,7 +962,7 @@
               }
             },
             {
-              "path": "/assembly/t-table/singleEditCell",
+              "path": "/assembly/lw-table/singleEditCell",
               "name": "singleEditCell",
               "component": "/LwTable/singleEditCell/index",
               "meta": {
@@ -976,7 +976,7 @@
               }
             },
             {
-              "path": "/assembly/t-table/slotName",
+              "path": "/assembly/lw-table/slotName",
               "name": "slotName",
               "component": "/LwTable/slotName/index",
               "meta": {
@@ -992,9 +992,9 @@
           ]
         },
         {
-          "path": "/assembly/t-query-condition",
+          "path": "/assembly/lw-query-condition",
           "name": "LwQueryCondition",
-          "redirect": "/assembly/t-query-condition/base",
+          "redirect": "/assembly/lw-query-condition/base",
           "meta": {
             "icon": "MessageBox",
             "title": "条件查询组件",
@@ -1006,7 +1006,7 @@
           },
           "children": [
             {
-              "path": "/assembly/t-query-condition/base",
+              "path": "/assembly/lw-query-condition/base",
               "name": "baseQueryDemo",
               "component": "/LwQueryCondition/base/index",
               "meta": {
@@ -1020,7 +1020,7 @@
               }
             },
             {
-              "path": "/assembly/t-query-condition/comUse",
+              "path": "/assembly/lw-query-condition/comUse",
               "name": "queryComUse",
               "component": "/LwQueryCondition/comUse/index",
               "meta": {
@@ -1034,7 +1034,7 @@
               }
             },
             {
-              "path": "/assembly/t-query-condition/isExpansion",
+              "path": "/assembly/lw-query-condition/isExpansion",
               "name": "isExpansion",
               "component": "/LwQueryCondition/isExpansion/index",
               "meta": {
@@ -1048,7 +1048,7 @@
               }
             },
             {
-              "path": "/assembly/t-query-condition/labelRender",
+              "path": "/assembly/lw-query-condition/labelRender",
               "name": "labelRender",
               "component": "/LwQueryCondition/labelRender/index",
               "meta": {
@@ -1062,7 +1062,7 @@
               }
             },
             {
-              "path": "/assembly/t-query-condition/slotName",
+              "path": "/assembly/lw-query-condition/slotName",
               "name": "slotNameQuery",
               "component": "/LwQueryCondition/slotName/index",
               "meta": {

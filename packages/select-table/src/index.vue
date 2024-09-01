@@ -32,11 +32,11 @@
   >
     <template #empty>
       <div
-        class="t-table-select__table"
+        class="lw-table-select__table"
         :style="{ width: tableWidth ? `${tableWidth}px` : '100%' }"
       >
         <div class="table_query_condition" v-if="isShowQuery">
-          <t-query-condition
+          <lw-query-condition
             ref="tQueryConditionRef"
             :boolEnter="false"
             @handleEvent="handleEvent"
@@ -51,7 +51,7 @@
               }}</el-button>
               <slot name="querybar"></slot>
             </template>
-          </t-query-condition>
+          </lw-query-condition>
         </div>
         <slot name="toolbar"></slot>
         <el-table
@@ -131,7 +131,7 @@
           <slot></slot>
         </el-table>
         <slot name="footer"></slot>
-        <div class="t-table-select__page" v-if="isShowPagination">
+        <div class="lw-table-select__page" v-if="isShowPagination">
           <el-pagination
             v-model:current-page="table.currentPage"
             v-model:page-size="table.pageSize"
@@ -800,7 +800,7 @@ defineExpose({
       cursor: pointer;
     }
   }
-  .t-table-select__table {
+  .lw-table-select__table {
     padding: 10px;
 
     .el-table__body,
@@ -816,7 +816,7 @@ defineExpose({
     }
   }
 
-  .t-table-select__page {
+  .lw-table-select__page {
     padding-top: 5px;
     padding-right: 10px;
     .el-pagination {

@@ -1,6 +1,6 @@
 <template>
-  <t-layout-page>
-    <t-layout-page-item>
+  <lw-layout-page>
+    <lw-layout-page-item>
       <t-chart :options="options" style="width: 100%; height: 500px">
         <el-radio-group
           v-model="accessType"
@@ -12,8 +12,8 @@
           <el-radio-button :value="1">访问人次</el-radio-button>
         </el-radio-group>
       </t-chart>
-    </t-layout-page-item>
-  </t-layout-page>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 <script setup lang="ts">
 import { ref, onMounted } from "vue"

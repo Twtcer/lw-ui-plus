@@ -1,7 +1,7 @@
 <template>
-  <t-layout-page>
-    <t-layout-page-item>
-      <t-query-condition
+  <lw-layout-page>
+    <lw-layout-page-item>
+      <lw-query-condition
         :opts="opts"
         @submit="conditionEnter"
         @handleEvent="handleEvent"
@@ -9,8 +9,8 @@
         :widthSize="3"
         isExpansion
       />
-    </t-layout-page-item>
-  </t-layout-page>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 
 <script setup lang="tsx">

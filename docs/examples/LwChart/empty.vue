@@ -1,6 +1,6 @@
 <template>
-  <t-layout-page>
-    <t-layout-page-item>
+  <lw-layout-page>
+    <lw-layout-page-item>
       <h3>Boolean类型</h3>
       <el-button @click="isEmptyBn = !isEmptyBn">切换状态</el-button>
       <t-chart :options="options" :isEmpty="isEmptyBn" style="width: 100%; height: 500px" />
@@ -20,8 +20,8 @@
           <div style="text-align: center; margin-top: 100px; font-size: 32px">自定义空状态插槽</div>
         </template>
       </t-chart>
-    </t-layout-page-item>
-  </t-layout-page>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 <script setup lang="ts">
 import { ref } from "vue"

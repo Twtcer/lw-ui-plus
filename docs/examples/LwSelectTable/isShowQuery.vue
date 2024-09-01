@@ -1,6 +1,6 @@
 <template>
-  <t-layout-page>
-    <t-layout-page-item>
+  <lw-layout-page>
+    <lw-layout-page-item>
       <t-select-table
         :table="table"
         :columns="table.columns"
@@ -13,8 +13,8 @@
         :opts="opts"
         @submit="conditionEnter"
       ></t-select-table>
-    </t-layout-page-item>
-  </t-layout-page>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 <script setup lang="ts">
 import { computed, reactive } from "vue"

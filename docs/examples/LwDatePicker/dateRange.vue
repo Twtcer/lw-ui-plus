@@ -1,6 +1,6 @@
 <template>
-  <t-layout-page class="dateRange">
-    <t-layout-page-item>
+  <lw-layout-page class="dateRange">
+    <lw-layout-page-item>
       <div class="box_content">
         <div class="box_flex">
           <div>选择日期范围（默认显示）</div>
@@ -29,8 +29,8 @@
           />
         </div>
       </div>
-    </t-layout-page-item>
-  </t-layout-page>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 
 <script setup lang="ts">

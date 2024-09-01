@@ -1,6 +1,6 @@
 <template>
-  <t-layout-page>
-    <t-layout-page-item style="display: flex">
+  <lw-layout-page>
+    <lw-layout-page-item style="display: flex">
       <t-select-table
         ref="selectTable"
         :table="table"
@@ -10,8 +10,8 @@
         @radioChange="(...args)=>radioChange(args,'单选')"
       ></t-select-table>
       <el-button style="margin-left: 15px" type="primary" @click="clear">清空选中</el-button>
-    </t-layout-page-item>
-  </t-layout-page>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 <script setup lang="ts">
 import { ref } from "vue"

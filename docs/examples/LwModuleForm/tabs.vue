@@ -1,6 +1,6 @@
 <template>
-  <t-layout-page class="t_module_form_demo">
-    <t-layout-page-item>
+  <lw-layout-page class="t_module_form_demo">
+    <lw-layout-page-item>
       <t-module-form
         title="显示tabs且默认显示tab2"
         ref="sourceForm"
@@ -13,14 +13,14 @@
         <!-- tabs插槽 -->
         <template #tab1>基础信息</template>
         <template #tab2>
-          <t-table title="默认显示tab2" :table="table" :columns="table.columns" isCopy />
+          <lw-table title="默认显示tab2" :table="table" :columns="table.columns" isCopy />
         </template>
         <template #tab3>
           <div>承运明细</div>
         </template>
       </t-module-form>
-    </t-layout-page-item>
-  </t-layout-page>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 <script setup lang="ts">
 import { ref, reactive, onMounted } from "vue"

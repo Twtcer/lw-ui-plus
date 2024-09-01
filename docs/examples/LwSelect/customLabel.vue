@@ -1,6 +1,6 @@
 <template>
-  <t-layout-page>
-    <t-layout-page-item>
+  <lw-layout-page>
+    <lw-layout-page-item>
       <t-select
         placeholder="自定义显示下拉项label"
         v-model="selectVlaue"
@@ -9,8 +9,8 @@
         customLabel="`${_item.label}（${_item.id}）`"
         @change="selectChange"
       ></t-select>
-    </t-layout-page-item>
-  </t-layout-page>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 <script setup lang="ts">
 import { ref } from "vue"

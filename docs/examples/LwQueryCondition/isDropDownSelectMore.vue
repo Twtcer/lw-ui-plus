@@ -1,7 +1,7 @@
 <template>
-  <t-layout-page>
-    <t-layout-page-item>
-      <t-query-condition
+  <lw-layout-page>
+    <lw-layout-page-item>
+      <lw-query-condition
         :opts="state.opts"
         @submit="conditionEnter"
         isShowWidthSize
@@ -11,9 +11,9 @@
         @getCheckList="getChildCheck"
         labelWidth="160px"
       >
-      </t-query-condition>
-    </t-layout-page-item>
-  </t-layout-page>
+      </lw-query-condition>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 
 <script setup lang="tsx">

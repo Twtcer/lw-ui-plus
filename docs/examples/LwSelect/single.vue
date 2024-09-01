@@ -1,6 +1,6 @@
 <template>
-  <t-layout-page>
-    <t-layout-page-item>
+  <lw-layout-page>
+    <lw-layout-page-item>
       <t-select
         placeholder="请选择工序"
         v-model="selectVlaue"
@@ -9,8 +9,8 @@
         @change="selectChange"
         width="200px"
       />
-    </t-layout-page-item>
-  </t-layout-page>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 <script setup lang="ts" name="Single">
 import { ref } from "vue"

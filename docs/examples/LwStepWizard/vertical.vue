@@ -1,6 +1,6 @@
 <template>
-  <t-layout-page class="t_step-wizard_demo">
-    <t-layout-page-item>
+  <lw-layout-page class="t_step-wizard_demo">
+    <lw-layout-page-item>
       <t-step-wizard
         style="min-height: 100px"
         :stepData="stepData"
@@ -13,8 +13,8 @@
         <template #second>第二步骤</template>
         <template #third>第三步骤</template>
       </t-step-wizard>
-    </t-layout-page-item>
-  </t-layout-page>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 <script setup lang="ts">
 import { ref } from "vue"

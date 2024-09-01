@@ -1,6 +1,6 @@
 <template>
-  <t-layout-page>
-    <t-layout-page-item>
+  <lw-layout-page>
+    <lw-layout-page-item>
       <t-select-table
         :table="state.table"
         :columns="state.table.columns"
@@ -10,8 +10,8 @@
         @radioChange="radioChange"
         @page-change="pageChange"
       ></t-select-table>
-    </t-layout-page-item>
-  </t-layout-page>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 <script setup lang="tsx">
 import { reactive, onMounted } from "vue"

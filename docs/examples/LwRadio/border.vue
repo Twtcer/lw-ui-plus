@@ -1,6 +1,6 @@
 <template>
-  <t-layout-page>
-    <t-layout-page-item>
+  <lw-layout-page>
+    <lw-layout-page-item>
       <div>
         <t-radio v-model="value" :options="options" size="large" border />
       </div>
@@ -13,8 +13,8 @@
       <div style="margin-top: 20px">
         <t-radio v-model="value" :options="options" size="small" disabled border />
       </div>
-    </t-layout-page-item>
-  </t-layout-page>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 <script setup lang="ts">
 import { ref } from "vue"

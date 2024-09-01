@@ -1,5 +1,5 @@
 <template>
-  <t-adaptive-page
+  <lw-adaptive-page
     class="tree_table_demo"
     title="treeTable列表"
     row-key="path"
@@ -46,7 +46,7 @@
       <el-button size="default" type="primary" @click="expandRow(6, true)">展开第七行</el-button>
       <el-button size="default" type="primary" @click="expandRow(6, false)">收起第七行</el-button>
     </template>
-  </t-adaptive-page>
+  </lw-adaptive-page>
 </template>
 
 <script setup lang="tsx" name="treeTableDemo">

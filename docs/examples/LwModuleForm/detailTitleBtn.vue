@@ -1,6 +1,6 @@
 <template>
-  <t-layout-page class="t_module_form_demo">
-    <t-layout-page-item>
+  <lw-layout-page class="t_module_form_demo">
+    <lw-layout-page-item>
       <t-module-form
         title="模块详情组件运用"
         subTitle="Title右侧插槽使用"
@@ -29,8 +29,8 @@
           <div class="text-danger">value自定义插槽</div>
         </template>
       </t-module-form>
-    </t-layout-page-item>
-  </t-layout-page>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 <script setup lang="tsx">
 import { onMounted, reactive } from "vue"

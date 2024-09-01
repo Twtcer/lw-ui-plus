@@ -1,6 +1,6 @@
 <template>
-  <t-layout-page class="t_module_form_demo">
-    <t-layout-page-item>
+  <lw-layout-page class="t_module_form_demo">
+    <lw-layout-page-item>
       <t-module-form
         title="模块插槽使用"
         subTitle="模块插槽使用副标题"
@@ -9,11 +9,11 @@
         :submit="submit"
       >
         <template #lineMessage>
-          <t-table title="模块插槽使用" :table="table" :columns="table.columns" isCopy />
+          <lw-table title="模块插槽使用" :table="table" :columns="table.columns" isCopy />
         </template>
       </t-module-form>
-    </t-layout-page-item>
-  </t-layout-page>
+    </lw-layout-page-item>
+  </lw-layout-page>
 </template>
 <script setup lang="ts">
 import { ref, reactive } from "vue"

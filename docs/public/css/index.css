@@ -41,26 +41,26 @@
   background-color: var(--el-bg-color);
 }
 
-.vp-doc .t-table tr {
+.vp-doc .lw-table tr {
   border-top: none;
 }
-.vp-doc .t-table th,
-.vp-doc .t-table td {
+.vp-doc .lw-table th,
+.vp-doc .lw-table td {
   border: none;
   background-color: var(--el-bg-color);
 }
-.vp-doc .t-table table {
+.vp-doc .lw-table table {
   border-collapse: separate;
   text-indent: initial;
   border-spacing: 2px;
   margin: 0;
   overflow-x: inherit;
 }
-.vp-doc .t-table tr:nth-child(2n) {
+.vp-doc .lw-table tr:nth-child(2n) {
   background-color: var(--el-bg-color);
 }
 
-.vp-doc .t-table tr {
+.vp-doc .lw-table tr {
   border-top: none;
 }
 .VPContent .VPDoc .container .content {
