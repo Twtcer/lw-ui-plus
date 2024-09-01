@@ -22,15 +22,11 @@
       <img alt="npm" src="https://img.shields.io/npm/v/@twtcer/lw-ui-plus.svg" />
     </a>
 </p>
-
-## 动态效果图
-
-<img src="./README_GIF/TuiPlus__demo.gif">
-
-## npm 方式安装使用
+ 
+## 安装使用
 
 ```shell
-pnpm i @twtcer/lw-ui-plus
+pnpm add @twtcer/lw-ui-plus
 ```
 
 ## 全局注册使用
