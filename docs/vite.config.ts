@@ -10,6 +10,15 @@ export default defineConfig({
     https: false
   },
   ssr: {
-    noExternal: ['echarts']
+    noExternal: [
+      'vue-echarts',
+       'echarts',
+        'zrender', 
+        'resize-detector',
+        'sass',
+        'search-insights',
+        'client-search',
+        'node'
+      ],
   }
 })
