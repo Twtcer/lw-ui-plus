@@ -1,14 +1,14 @@
 <template>
   <lw-layout-page>
     <lw-layout-page-item>
-      <t-form
+      <lw-form
         ref="TFormDemo"
         v-model="formOpts.ref"
         :form-opts="formOpts"
         @handleEvent="handleEvent"
       >
         <template #wechat>
-          <t-select-table
+          <lw-select-table
             ref="selectTableRef"
             placeholder="下拉选择表格组件插槽使用"
             :table="state.table"
@@ -19,9 +19,9 @@
             @selectionChange="selectionChange"
             isShowPagination
             @page-change="pageChange"
-          ></t-select-table>
+          ></lw-select-table>
         </template>
-      </t-form>
+      </lw-form>
     </lw-layout-page-item>
   </lw-layout-page>
 </template>

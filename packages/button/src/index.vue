@@ -1,6 +1,6 @@
 <template>
   <el-tooltip v-if="tip" :content="tip" :placement="placement" v-bind="tipProps">
-    <el-button v-bind="$attrs" class="t-button-tip" @click="handleClick">
+    <el-button v-bind="$attrs" class="lw-button-tip" @click="handleClick">
       <slot />
     </el-button>
   </el-tooltip>
@@ -46,12 +46,12 @@ const handleClick = () => {
 }
 </script>
 <style lang="scss" scoped>
-.t-button-tip {
+.lw-button-tip {
   padding: 0;
   height: auto;
 }
-.t-button-tip:hover,
-.t-button-tip:focus {
+.lw-button-tip:hover,
+.lw-button-tip:focus {
   animation: jump 0.3s;
 }
 @keyframes jump {

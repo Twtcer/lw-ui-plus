@@ -59,7 +59,7 @@ let state = reactive({
       labelRender: () => {
         return <div style="color:red">新增项条件</div>
       },
-      comp: "t-select",
+      comp: "lw-select",
       placeholder: "选择第一条数据才新增",
       isSelfCom: true,
       bind: {

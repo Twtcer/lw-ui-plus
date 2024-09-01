@@ -1,7 +1,7 @@
 <template>
   <lw-layout-page>
     <lw-layout-page-item>
-      <t-radio v-model="value" :options="options" />
+      <lw-radio v-model="value" :options="options" />
     </lw-layout-page-item>
   </lw-layout-page>
 </template>

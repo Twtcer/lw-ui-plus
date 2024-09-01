@@ -1,8 +1,10 @@
 <template>
   <lw-layout-page>
     <lw-layout-page-item>
-      <t-radio v-model="theme" :options="themeList" type="button" style="margin-bottom: 20px" />
-      <t-chart :options="options" :theme="theme" style="width: 100%; height: 500px" />
+    <client-only>
+      <lw-radio v-model="theme" :options="themeList" type="button" style="margin-bottom: 20px" />
+      <lw-chart :options="options" :theme="theme" style="width: 100%; height: 500px" />
+    </client-only>
     </lw-layout-page-item>
   </lw-layout-page>
 </template>

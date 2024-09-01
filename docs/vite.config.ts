@@ -8,5 +8,8 @@ export default defineConfig({
     port: 8888,
     open: true,
     https: false
+  },
+  ssr: {
+    noExternal: ['echarts']
   }
 })

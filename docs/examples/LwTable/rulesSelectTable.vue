@@ -121,13 +121,13 @@ let state: any = reactive({
       },
       {
         prop: "deptCode",
-        label: "t-select-table使用",
+        label: "lw-select-table使用",
         minWidth: "220",
         headerRequired: true,
         canEdit: true,
         configEdit: {
           label: "用户名称",
-          editComponent: "t-select-table",
+          editComponent: "lw-select-table",
           isSelfCom: true,
           bind: {
             isKeyup: true,

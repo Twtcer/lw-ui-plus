@@ -1,7 +1,7 @@
 <template>
   <lw-layout-page>
     <lw-layout-page-item>
-      <t-select
+      <lw-select
         placeholder="多选禁用"
         v-model="selectVlaue"
         :optionSource="stepList"

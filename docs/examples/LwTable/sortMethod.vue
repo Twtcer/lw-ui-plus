@@ -1,7 +1,12 @@
 <template>
   <lw-layout-page>
     <lw-layout-page-item>
-      <lw-table title="指定数据按照哪个属性进行排序" :table="table" :columns="table.columns" :isShowPagination="false" />
+      <lw-table
+        title="指定数据按照哪个属性进行排序"
+        :table="table"
+        :columns="table.columns"
+        :isShowPagination="false"
+      />
     </lw-layout-page-item>
   </lw-layout-page>
 </template>

@@ -1,5 +1,5 @@
 <template>
-  <div class="t-date-picker" ref="DatePicker">
+  <div class="lw-date-picker" ref="DatePicker">
     <el-date-picker
       :type="type"
       v-model="time"
@@ -222,7 +222,7 @@ watch(
 defineExpose({ state })
 </script>
 <style lang="scss" scoped>
-.t-date-picker {
+.lw-date-picker {
   width: 100%;
 }
 </style>

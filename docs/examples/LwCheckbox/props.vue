@@ -1,7 +1,7 @@
 <template>
   <lw-layout-page>
     <lw-layout-page-item>
-      <t-checkbox
+      <lw-checkbox
         v-model="value"
         :options="options"
         :props="{ label: 'name', value: 'id', disabled: 'isSelected' }"

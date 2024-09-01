@@ -1,9 +1,10 @@
 <template>
   <lw-layout-page>
     <lw-layout-page-item>
+       <client-only>
       <el-button @click="isShow = !isShow">{{ isShow ? "隐藏" : "显示" }}</el-button>
       <el-button @click="addData()">增加数据</el-button>
-      <t-chart
+      <lw-chart
         v-show="isShow"
         :options="options"
         style="width: 100%; height: 500px"
@@ -17,6 +18,7 @@
         @contextmenu="contextmenu"
         @chart="chart"
       />
+    </client-only>
     </lw-layout-page-item>
   </lw-layout-page>
 </template>

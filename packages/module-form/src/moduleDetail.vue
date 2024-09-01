@@ -21,11 +21,11 @@
         <template v-if="val.slotName">
           <slot :name="val.slotName"></slot>
         </template>
-        <t-detail :descData="val.data" v-bind="attrs">
+        <lw-detail :descData="val.data" v-bind="attrs">
           <template v-for="(index, name) in slots" v-slot:[name]="data">
             <slot :name="name" v-bind="data"></slot>
           </template>
-        </t-detail>
+        </lw-detail>
       </el-collapse-item>
     </el-collapse>
   </div>

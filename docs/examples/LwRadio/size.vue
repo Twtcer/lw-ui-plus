@@ -2,16 +2,16 @@
   <lw-layout-page>
     <lw-layout-page-item>
       <div>
-        <t-radio v-model="value" :options="options" size="large" />
+        <lw-radio v-model="value" :options="options" size="large" />
       </div>
       <div style="margin-top: 20px">
-        <t-radio v-model="value" :options="options" size="default" />
+        <lw-radio v-model="value" :options="options" size="default" />
       </div>
       <div style="margin-top: 20px">
-        <t-radio v-model="value" :options="options" size="small" />
+        <lw-radio v-model="value" :options="options" size="small" />
       </div>
       <div style="margin-top: 20px">
-        <t-radio v-model="value" :options="options" size="small" disabled />
+        <lw-radio v-model="value" :options="options" size="small" disabled />
       </div>
     </lw-layout-page-item>
   </lw-layout-page>

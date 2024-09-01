@@ -22,7 +22,7 @@ const opts = computed(() => {
     },
     likeBookNo: {
       label: "t-select单选",
-      comp: "t-select",
+      comp: "lw-select",
       span: 2,
       placeholder: "请先输入货源编号",
       isSelfCom: true,

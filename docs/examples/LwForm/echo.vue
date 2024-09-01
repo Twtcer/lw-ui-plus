@@ -1,9 +1,9 @@
 <template>
   <lw-layout-page>
     <lw-layout-page-item>
-      <t-form ref="TFormDemo" v-model="formOpts.ref" :formOpts="formOpts" :widthSize="1">
+      <lw-form ref="TFormDemo" v-model="formOpts.ref" :formOpts="formOpts" :widthSize="1">
         <template #wechat>
-          <t-select-table
+          <lw-select-table
             ref="selectTableRef"
             :table="table"
             :columns="table.columns"
@@ -12,9 +12,9 @@
             :defaultSelectVal="[formOpts.formData.wechat]"
             :keywords="{ label: 'name', value: 'id' }"
             @radioChange="radioChange"
-          ></t-select-table>
+          ></lw-select-table>
         </template>
-      </t-form>
+      </lw-form>
     </lw-layout-page-item>
   </lw-layout-page>
 </template>
@@ -163,7 +163,7 @@ const formOpts: any = reactive({
       value: "sex",
       placeholder: "TSelect单选",
       type: "select-arr",
-      comp: "t-select",
+      comp: "lw-select",
       isSelfCom: true,
       bind: { optionSource: sexList.value, valueCustom: "value" }
     },
@@ -172,7 +172,7 @@ const formOpts: any = reactive({
       value: "status",
       placeholder: "TSelect单选",
       type: "select-arr",
-      comp: "t-select",
+      comp: "lw-select",
       isSelfCom: true,
       bind: { optionSource: statusList, valueCustom: "value" }
     },
@@ -181,7 +181,7 @@ const formOpts: any = reactive({
       value: "hobby",
       placeholder: "TSelect多选",
       type: "select-arr",
-      comp: "t-select",
+      comp: "lw-select",
       list: "hobbyList",
       isSelfCom: true,
       bind: { multiple: true, optionSource: hobbyList, valueCustom: "value" }
@@ -194,8 +194,8 @@ const formOpts: any = reactive({
     {
       label: "用户名称",
       value: "deptCode",
-      placeholder: "t-select-table表单内置使用",
-      comp: "t-select-table",
+      placeholder: "lw-select-table表单内置使用",
+      comp: "lw-select-table",
       isSelfCom: true,
       bind: {
         isKeyup: true,

@@ -24,7 +24,7 @@
         <template v-if="formOpt.slotName">
           <slot :name="formOpt.slotName"></slot>
         </template>
-        <t-form
+        <lw-form
           :ref="
             (el:any) => {
               dashboardRef[formIndex] = el
@@ -38,7 +38,7 @@
           <template v-for="(index, name) in slots" v-slot:[name]="data">
             <slot :name="name" v-bind="data"></slot>
           </template>
-        </t-form>
+        </lw-form>
       </el-collapse-item>
     </el-collapse>
   </div>

@@ -1,7 +1,7 @@
 <template>
   <lw-layout-page class="t_module_form_demo">
     <lw-layout-page-item>
-      <t-module-form
+      <lw-module-form
         title="模块表单组件运用"
         subTitle="模块表单222"
         ref="sourceForm"

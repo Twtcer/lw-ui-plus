@@ -84,7 +84,7 @@ const opts = computed(() => {
   return {
     userName: {
       label: "下拉选择表格组件",
-      comp: "t-select-table",
+      comp: "lw-select-table",
       span: 2,
       isSelfCom: true,
       bind: {
@@ -100,7 +100,7 @@ const opts = computed(() => {
     },
     userName2: {
       label: "下拉表格组件2",
-      comp: "t-select-table",
+      comp: "lw-select-table",
       span: 2,
       isSelfCom: true,
       bind: {
@@ -116,7 +116,7 @@ const opts = computed(() => {
     },
     workshopNum: {
       label: "t-select单选使用",
-      comp: "t-select",
+      comp: "lw-select",
       span: 2,
       defaultVal: "W1",
       isSelfCom: true,
@@ -128,7 +128,7 @@ const opts = computed(() => {
       label: "t-select多选使用",
       placeholder: "请多选",
       span: 2,
-      comp: "t-select",
+      comp: "lw-select",
       isSelfCom: true,
       bind: {
         valueCustom: "id",
@@ -141,7 +141,7 @@ const opts = computed(() => {
       label: "虚拟列表",
       placeholder: "TSelect虚拟列表",
       span: 2,
-      comp: "t-select",
+      comp: "lw-select",
       isSelfCom: true,
       bind: {
         useVirtual: true,

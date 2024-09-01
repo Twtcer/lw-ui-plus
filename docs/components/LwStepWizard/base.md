@@ -25,7 +25,7 @@ LwStepWizard/simple
 > LwStepWizard 步骤组件 **代码示例：**
 
 ```html
-<t-step-wizard
+<lw-step-wizard
   :stepData="stepData"
   :active="active"
   :successTitle="successTitle"
@@ -33,7 +33,7 @@ LwStepWizard/simple
 >
   <template #first>第一步骤</template>
   .....
-</t-step-wizard>
+</lw-step-wizard>
 ```
 
 ### 2. 配置参数 继承 element-plus el-steps/el-step 提供的属性

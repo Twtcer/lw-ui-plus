@@ -12,10 +12,19 @@
         :summary-method="getSummaries"
       >
         <template #toolbar>
-          <el-button size="default" type="danger" @click="toggleSelection([state.table.data[1], state.table.data[2]])"
+          <el-button
+            size="default"
+            type="danger"
+            @click="toggleSelection([state.table.data[1], state.table.data[2]])"
             >点击选中第二第三项</el-button
           >
-          <el-button size="default" type="primary" :disabled="state.ids.length < 1" @click="cancelSelect">取消选中</el-button>
+          <el-button
+            size="default"
+            type="primary"
+            :disabled="state.ids.length < 1"
+            @click="cancelSelect"
+            >取消选中</el-button
+          >
         </template>
       </lw-table>
     </lw-layout-page-item>
@@ -100,7 +109,9 @@ const getSummaries = (param: any) => {
       sums[index] = "合计"
       return
     }
-    const values = data.map((item: any) => Number(item[column.property === "num" ? column.property : ""]))
+    const values = data.map((item: any) =>
+      Number(item[column.property === "num" ? column.property : ""])
+    )
     if (!values.every((value: any) => isNaN(value))) {
       sums[index] = values.reduce((prev: any, curr: any) => {
         const value = Number(curr)

@@ -75,7 +75,7 @@ LwSelect/useVirtualCollapseTags
 > `下拉选择组件————可实现单选多选（多选可使用全选功能）`
 
 ```html
-<t-select
+<lw-select
   placeholder="请选择工序"
   v-model="selectVlaue"
   :optionSource="state.stepList"

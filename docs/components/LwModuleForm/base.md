@@ -132,12 +132,12 @@ LwModuleForm/detailTitleBtn
 
 ```html
 <!-- 第一种 表单形式 -->
-<t-module-form title="模块表单组件运用" ref="sourceForm" :formOpts="formOpts" :submit="submit" />
+<lw-module-form title="模块表单组件运用" ref="sourceForm" :formOpts="formOpts" :submit="submit" />
 <!-- 第二种详情展示 根据handleType-->
-<t-module-form title="模块详情组件运用" ref="sourceDetail" handleType="desc" :descData="descData" />
+<lw-module-form title="模块详情组件运用" ref="sourceDetail" handleType="desc" :descData="descData" />
 ```
 
-### 2、配置参数（Attributes）继承 t-form/t-detail Attributes
+### 2、配置参数（Attributes）继承 lw-form/lw-detail Attributes
 
 | 参数             | 说明                                                                                | 类型        | 默认值                           |
 | :--------------- | :---------------------------------------------------------------------------------- | :---------- | :------------------------------- |

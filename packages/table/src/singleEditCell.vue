@@ -18,7 +18,7 @@
     </template>
     <template v-if="configEdit.isSelfCom">
       <component
-        v-if="configEdit.editComponent === 't-select-table'"
+        v-if="configEdit.editComponent === 'lw-select-table'"
         :ref="(el:any) => handleRef(el)"
         :is="configEdit.editComponent"
         :placeholder="configEdit.placeholder || getPlaceholder(configEdit)"
@@ -28,7 +28,7 @@
             : { clearable: true, filterable: true, ...configEdit.bind }
         "
         :style="{ width: configEdit.width || '100%' }"
-        v-on="cEvent(configEdit, 't-select-table')"
+        v-on="cEvent(configEdit, 'lw-select-table')"
       />
       <component
         v-else
@@ -161,7 +161,7 @@ const cEvent: any = computed(() => {
     let changeEvent = {} as any
     Object.keys(event).forEach(v => {
       changeEvent[v] = (e: any, ids: any) => {
-        if (type === "t-select-table") {
+        if (type === "lw-select-table") {
           const argument = {
             row: e,
             ids: ids,

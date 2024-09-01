@@ -1,7 +1,7 @@
 <template>
   <lw-layout-page>
     <lw-layout-page-item>
-      <t-form ref="TFormDemo" v-model="formOpts.ref" :formOpts="formOpts" :widthSize="4" />
+      <lw-form ref="TFormDemo" v-model="formOpts.ref" :formOpts="formOpts" :widthSize="4" />
     </lw-layout-page-item>
   </lw-layout-page>
 </template>

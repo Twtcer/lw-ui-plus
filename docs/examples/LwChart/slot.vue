@@ -1,7 +1,8 @@
 <template>
   <lw-layout-page>
     <lw-layout-page-item>
-      <t-chart :options="options" style="width: 100%; height: 500px">
+    <client-only>
+      <lw-chart :options="options" style="width: 100%; height: 500px">
         <el-radio-group
           v-model="accessType"
           style="position: absolute; right: 10px; top: 0px"
@@ -11,7 +12,8 @@
           <el-radio-button :value="0">访问人数</el-radio-button>
           <el-radio-button :value="1">访问人次</el-radio-button>
         </el-radio-group>
-      </t-chart>
+      </lw-chart>
+    </client-only>
     </lw-layout-page-item>
   </lw-layout-page>
 </template>

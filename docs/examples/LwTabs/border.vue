@@ -1,7 +1,7 @@
 <template>
   <lw-layout-page>
     <lw-layout-page-item>
-      <t-tabs :tabs="tabs" type="border-card" @tab-click="tabsChange">
+      <lw-tabs :tabs="tabs" type="border-card" @tab-click="tabsChange">
         <template #tab1>
           <div>订单数据</div>
         </template>
@@ -14,7 +14,7 @@
         <template #tab4>
           <div>页面数据</div>
         </template>
-      </t-tabs>
+      </lw-tabs>
     </lw-layout-page-item>
   </lw-layout-page>
 </template>

@@ -1,7 +1,8 @@
 <template>
   <lw-layout-page>
     <lw-layout-page-item>
-      <t-chart :options="options" style="width: 100%; height: 500px" />
+    <client-only>
+      <lw-chart :options="options" style="width: 100%; height: 500px" /></client-only>
     </lw-layout-page-item>
   </lw-layout-page>
 </template>

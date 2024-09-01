@@ -7,7 +7,7 @@
         :columns="table.columns"
         :isShowPagination="false"
         :header-cell-style="headerCellStyle"
-        :row-style="{ height: '52px'}"
+        :row-style="{ height: '52px' }"
         size="small"
       />
     </lw-layout-page-item>

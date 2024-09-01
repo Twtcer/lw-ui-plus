@@ -1,7 +1,12 @@
 <template>
   <lw-layout-page>
     <lw-layout-page-item>
-      <lw-table title="表头合并" :table="table" :columns="table.columns" :isShowPagination="false" />
+      <lw-table
+        title="表头合并"
+        :table="table"
+        :columns="table.columns"
+        :isShowPagination="false"
+      />
     </lw-layout-page-item>
   </lw-layout-page>
 </template>

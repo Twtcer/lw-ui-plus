@@ -1,7 +1,7 @@
 <template>
   <lw-layout-page>
     <lw-layout-page-item>
-      <t-radio
+      <lw-radio
         v-model="value"
         :options="options"
         :props="{ label: 'name', value: 'id', disabled: 'isSelected' }"

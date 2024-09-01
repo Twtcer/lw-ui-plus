@@ -177,7 +177,7 @@ const opts = computed(() => {
     },
     date1: {
       label: "日期组件使用",
-      comp: "t-date-picker",
+      comp: "lw-date-picker",
       bind: {
         isPickerOptions: true
       }
@@ -186,7 +186,7 @@ const opts = computed(() => {
       label: "t-select使用",
       placeholder: "请多选",
       span: 2,
-      comp: "t-select",
+      comp: "lw-select",
       isSelfCom: true,
       bind: {
         valueCustom: "id",
@@ -197,7 +197,7 @@ const opts = computed(() => {
     },
     date: {
       label: "创建时间",
-      comp: "t-date-picker",
+      comp: "lw-date-picker",
       span: 2,
       bind: {
         type: "daterange"

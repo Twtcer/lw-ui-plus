@@ -61,7 +61,7 @@
   </el-table-column>
 </template>
 
-<script setup lang="tsx" name="TTableColumn">
+<script setup lang="tsx" name="LwTableColumn">
 import SingleEditCell from "./singleEditCell.vue"
 import RenderCol from "./renderCol.vue"
 import { useSlots } from "vue"

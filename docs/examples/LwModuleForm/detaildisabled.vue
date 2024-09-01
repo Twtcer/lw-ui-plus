@@ -1,7 +1,7 @@
 <template>
   <lw-layout-page class="t_module_form_demo">
     <lw-layout-page-item>
-      <t-module-form
+      <lw-module-form
         title="模块详情组件运用"
         subTitle="模块禁止收缩"
         ref="sourceDetail"
@@ -28,7 +28,7 @@
         <template #loadKgPerCar>
           <div class="text-danger">value自定义插槽</div>
         </template>
-      </t-module-form>
+      </lw-module-form>
     </lw-layout-page-item>
   </lw-layout-page>
 </template>

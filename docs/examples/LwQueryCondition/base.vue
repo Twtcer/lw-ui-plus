@@ -118,11 +118,11 @@ const opts = computed(() => {
       }
     },
     date2: {
-      label: "t-date-picker",
+      label: "lw-date-picker",
       labelRender: () => {
         return <label style="color:red">t-date-picker禁用</label>
       },
-      comp: "t-date-picker",
+      comp: "lw-date-picker",
       span: 2,
       bind: {
         type: "daterange",

@@ -4,7 +4,7 @@
       <div class="box_content">
         <div class="box_flex">
           <div>选择日期范围（默认显示）</div>
-          <t-date-picker
+          <lw-date-picker
             v-model="date"
             type="daterange"
             @change="change($event, 'daterange', date)"
@@ -12,7 +12,7 @@
         </div>
         <div class="box_flex">
           <div>选择日期范围加00:00:00 23:59:59时分秒</div>
-          <t-date-picker
+          <lw-date-picker
             v-model="date1"
             type="daterange"
             plusTime
@@ -21,7 +21,7 @@
         </div>
         <div class="box_flex">
           <div>快捷方式-选择日期范围</div>
-          <t-date-picker
+          <lw-date-picker
             v-model="date2"
             type="daterange"
             isPickerOptions

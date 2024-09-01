@@ -8,7 +8,7 @@
         <el-radio-button :value="4">一行展示4项</el-radio-button>
         <el-radio-button :value="5">一行展示5项</el-radio-button>
       </el-radio-group>
-      <t-form ref="TFormDemo" v-model="formOpts.ref" :formOpts="formOpts" :widthSize="widthSize" />
+      <lw-form ref="TFormDemo" v-model="formOpts.ref" :formOpts="formOpts" :widthSize="widthSize" />
     </lw-layout-page-item>
   </lw-layout-page>
 </template>

@@ -115,7 +115,7 @@ let state: any = reactive({
             canEdit: true,
             configEdit: {
               label: "装炉位置",
-              editComponent: "t-select",
+              editComponent: "lw-select",
               isSelfCom: true,
               bind: {
                 valueCustom: "key",
@@ -149,13 +149,13 @@ let state: any = reactive({
         children: [
           {
             prop: "deptCode",
-            label: "t-select-table使用",
+            label: "lw-select-table使用",
             minWidth: "180",
             headerRequired: true,
             canEdit: true,
             configEdit: {
               label: "用户名称",
-              editComponent: "t-select-table",
+              editComponent: "lw-select-table",
               isSelfCom: true,
               bind: {
                 isKeyup: true,
@@ -241,14 +241,14 @@ let state: any = reactive({
                 children: [
                   {
                     prop: "startDate",
-                    label: "生产日期(t-date-picker)",
+                    label: "生产日期(lw-date-picker)",
                     minWidth: "180",
                     canEdit: true,
                     headerRequired: true,
                     configEdit: {
                       label: "生产日期",
                       type: "date",
-                      editComponent: "t-date-picker",
+                      editComponent: "lw-date-picker",
                       bind: {
                         isPickerOptions: true
                       }

@@ -9,10 +9,10 @@ LwTable/base
 :::
 
 ### 斑马线表格
+
 :::demo 在`lw-table`标签中添加`stripe`
 LwTable/stripe
 :::
-
 
 ### 边框表格
 
@@ -21,6 +21,7 @@ LwTable/border
 :::
 
 ### 表格大小
+
 :::demo 在`table`标签中添加`size:'small'`设置表格大小，可选值`large`、`default`、`small`
 LwTable/size
 :::
@@ -33,7 +34,7 @@ LwTable/align
 
 ### 基本表尾合计
 
-:::demo 在`LwTable`标签中添加`show-summary`,默认情况下，对于合计行，第一列不进行数据求合操作，而是显示「合计」二字（可通过sum-text配置），其余列会将本列所有`数值`(不区分`Number`与`String`类型)进行求合操作，并显示出来。
+:::demo 在`LwTable`标签中添加`show-summary`,默认情况下，对于合计行，第一列不进行数据求合操作，而是显示「合计」二字（可通过 sum-text 配置），其余列会将本列所有`数值`(不区分`Number`与`String`类型)进行求合操作，并显示出来。
 LwTable/showSummary
 :::
 
@@ -73,7 +74,7 @@ LwTable/sortable
 LwTable/selection
 :::
 
-### 复选框表格--翻页选中功能selectionDisabled
+### 复选框表格--翻页选中功能 selectionDisabled
 
 :::demo 在`table`对象中添加`firstColumn:{ type: 'selection', isPaging: true , fixed: true }`
 LwTable/pageCheck
@@ -331,7 +332,7 @@ LwTable/expand
 | ----------label         | placeholder 显示                                                          | String           | -         |
 | ----------editComponent | 组件名称可直接指定全局注册的组件，也可引入'element'如：'el-input'         | String/component | -         |
 | ----------eventHandle   | 第三方 UI 的 事件（返回三个参数，需解构获取{val,prop,scope}）             | Object           | -         |
-| ----------bind          | 第三方 UI 的 Attributes，（`Function`返回值scope）                        | Object/Function  | -         |
+| ----------bind          | 第三方 UI 的 Attributes，（`Function`返回值 scope）                       | Object/Function  | -         |
 | ----------event         | 触发 handleEvent 事件的标志                                               | String           | -         |
 | ----------type          | 下拉或者复选框显示（select-arr/select-obj/checkbox）                      | String           | -         |
 | ----------list          | 下拉选择数据源名称                                                        | String           | -         |
@@ -365,8 +366,8 @@ LwTable/expand
 | ----size                | el-button 的 size                                                         | String           | 'default' |
 | ----icon                | el-button 的 icon                                                         | String           | 'Setting' |
 | align                   | table 对齐方式 可选值`left`、`center`、`right`                            | String           | 'center'  |
-| isSlotToolbar           | LwAdaptivePage 组件是否使用了 Toolbar 插槽                                 | Boolean          | false     |
-| isSlotTitle             | LwAdaptivePage 组件是否使用了 title 插槽                                   | Boolean          | -         |
+| isSlotToolbar           | LwAdaptivePage 组件是否使用了 Toolbar 插槽                                | Boolean          | false     |
+| isSlotTitle             | LwAdaptivePage 组件是否使用了 title 插槽                                  | Boolean          | -         |
 | sortable                | 设置为 'custom',需要监听 Table 的 sort-change 事件                        | Boolean/string   | -         |
 
 ### 3、events 其他事件按照 el-table 直接使用（如 sort-change 排序事件）
@@ -388,15 +389,15 @@ LwTable/expand
 | resetFields        | 对表单进行重置，并移除校验结果（单元格编辑时生效）             | —                   |
 | clearValidate      | 清空校验规则（单元格编辑时生效）                               | -                   |
 | defaultRadioSelect | 单选默认选中--且只能默认选中第一页的数据--传入值必须大于等于 1 | -                   |
-| reSetColumnSet     | 开启columnSetting，调用此方法columnSet显示修改后缓存数据       | -                   |
+| reSetColumnSet     | 开启 columnSetting，调用此方法 columnSet 显示修改后缓存数据    | -                   |
 
 ### 5、Slots 插槽
 
 | 插槽名     | 说明                                                | 参数  |
 | :--------- | :-------------------------------------------------- | :---- |
-| title      | LwTable 左侧 Title                                   | -     |
-| titleTip   | LwTable 头部 tip                                     | -     |
-| toolbar    | LwTable 右侧 toolbar                                 | -     |
+| title      | LwTable 左侧 Title                                  | -     |
+| titleTip   | LwTable 头部 tip                                    | -     |
+| toolbar    | LwTable 右侧 toolbar                                | -     |
 | expand     | table.firstColumn.type：`expand` 展开行插槽         | scope |
 | -          | el-table-column 某列自定义插槽（slotName 命名）     | scope |
 | -          | el-table-column 单元格编辑插槽（editSlotName 命名） | scope |

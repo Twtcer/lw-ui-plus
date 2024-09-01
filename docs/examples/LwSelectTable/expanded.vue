@@ -1,7 +1,7 @@
 <template>
   <lw-layout-page>
     <lw-layout-page-item style="display: flex">
-      <t-select-table
+      <lw-select-table
         ref="selectTable"
         :table="table"
         :columns="table.columns"

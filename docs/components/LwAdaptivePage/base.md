@@ -44,9 +44,9 @@ LwAdaptivePage/treeTable
 
 ### 2、配置参数（Attributes）继承 LwTable 及 LwQueryCondition 组件的所有属性、事件、插槽、方法
 
-| 参数                | 说明                                                         | 类型          | 默认值 |
-| :------------------ | :----------------------------------------------------------- | :------------ | :----- |
-| leftWidth           | 左侧宽度                                                     | number,String | 260    |
+| 参数                | 说明                                                          | 类型          | 默认值 |
+| :------------------ | :------------------------------------------------------------ | :------------ | :----- |
+| leftWidth           | 左侧宽度                                                      | number,String | 260    |
 | pageStyle           | lw-layout-page 行内样式                                       | object        | -      |
 | queryPageStyle      | 查询条件组件的 lw-layout-page-item 行内样式                   | object        | -      |
 | tablePageStyle      | table 组件的 lw-layout-page-item 行内样式                     | object        | -      |

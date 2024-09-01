@@ -15,7 +15,8 @@
             type="primary"
             :disabled="state.ids.length < 1"
             @click="cancelSelect"
-          >取消选中</el-button>
+            >取消选中</el-button
+          >
         </template>
       </lw-table>
     </lw-layout-page-item>

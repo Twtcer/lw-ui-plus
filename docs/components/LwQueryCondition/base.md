@@ -66,7 +66,7 @@ LwQueryCondition/footer
 
 ### 每行展示多少项
 
-::: demo 开启`isShowWidthSize`；设置`widthSize`值`（默认 4）`；不开启`isShowWidthSize`，则根据`width > 1000 && width < 1280`展示 3 项，`width > 768 && width <= 1000`展示 2 项`width <= 768`展示1项；(width=window.innerWidth)
+::: demo 开启`isShowWidthSize`；设置`widthSize`值`（默认 4）`；不开启`isShowWidthSize`，则根据`width > 1000 && width < 1280`展示 3 项，`width > 768 && width <= 1000`展示 2 项`width <= 768`展示 1 项；(width=window.innerWidth)
 
 LwQueryCondition/widthSize
 :::
@@ -132,24 +132,25 @@ LwQueryCondition/isDropDownSelectMore
 | isDropDownSelectMore | 是否以下拉方式展示更多条件                | Boolean | false                                          |
 
 ### 2-1 以下拉方式展示更多条件--配置参数（Attributes）
-| 参数              | 说明                                                   | 类型             | 默认值     |
-| :---------------- | :----------------------------------------------------- | :--------------- | :--------- |
-| popoverAttrs      | el-popover配置及中文文案                               | object           | 具体看源码 |
-| moreCheckList     | 数据源                                                 | Array            | -          |
-| -----label        | 标题                                                   | string           | -          |
-| -----comp         | 组件名称，可直接指定全局注册的组件                     | string/component | -          |
-| -----isSelfCom    | 是否使用自己封装的下拉组件（即没有el-option）          | Boolean          | false      |
-| -----prop         | 接收字段（即后台接收字段）                             | string           | -          |
-| -----bind         | 组件配置参数（Attributes）function 传出 form           | object/Function  | -          |
-| -----slotName     | 自定义输入框插槽                                       | string           | -          |
-| -----span         | 控件占用的列宽，默认占用 1 列，最大值4 (独占一行)      | number           | 1          |
-| -----changeEvent  | 事件名称                                               | string           | -          |
-| -----defaultVal   | 默认值                                                 | string           | -          |
-| -----type         | element 组件type(radio,checkbox,select-arr,select-obj) | string           | -          |
-| -----arrLabel     | el-select 组件options label显示                        | string           | label      |
-| -----arrKey       | el-select 组件options key显示                          | string           | key        |
-| -----list         | el-select 组件options 数据标识                         | string           | -          |
-| -----listTypeInfo | el-select 组件options 数据源                           | object           | -          |
+
+| 参数              | 说明                                                    | 类型             | 默认值     |
+| :---------------- | :------------------------------------------------------ | :--------------- | :--------- |
+| popoverAttrs      | el-popover 配置及中文文案                               | object           | 具体看源码 |
+| moreCheckList     | 数据源                                                  | Array            | -          |
+| -----label        | 标题                                                    | string           | -          |
+| -----comp         | 组件名称，可直接指定全局注册的组件                      | string/component | -          |
+| -----isSelfCom    | 是否使用自己封装的下拉组件（即没有 el-option）          | Boolean          | false      |
+| -----prop         | 接收字段（即后台接收字段）                              | string           | -          |
+| -----bind         | 组件配置参数（Attributes）function 传出 form            | object/Function  | -          |
+| -----slotName     | 自定义输入框插槽                                        | string           | -          |
+| -----span         | 控件占用的列宽，默认占用 1 列，最大值 4 (独占一行)      | number           | 1          |
+| -----changeEvent  | 事件名称                                                | string           | -          |
+| -----defaultVal   | 默认值                                                  | string           | -          |
+| -----type         | element 组件 type(radio,checkbox,select-arr,select-obj) | string           | -          |
+| -----arrLabel     | el-select 组件 options label 显示                       | string           | label      |
+| -----arrKey       | el-select 组件 options key 显示                         | string           | key        |
+| -----list         | el-select 组件 options 数据标识                         | string           | -          |
+| -----listTypeInfo | el-select 组件 options 数据源                           | object           | -          |
 
 ### 3、opts Attributes
 
@@ -171,12 +172,12 @@ LwQueryCondition/isDropDownSelectMore
 
 #### 4、事件（events）
 
-| 事件名       | 说明                                              | 返回值                                        |
-| :----------- | :------------------------------------------------ | :-------------------------------------------- |
-| handleEvent  | 筛选器数据发生变化时触发                          | event 标识, val：输入值,form:整个查询条件数据 |
-| submit       | 点击筛选器查询按钮时触发                          | form:整个查询条件数据                         |
-| reset        | 点击筛选器重置按钮时触发                          | -                                             |
-| getCheckList | 下拉动态添加条件（isDropDownSelectMore:true生效） | 返回选中的条件项                              |
+| 事件名       | 说明                                               | 返回值                                        |
+| :----------- | :------------------------------------------------- | :-------------------------------------------- |
+| handleEvent  | 筛选器数据发生变化时触发                           | event 标识, val：输入值,form:整个查询条件数据 |
+| submit       | 点击筛选器查询按钮时触发                           | form:整个查询条件数据                         |
+| reset        | 点击筛选器重置按钮时触发                           | -                                             |
+| getCheckList | 下拉动态添加条件（isDropDownSelectMore:true 生效） | 返回选中的条件项                              |
 
 #### 5、Slots
 

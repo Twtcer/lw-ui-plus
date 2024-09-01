@@ -1,7 +1,7 @@
 <template>
   <lw-layout-page class="t_detail_demo">
     <lw-layout-page-item>
-      <t-detail :descData="DataSource.descData" :isLabelBold="false" />
+      <lw-detail :descData="DataSource.descData" :isLabelBold="false" />
     </lw-layout-page-item>
   </lw-layout-page>
 </template>

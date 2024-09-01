@@ -1,7 +1,7 @@
 <template>
   <lw-layout-page class="t-module-form_demo">
     <lw-layout-page-item>
-      <t-module-form
+      <lw-module-form
         title="模块详情组件运用"
         subTitle="模块详情222"
         ref="sourceDetail"
@@ -34,7 +34,7 @@
         <template #loadKgPerCar>
           <span class="text-danger">插槽值回显</span>
         </template>
-      </t-module-form>
+      </lw-module-form>
     </lw-layout-page-item>
   </lw-layout-page>
 </template>

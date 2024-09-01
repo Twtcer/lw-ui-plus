@@ -1,13 +1,13 @@
 <template>
   <lw-layout-page class="t_detail_demo">
     <lw-layout-page-item>
-      <t-detail :descData="DataSource.descData" :descColumn="2">
+      <lw-detail :descData="DataSource.descData" :descColumn="2">
         <template #slotName>
           {{
             `${DataSource.dataList.stocktakePlanNo}--${DataSource.dataList.planStocktakeUserName}`
           }}
         </template>
-      </t-detail>
+      </lw-detail>
     </lw-layout-page-item>
   </lw-layout-page>
 </template>

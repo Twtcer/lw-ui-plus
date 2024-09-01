@@ -1,7 +1,7 @@
 <template>
   <lw-layout-page class="t_module_form_demo">
     <lw-layout-page-item>
-      <t-module-form
+      <lw-module-form
         title="模块详情"
         subTitle="独占一行（span设置）"
         ref="sourceDetail"

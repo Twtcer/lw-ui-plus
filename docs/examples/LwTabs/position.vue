@@ -7,7 +7,7 @@
         <el-radio-button value="bottom">bottom</el-radio-button>
         <el-radio-button value="left">left</el-radio-button>
       </el-radio-group>
-      <t-tabs :tabs="tabs" :tab-position="tabPosition" @tab-click="tabsChange">
+      <lw-tabs :tabs="tabs" :tab-position="tabPosition" @tab-click="tabsChange">
         <template #tab1>
           <div>订单数据</div>
         </template>
@@ -20,7 +20,7 @@
         <template #tab4>
           <div>页面数据</div>
         </template>
-      </t-tabs>
+      </lw-tabs>
     </lw-layout-page-item>
   </lw-layout-page>
 </template>

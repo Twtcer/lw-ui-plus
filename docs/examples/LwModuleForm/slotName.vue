@@ -1,7 +1,7 @@
 <template>
   <lw-layout-page class="t_module_form_demo">
     <lw-layout-page-item>
-      <t-module-form
+      <lw-module-form
         title="模块插槽使用"
         subTitle="模块插槽使用副标题"
         ref="sourceForm"
@@ -11,7 +11,7 @@
         <template #lineMessage>
           <lw-table title="模块插槽使用" :table="table" :columns="table.columns" isCopy />
         </template>
-      </t-module-form>
+      </lw-module-form>
     </lw-layout-page-item>
   </lw-layout-page>
 </template>

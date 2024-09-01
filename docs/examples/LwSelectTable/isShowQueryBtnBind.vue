@@ -1,7 +1,7 @@
 <template>
   <lw-layout-page>
     <lw-layout-page-item>
-      <t-select-table
+      <lw-select-table
         :table="table"
         :columns="table.columns"
         :max-height="400"
@@ -162,7 +162,7 @@ const opts = computed(() => {
     },
     date1: {
       label: "日期组件使用",
-      comp: "t-date-picker",
+      comp: "lw-date-picker",
       span: 2,
       bind: {
         type: "daterange",

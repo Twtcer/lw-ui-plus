@@ -19,13 +19,13 @@
           @change="handleChange"
         />
       </div>
-      <t-button
+      <lw-button
         style="margin-top: 15px"
         :isDebounce="isDebounce"
         :time="time"
         type="primary"
         @click="exportExcel"
-        >点击事件</t-button
+        >点击事件</lw-button
       >
     </lw-layout-page-item>
   </lw-layout-page>

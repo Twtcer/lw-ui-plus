@@ -1,7 +1,7 @@
 <template>
   <lw-layout-page>
     <lw-layout-page-item>
-      <t-select
+      <lw-select
         placeholder="请选择(虚拟列表--多选)"
         v-model="selectVlaue"
         :optionSource="stepList"

@@ -1,7 +1,7 @@
 <template>
   <lw-layout-page>
     <lw-layout-page-item style="display: flex">
-      <t-select-table
+      <lw-select-table
         ref="selectTable"
         :table="table"
         :columns="table.columns"
@@ -17,7 +17,7 @@
             >toolbar插槽</el-button
           >
         </template>
-      </t-select-table>
+      </lw-select-table>
       <el-button style="margin-left: 15px" type="primary" @click="clear">清空选中</el-button>
     </lw-layout-page-item>
   </lw-layout-page>

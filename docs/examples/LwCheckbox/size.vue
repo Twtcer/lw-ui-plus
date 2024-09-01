@@ -2,16 +2,16 @@
   <lw-layout-page>
     <lw-layout-page-item>
       <div>
-        <t-checkbox v-model="value" :options="options" size="large" />
+        <lw-checkbox v-model="value" :options="options" size="large" />
       </div>
       <div style="margin-top: 20px">
-        <t-checkbox v-model="value" :options="options" size="default" />
+        <lw-checkbox v-model="value" :options="options" size="default" />
       </div>
       <div style="margin-top: 20px">
-        <t-checkbox v-model="value" :options="options" size="small" />
+        <lw-checkbox v-model="value" :options="options" size="small" />
       </div>
       <div style="margin-top: 20px">
-        <t-checkbox v-model="value" :options="options" size="small" disabled />
+        <lw-checkbox v-model="value" :options="options" size="small" disabled />
       </div>
     </lw-layout-page-item>
   </lw-layout-page>

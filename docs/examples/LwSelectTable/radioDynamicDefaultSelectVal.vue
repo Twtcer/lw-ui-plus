@@ -4,14 +4,14 @@
       <el-button type="danger" style="margin-bottom: 10px; width: 200px" @click="mod"
         >动态赋值</el-button
       >
-      <t-select-table
+      <lw-select-table
         :table="table"
         :columns="table.columns"
         :max-height="400"
         :defaultSelectVal="defaultSelectVal"
         :keywords="{ label: 'name', value: 'id' }"
         @radioChange="radioChange"
-      ></t-select-table>
+      ></lw-select-table>
     </lw-layout-page-item>
   </lw-layout-page>
 </template>

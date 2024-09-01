@@ -6,7 +6,7 @@
           <el-tabs v-model="activeName" class="demo-tabs" @tab-click="handleClick">
             <el-tab-pane label="姓名" name="name">
               <div>姓名：{{ scope.row.name }}</div>
-              <t-select
+              <lw-select
                 placeholder="请选择工序"
                 v-model="selectVlaue"
                 :optionSource="stepList"

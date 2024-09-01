@@ -2,7 +2,7 @@
   <lw-layout-page>
     <lw-layout-page-item>
       <div>use collapse-tags</div>
-      <t-select
+      <lw-select
         placeholder="请选择(虚拟列表--多选选)"
         v-model="selectVlaue1"
         :optionSource="stepList"
@@ -14,7 +14,7 @@
     </lw-layout-page-item>
     <lw-layout-page-item>
       <div>use collapse-tags-tooltip</div>
-      <t-select
+      <lw-select
         placeholder="请选择(虚拟列表--多选选)"
         v-model="selectVlaue2"
         :optionSource="stepList"
@@ -27,7 +27,7 @@
     </lw-layout-page-item>
     <lw-layout-page-item>
       <div>use max-collapse-tags</div>
-      <t-select
+      <lw-select
         placeholder="请选择(虚拟列表--多选选)"
         v-model="selectVlaue3"
         :optionSource="stepList"

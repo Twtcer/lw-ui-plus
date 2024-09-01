@@ -1,6 +1,6 @@
 <template>
   <el-form
-    class="t-form"
+    class="lw-form"
     ref="tform"
     :class="className"
     :model="formOpts.formData"
@@ -42,7 +42,7 @@
         </template>
         <template v-if="item.isSelfCom">
           <component
-            v-if="item.comp === 't-select-table'"
+            v-if="item.comp === 'lw-select-table'"
             :is="item.comp"
             :ref="(el:any) => handleRef(el, index)"
             :placeholder="item.placeholder || getPlaceholder(item)"
@@ -52,7 +52,7 @@
                 : { clearable: true, filterable: true, ...item.bind }
             "
             :style="{ width: item.width || '100%' }"
-            v-on="cEvent(item, 't-select-table')"
+            v-on="cEvent(item, 'lw-select-table')"
           />
           <component
             v-else
@@ -174,7 +174,7 @@ const cEvent: any = computed(() => {
     let changeEvent = {} as any
     Object.keys(event).forEach(v => {
       changeEvent[v] = (e: any, ids: any) => {
-        if (type === "t-select-table") {
+        if (type === "lw-select-table") {
           event[v] && event[v](e, ids)
         } else {
           event[v] && event[v](e, props.formOpts)
@@ -397,7 +397,7 @@ defineExpose({ ...instance.exposed, selfValidate, selfResetFields })
 </script>
 
 <style lang="scss">
-.t-form {
+.lw-form {
   display: flex;
   flex-wrap: wrap;
 

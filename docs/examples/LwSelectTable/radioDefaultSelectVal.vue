@@ -1,14 +1,14 @@
 <template>
   <lw-layout-page>
     <lw-layout-page-item>
-      <t-select-table
+      <lw-select-table
         :table="table"
         :columns="table.columns"
         :max-height="400"
         :defaultSelectVal="[2]"
         :keywords="{ label: 'name', value: 'id' }"
         @radioChange="radioChange"
-      ></t-select-table>
+      ></lw-select-table>
     </lw-layout-page-item>
   </lw-layout-page>
 </template>

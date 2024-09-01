@@ -1,7 +1,7 @@
 <template>
   <lw-layout-page class="t_module_form_demo">
     <lw-layout-page-item>
-      <t-module-form
+      <lw-module-form
         title="显示tabs且默认显示tab2"
         ref="sourceForm"
         :formOpts="formOpts"
@@ -18,7 +18,7 @@
         <template #tab3>
           <div>承运明细</div>
         </template>
-      </t-module-form>
+      </lw-module-form>
     </lw-layout-page-item>
   </lw-layout-page>
 </template>

@@ -1,13 +1,13 @@
 <template>
   <lw-layout-page class="t_module_form_demo">
     <lw-layout-page-item>
-      <t-module-form title="表单验证" ref="sourceForm" :formOpts="formOpts" :submit="submit">
+      <lw-module-form title="表单验证" ref="sourceForm" :formOpts="formOpts" :submit="submit">
         <template #footer>
           <el-button type="primary" @click="clearValidate">清除校验</el-button>
           <el-button type="primary" @click="resetForm">重置</el-button>
           <el-button type="danger" @click="save">保存</el-button>
         </template>
-      </t-module-form>
+      </lw-module-form>
     </lw-layout-page-item>
   </lw-layout-page>
 </template>

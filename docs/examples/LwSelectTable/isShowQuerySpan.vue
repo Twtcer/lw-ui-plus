@@ -1,7 +1,7 @@
 <template>
   <lw-layout-page>
     <lw-layout-page-item>
-      <t-select-table
+      <lw-select-table
         :table="table"
         :columns="table.columns"
         ref="tSelectTableDemo"
@@ -13,7 +13,7 @@
         isShowQuery
         :opts="opts"
         @submit="conditionEnter"
-      ></t-select-table>
+      ></lw-select-table>
     </lw-layout-page-item>
   </lw-layout-page>
 </template>
@@ -162,7 +162,7 @@ const opts = computed(() => {
     },
     date1: {
       label: "日期组件",
-      comp: "t-date-picker",
+      comp: "lw-date-picker",
       span: 4,
       bind: {
         type: "daterange",

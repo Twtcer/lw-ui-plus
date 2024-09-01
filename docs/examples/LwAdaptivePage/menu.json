@@ -384,9 +384,9 @@
       },
       "children": [
         {
-          "path": "/assembly/t-form",
+          "path": "/assembly/lw-form",
           "name": "LwForm",
-          "redirect": "/assembly/t-form/base",
+          "redirect": "/assembly/lw-form/base",
           "meta": {
             "icon": "Tickets",
             "title": "TForm表单组件",
@@ -398,7 +398,7 @@
           },
           "children": [
             {
-              "path": "/assembly/t-form/base",
+              "path": "/assembly/lw-form/base",
               "name": "baseDemo",
               "component": "/LwForm/base/index",
               "meta": {
@@ -412,7 +412,7 @@
               }
             },
             {
-              "path": "/assembly/t-form/comUse",
+              "path": "/assembly/lw-form/comUse",
               "name": "comUse",
               "component": "/LwForm/comUse/index",
               "meta": {
@@ -426,7 +426,7 @@
               }
             },
             {
-              "path": "/assembly/t-form/echo",
+              "path": "/assembly/lw-form/echo",
               "name": "echo",
               "component": "/LwForm/echo/index",
               "meta": {
@@ -440,7 +440,7 @@
               }
             },
             {
-              "path": "/assembly/t-form/eventHandle",
+              "path": "/assembly/lw-form/eventHandle",
               "name": "eventHandle",
               "component": "/LwForm/eventHandle/index",
               "meta": {
@@ -454,7 +454,7 @@
               }
             },
             {
-              "path": "/assembly/t-form/isHideItem",
+              "path": "/assembly/lw-form/isHideItem",
               "name": "isHideItem",
               "component": "/LwForm/isHideItem/index",
               "meta": {
@@ -468,7 +468,7 @@
               }
             },
             {
-              "path": "/assembly/t-form/isTrim",
+              "path": "/assembly/lw-form/isTrim",
               "name": "isTrim",
               "component": "/LwForm/isTrim/index",
               "meta": {
@@ -482,7 +482,7 @@
               }
             },
             {
-              "path": "/assembly/t-form/labelPosition",
+              "path": "/assembly/lw-form/labelPosition",
               "name": "labelPosition",
               "component": "/LwForm/labelPosition/index",
               "meta": {
@@ -496,7 +496,7 @@
               }
             },
             {
-              "path": "/assembly/t-form/labelRender",
+              "path": "/assembly/lw-form/labelRender",
               "name": "labelRenderForm",
               "component": "/LwForm/labelRender/index",
               "meta": {
@@ -510,7 +510,7 @@
               }
             },
             {
-              "path": "/assembly/t-form/rules",
+              "path": "/assembly/lw-form/rules",
               "name": "rules",
               "component": "/LwForm/rules/index",
               "meta": {
@@ -524,7 +524,7 @@
               }
             },
             {
-              "path": "/assembly/t-form/slotName",
+              "path": "/assembly/lw-form/slotName",
               "name": "slotNameForm",
               "component": "/LwForm/slotName/index",
               "meta": {
@@ -538,7 +538,7 @@
               }
             },
             {
-              "path": "/assembly/t-form/textShow",
+              "path": "/assembly/lw-form/textShow",
               "name": "textShow",
               "component": "/LwForm/textShow/index",
               "meta": {
@@ -552,7 +552,7 @@
               }
             },
             {
-              "path": "/assembly/t-form/widthSize",
+              "path": "/assembly/lw-form/widthSize",
               "name": "widthSize",
               "component": "/LwForm/widthSize/index",
               "meta": {
@@ -568,9 +568,9 @@
           ]
         },
         {
-          "path": "/assembly/t-select-table",
+          "path": "/assembly/lw-select-table",
           "name": "LwSelectTable",
-          "redirect": "/assembly/t-select-table/radio",
+          "redirect": "/assembly/lw-select-table/radio",
           "meta": {
             "icon": "MessageBox",
             "title": "下拉表格组件",
@@ -582,7 +582,7 @@
           },
           "children": [
             {
-              "path": "/assembly/t-select-table/radio",
+              "path": "/assembly/lw-select-table/radio",
               "name": "radioSelectTable",
               "component": "/LwSelectTable/radio",
               "meta": {
@@ -596,7 +596,7 @@
               }
             },
             {
-              "path": "/assembly/t-select-table/radioKeyup",
+              "path": "/assembly/lw-select-table/radioKeyup",
               "name": "radioKeyupSelectTable",
               "component": "/LwSelectTable/radioKeyup",
               "meta": {
@@ -610,7 +610,7 @@
               }
             },
             {
-              "path": "/assembly/t-select-table/dynamic",
+              "path": "/assembly/lw-select-table/dynamic",
               "name": "dynamic",
               "component": "/LwSelectTable/dynamic",
               "meta": {
@@ -624,7 +624,7 @@
               }
             },
             {
-              "path": "/assembly/t-select-table/dynamicMultiple",
+              "path": "/assembly/lw-select-table/dynamicMultiple",
               "name": "dynamicMultiple",
               "component": "/LwSelectTable/dynamicMultiple",
               "meta": {
@@ -638,7 +638,7 @@
               }
             },
             {
-              "path": "/assembly/t-select-table/isShowFirstColumn",
+              "path": "/assembly/lw-select-table/isShowFirstColumn",
               "name": "isShowFirstColumn",
               "component": "/LwSelectTable/isShowFirstColumn",
               "meta": {
@@ -652,7 +652,7 @@
               }
             },
             {
-              "path": "/assembly/t-select-table/radioDefaultSelectVal",
+              "path": "/assembly/lw-select-table/radioDefaultSelectVal",
               "name": "radioDefaultSelectVal",
               "component": "/LwSelectTable/radioDefaultSelectVal",
               "meta": {
@@ -666,7 +666,7 @@
               }
             },
             {
-              "path": "/assembly/t-select-table/multipleDefaultSelectVal",
+              "path": "/assembly/lw-select-table/multipleDefaultSelectVal",
               "name": "multipleDefaultSelectVal",
               "component": "/LwSelectTable/multipleDefaultSelectVal",
               "meta": {
@@ -680,7 +680,7 @@
               }
             },
             {
-              "path": "/assembly/t-select-table/multiple",
+              "path": "/assembly/lw-select-table/multiple",
               "name": "selectTableMultiple",
               "component": "/LwSelectTable/multiple",
               "meta": {
@@ -694,7 +694,7 @@
               }
             },
             {
-              "path": "/assembly/t-select-table/isShowPagination",
+              "path": "/assembly/lw-select-table/isShowPagination",
               "name": "isShowPagination",
               "component": "/LwSelectTable/isShowPagination",
               "meta": {
@@ -708,7 +708,7 @@
               }
             },
             {
-              "path": "/assembly/t-select-table/isShowQuery",
+              "path": "/assembly/lw-select-table/isShowQuery",
               "name": "isShowQuery",
               "component": "/LwSelectTable/isShowQuery",
               "meta": {
@@ -722,7 +722,7 @@
               }
             },
             {
-              "path": "/assembly/t-select-table/isShowQueryMultiple",
+              "path": "/assembly/lw-select-table/isShowQueryMultiple",
               "name": "isShowQueryMultiple",
               "component": "/LwSelectTable/isShowQueryMultiple",
               "meta": {
@@ -736,7 +736,7 @@
               }
             },
             {
-              "path": "/assembly/t-select-table/isShowQueryBtnBind",
+              "path": "/assembly/lw-select-table/isShowQueryBtnBind",
               "name": "isShowQueryBtnBind",
               "component": "/LwSelectTable/isShowQueryBtnBind",
               "meta": {
@@ -750,7 +750,7 @@
               }
             },
             {
-              "path": "/assembly/t-select-table/isShowQuerySpan",
+              "path": "/assembly/lw-select-table/isShowQuerySpan",
               "name": "isShowQuerySpan",
               "component": "/LwSelectTable/isShowQuerySpan",
               "meta": {
@@ -1078,9 +1078,9 @@
           ]
         },
         {
-          "path": "/assembly/t-module-form",
+          "path": "/assembly/lw-module-form",
           "name": "LwModuleForm",
-          "redirect": "/assembly/t-module-form-index",
+          "redirect": "/assembly/lw-module-form-index",
           "meta": {
             "icon": "Tickets",
             "title": "模块表单组件",
@@ -1092,7 +1092,7 @@
           },
           "children": [
             {
-              "path": "/assembly/t-module-form/t-module-form-index",
+              "path": "/assembly/lw-module-form/lw-module-form-index",
               "name": "TModuleFormFormindex",
               "component": "/LwModuleForm/index",
               "meta": {
@@ -1106,7 +1106,7 @@
               }
             },
             {
-              "path": "/assembly/t-module-form/t-module-form-slotName",
+              "path": "/assembly/lw-module-form/lw-module-form-slotName",
               "name": "TModuleFormFormslotName",
               "component": "/LwModuleForm/slotName",
               "meta": {
@@ -1120,7 +1120,7 @@
               }
             },
             {
-              "path": "/assembly/t-module-form/t-module-form-disabled",
+              "path": "/assembly/lw-module-form/lw-module-form-disabled",
               "name": "TModuleFormFormdisabled",
               "component": "/LwModuleForm/disabled",
               "meta": {
@@ -1134,7 +1134,7 @@
               }
             },
             {
-              "path": "/assembly/t-module-form/t-module-form-labelPosition",
+              "path": "/assembly/lw-module-form/lw-module-form-labelPosition",
               "name": "TModuleFormFormlabelPosition",
               "component": "/LwModuleForm/labelPosition",
               "meta": {
@@ -1148,7 +1148,7 @@
               }
             },
             {
-              "path": "/assembly/t-module-form/t-module-form-rules",
+              "path": "/assembly/lw-module-form/lw-module-form-rules",
               "name": "TModuleFormFormrules",
               "component": "/LwModuleForm/rules",
               "meta": {
@@ -1162,7 +1162,7 @@
               }
             },
             {
-              "path": "/assembly/t-module-form/t-module-form-validateError",
+              "path": "/assembly/lw-module-form/lw-module-form-validateError",
               "name": "TModuleFormFormvalidateError",
               "component": "/LwModuleForm/validateError",
               "meta": {
@@ -1176,7 +1176,7 @@
               }
             },
             {
-              "path": "/assembly/t-module-form/t-module-form-footer",
+              "path": "/assembly/lw-module-form/lw-module-form-footer",
               "name": "TModuleFormFormfooter",
               "component": "/LwModuleForm/footer",
               "meta": {
@@ -1190,7 +1190,7 @@
               }
             },
             {
-              "path": "/assembly/t-module-form/t-module-form-tabs",
+              "path": "/assembly/lw-module-form/lw-module-form-tabs",
               "name": "TModuleFormFormtabs",
               "component": "/LwModuleForm/tabs",
               "meta": {
@@ -1204,7 +1204,7 @@
               }
             },
             {
-              "path": "/assembly/t-module-form/t-module-form-isGoBackEvent  ",
+              "path": "/assembly/lw-module-form/lw-module-form-isGoBackEvent  ",
               "name": "TModuleFormFormisGoBackEvent",
               "component": "/LwModuleForm/isGoBackEvent",
               "meta": {
@@ -1218,7 +1218,7 @@
               }
             },
             {
-              "path": "/assembly/t-module-form/t-module-form-isShowBack",
+              "path": "/assembly/lw-module-form/lw-module-form-isShowBack",
               "name": "TModuleFormFormisShowBack",
               "component": "/LwModuleForm/isShowBack",
               "meta": {
@@ -1232,7 +1232,7 @@
               }
             },
             {
-              "path": "/assembly/t-module-form/t-module-form-extra",
+              "path": "/assembly/lw-module-form/lw-module-form-extra",
               "name": "TModuleFormFormextra",
               "component": "/LwModuleForm/extra",
               "meta": {
@@ -1246,7 +1246,7 @@
               }
             },
             {
-              "path": "/assembly/t-module-form/t-module-form-titleBtn",
+              "path": "/assembly/lw-module-form/lw-module-form-titleBtn",
               "name": "TModuleFormFormtitleBtn",
               "component": "/LwModuleForm/titleBtn",
               "meta": {
@@ -1260,7 +1260,7 @@
               }
             },
             {
-              "path": "/assembly/t-module-form/t-module-form-detail",
+              "path": "/assembly/lw-module-form/lw-module-form-detail",
               "name": "TModuleFormDetailsdetail",
               "component": "/LwModuleForm/detail",
               "meta": {
@@ -1274,7 +1274,7 @@
               }
             },
             {
-              "path": "/assembly/t-module-form/t-module-form-detailspan",
+              "path": "/assembly/lw-module-form/lw-module-form-detailspan",
               "name": "TModuleFormDetailsdetailspan",
               "component": "/LwModuleForm/detailspan",
               "meta": {
@@ -1288,7 +1288,7 @@
               }
             },
             {
-              "path": "/assembly/t-module-form/t-module-form-tooltip",
+              "path": "/assembly/lw-module-form/lw-module-form-tooltip",
               "name": "TModuleFormDetailstooltip",
               "component": "/LwModuleForm/tooltip",
               "meta": {
@@ -1302,7 +1302,7 @@
               }
             },
             {
-              "path": "/assembly/t-module-form/t-module-form-detailslot",
+              "path": "/assembly/lw-module-form/lw-module-form-detailslot",
               "name": "TModuleFormDetailsdetailslot",
               "component": "/LwModuleForm/detailslot",
               "meta": {
@@ -1316,7 +1316,7 @@
               }
             },
             {
-              "path": "/assembly/t-module-form/t-module-form-detailslotName",
+              "path": "/assembly/lw-module-form/lw-module-form-detailslotName",
               "name": "TModuleFormDetailsdetailslotName",
               "component": "/LwModuleForm/detailslotName",
               "meta": {
@@ -1330,7 +1330,7 @@
               }
             },
             {
-              "path": "/assembly/t-module-form/t-module-form-detaildisabled",
+              "path": "/assembly/lw-module-form/lw-module-form-detaildisabled",
               "name": "TModuleFormDetailsdetaildisabled",
               "component": "/LwModuleForm/detaildisabled",
               "meta": {
@@ -1344,7 +1344,7 @@
               }
             },
             {
-              "path": "/assembly/t-module-form/t-module-form-detailTitleBtn",
+              "path": "/assembly/lw-module-form/lw-module-form-detailTitleBtn",
               "name": "TModuleFormDetailsdetailTitleBtn",
               "component": "/LwModuleForm/detailTitleBtn",
               "meta": {
@@ -1360,9 +1360,9 @@
           ]
         },
         {
-          "path": "/assembly/t-select",
+          "path": "/assembly/lw-select",
           "name": "LwSelect",
-          "redirect": "/assembly/t-select/single",
+          "redirect": "/assembly/lw-select/single",
           "meta": {
             "icon": "MessageBox",
             "title": "下拉选择组件",
@@ -1374,7 +1374,7 @@
           },
           "children": [
             {
-              "path": "/assembly/t-select/single",
+              "path": "/assembly/lw-select/single",
               "name": "single",
               "component": "/tuiplus/LwSelect/single",
               "meta": {
@@ -1388,7 +1388,7 @@
               }
             },
             {
-              "path": "/assembly/t-select/singePagination",
+              "path": "/assembly/lw-select/singePagination",
               "name": "singePagination",
               "component": "/tuiplus/LwSelect/singePagination",
               "meta": {
@@ -1402,7 +1402,7 @@
               }
             },
             {
-              "path": "/assembly/t-select/useVirtual",
+              "path": "/assembly/lw-select/useVirtual",
               "name": "useVirtual",
               "component": "/tuiplus/LwSelect/useVirtual",
               "meta": {
@@ -1416,7 +1416,7 @@
               }
             },
             {
-              "path": "/assembly/t-select/multiple",
+              "path": "/assembly/lw-select/multiple",
               "name": "multiple",
               "component": "/tuiplus/LwSelect/multiple",
               "meta": {
@@ -1430,7 +1430,7 @@
               }
             },
             {
-              "path": "/assembly/t-select/multipleCollapseTags",
+              "path": "/assembly/lw-select/multipleCollapseTags",
               "name": "multipleCollapseTags",
               "component": "/tuiplus/LwSelect/multipleCollapseTags",
               "meta": {
@@ -1444,7 +1444,7 @@
               }
             },
             {
-              "path": "/assembly/t-select/pagination",
+              "path": "/assembly/lw-select/pagination",
               "name": "pagination",
               "component": "/tuiplus/LwSelect/pagination",
               "meta": {
@@ -1458,7 +1458,7 @@
               }
             },
             {
-              "path": "/assembly/t-select/useVirtualMultiple",
+              "path": "/assembly/lw-select/useVirtualMultiple",
               "name": "useVirtualMultiple",
               "component": "/tuiplus/LwSelect/useVirtualMultiple",
               "meta": {
@@ -1474,9 +1474,9 @@
           ]
         },
         {
-          "path": "/assembly/t-detail",
+          "path": "/assembly/lw-detail",
           "name": "LwDetail",
-          "redirect": "/assembly/t-detail/base",
+          "redirect": "/assembly/lw-detail/base",
           "meta": {
             "icon": "MessageBox",
             "title": "详情组件",
@@ -1488,7 +1488,7 @@
           },
           "children": [
             {
-              "path": "/assembly/t-detail/base",
+              "path": "/assembly/lw-detail/base",
               "name": "baseTDetail",
               "component": "/tuiplus/LwDetail/base/index",
               "meta": {
@@ -1502,7 +1502,7 @@
               }
             },
             {
-              "path": "/assembly/t-detail/border",
+              "path": "/assembly/lw-detail/border",
               "name": "borderTDetail",
               "component": "/tuiplus/LwDetail/border/index",
               "meta": {
@@ -1516,7 +1516,7 @@
               }
             },
             {
-              "path": "/assembly/t-detail/descColumn",
+              "path": "/assembly/lw-detail/descColumn",
               "name": "descColumn",
               "component": "/tuiplus/LwDetail/descColumn/index",
               "meta": {
@@ -1530,7 +1530,7 @@
               }
             },
             {
-              "path": "/assembly/t-detail/dictionaryEcho",
+              "path": "/assembly/lw-detail/dictionaryEcho",
               "name": "dictionaryEcho",
               "component": "/tuiplus/LwDetail/dictionaryEcho/index",
               "meta": {
@@ -1544,7 +1544,7 @@
               }
             },
             {
-              "path": "/assembly/t-detail/slotName",
+              "path": "/assembly/lw-detail/slotName",
               "name": "slotNameTDetail",
               "component": "/tuiplus/LwDetail/slotName/index",
               "meta": {
@@ -1558,7 +1558,7 @@
               }
             },
             {
-              "path": "/assembly/t-detail/tooltip",
+              "path": "/assembly/lw-detail/tooltip",
               "name": "tooltip",
               "component": "/tuiplus/LwDetail/tooltip/index",
               "meta": {
@@ -1572,7 +1572,7 @@
               }
             },
             {
-              "path": "/assembly/t-detail/vertical",
+              "path": "/assembly/lw-detail/vertical",
               "name": "vertical",
               "component": "/tuiplus/LwDetail/vertical/index",
               "meta": {
@@ -1588,9 +1588,9 @@
           ]
         },
         {
-          "path": "/assembly/t-step-wizard",
+          "path": "/assembly/lw-step-wizard",
           "name": "LwStepWizard",
-          "redirect": "/assembly/t-step-wizard/index",
+          "redirect": "/assembly/lw-step-wizard/index",
           "meta": {
             "icon": "MessageBox",
             "title": "步骤组件",
@@ -1602,7 +1602,7 @@
           },
           "children": [
             {
-              "path": "/assembly/t-step-wizard/index",
+              "path": "/assembly/lw-step-wizard/index",
               "name": "baseTDetail",
               "component": "/tuiplus/LwStepWizard/index",
               "meta": {
@@ -1616,7 +1616,7 @@
               }
             },
             {
-              "path": "/assembly/t-step-wizard/demo",
+              "path": "/assembly/lw-step-wizard/demo",
               "name": "borderTDetail",
               "component": "/tuiplus/LwStepWizard/demo",
               "meta": {

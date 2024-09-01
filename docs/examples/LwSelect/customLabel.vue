@@ -1,14 +1,14 @@
 <template>
   <lw-layout-page>
     <lw-layout-page-item>
-      <t-select
+      <lw-select
         placeholder="自定义显示下拉项label"
         v-model="selectVlaue"
         :optionSource="stepList"
         valueCustom="label"
         customLabel="`${_item.label}（${_item.id}）`"
         @change="selectChange"
-      ></t-select>
+      ></lw-select>
     </lw-layout-page-item>
   </lw-layout-page>
 </template>

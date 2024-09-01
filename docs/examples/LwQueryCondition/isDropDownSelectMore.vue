@@ -75,8 +75,8 @@ let state: any = reactive({
       }
     },
     date2: {
-      label: "t-date-picker",
-      comp: "t-date-picker",
+      label: "lw-date-picker",
+      comp: "lw-date-picker",
       bind: {
         type: "daterange",
         isPickerOptions: true
@@ -101,7 +101,7 @@ const moreCheckList = computed(() => {
     },
     {
       label: "爱好",
-      comp: "t-select",
+      comp: "lw-select",
       prop: "hobby",
       bind: { multiple: true, optionSource: state.hobbyList, valueCustom: "value" },
       isSelfCom: true

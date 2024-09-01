@@ -1,7 +1,7 @@
 <template>
   <lw-layout-page>
     <lw-layout-page-item>
-      <t-select-table
+      <lw-select-table
         :table="state.table"
         :columns="state.table.columns"
         :max-height="400"
@@ -9,7 +9,7 @@
         :keywords="{ label: 'materialName', value: 'materialCode' }"
         @radioChange="radioChange"
         @page-change="pageChange"
-      ></t-select-table>
+      ></lw-select-table>
     </lw-layout-page-item>
   </lw-layout-page>
 </template>

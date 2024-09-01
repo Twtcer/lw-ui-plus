@@ -9,11 +9,11 @@
       <div class="box_content">
         <div class="box_flex">
           <div>选择日期</div>
-          <t-date-picker v-model="date" :size="size" @change="change($event, 'date', date)" />
+          <lw-date-picker v-model="date" :size="size" @change="change($event, 'date', date)" />
         </div>
         <div class="box_flex">
           <div>选择周</div>
-          <t-date-picker
+          <lw-date-picker
             v-model="date1"
             :size="size"
             type="week"
@@ -22,7 +22,7 @@
         </div>
         <div class="box_flex">
           <div>选择月</div>
-          <t-date-picker
+          <lw-date-picker
             v-model="date2"
             :size="size"
             type="month"
@@ -31,7 +31,7 @@
         </div>
         <div class="box_flex">
           <div>选择年</div>
-          <t-date-picker
+          <lw-date-picker
             v-model="date3"
             :size="size"
             type="year"
@@ -40,7 +40,7 @@
         </div>
         <div class="box_flex">
           <div>选择日期-快捷方式</div>
-          <t-date-picker
+          <lw-date-picker
             v-model="date4"
             :size="size"
             isPickerOptions
@@ -49,7 +49,7 @@
         </div>
         <div class="box_flex">
           <div>选择日期&时间</div>
-          <t-date-picker
+          <lw-date-picker
             v-model="date5"
             type="datetime"
             @change="change($event, 'datetime', date5)"
@@ -57,7 +57,7 @@
         </div>
         <div class="box_flex">
           <div>快捷方式-选择日期&时间</div>
-          <t-date-picker
+          <lw-date-picker
             v-model="date6"
             type="datetime"
             isPickerOptions

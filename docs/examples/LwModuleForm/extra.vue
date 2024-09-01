@@ -1,7 +1,7 @@
 <template>
   <lw-layout-page class="t_module_form_demo">
     <lw-layout-page-item>
-      <t-module-form
+      <lw-module-form
         title="Title右侧插槽使用"
         ref="sourceForm"
         :formOpts="formOpts"
@@ -12,7 +12,7 @@
           <el-button type="success">成功按钮</el-button>
           <el-button type="danger">信息按钮</el-button>
         </template>
-      </t-module-form>
+      </lw-module-form>
     </lw-layout-page-item>
   </lw-layout-page>
 </template>

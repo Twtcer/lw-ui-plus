@@ -132,7 +132,7 @@ const opts = ref({
       return <div style="color:red">新增项条件</div>
     },
     placeholder: "选择第一条数据才新增",
-    comp: "t-select",
+    comp: "lw-select",
     isSelfCom: true,
     bind: {
       valueCustom: "id",
@@ -153,14 +153,14 @@ const opts = ref({
   },
   date1: {
     label: "日期组件使用",
-    comp: "t-date-picker",
+    comp: "lw-date-picker",
     bind: {
       isPickerOptions: true
     }
   },
   date: {
     label: "创建时间",
-    comp: "t-date-picker",
+    comp: "lw-date-picker",
     span: 2,
     bind: {
       type: "daterange"

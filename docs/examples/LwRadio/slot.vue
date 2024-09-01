@@ -3,27 +3,27 @@
     <lw-layout-page-item>
       <div>
         <h4>自定义单个选项插槽</h4>
-        <t-radio v-model="value" :options="options" size="large">
+        <lw-radio v-model="value" :options="options" size="large">
           <template #mySlot="scope">
             <div>自定义单个选项插槽---{{ scope.label }}---{{ scope.value }}</div>
           </template>
-        </t-radio>
+        </lw-radio>
       </div>
       <div>
         <h4>默认插槽</h4>
-        <t-radio v-model="value2" :options="options2" size="large">
+        <lw-radio v-model="value2" :options="options2" size="large">
           <el-radio value="上海" />
           <el-radio value="北京" />
           <el-radio value="广州" />
           <el-radio value="深圳" />
-        </t-radio>
+        </lw-radio>
         <br />
-        <t-radio v-model="value2" :options="options2" size="large">
+        <lw-radio v-model="value2" :options="options2" size="large">
           <el-radio-button value="上海" />
           <el-radio-button value="北京" />
           <el-radio-button value="广州" />
           <el-radio-button value="深圳" />
-        </t-radio>
+        </lw-radio>
       </div>
     </lw-layout-page-item>
   </lw-layout-page>

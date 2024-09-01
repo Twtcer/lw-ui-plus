@@ -9,7 +9,7 @@
       </el-radio-group>
     </lw-layout-page-item>
     <lw-layout-page-item>
-      <t-detail :descData="DataSource.descData" :descColumn="descColumn" />
+      <lw-detail :descData="DataSource.descData" :descColumn="descColumn" />
     </lw-layout-page-item>
   </lw-layout-page>
 </template>

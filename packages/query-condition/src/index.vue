@@ -32,7 +32,7 @@
       <template v-if="opt.isSelfCom">
         <component
           :is="opt.comp"
-          :ref="opt.comp === 't-select-table' ? (el: any) => handleRef(el, i) : ''"
+          :ref="opt.comp === 'lw-select-table' ? (el: any) => handleRef(el, i) : ''"
           v-model="queryState.form[opt.dataIndex]"
           :placeholder="opt.placeholder || getPlaceholder(opt)"
           v-bind="

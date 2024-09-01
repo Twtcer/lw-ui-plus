@@ -4,14 +4,14 @@
       <div class="box_content">
         <div class="box_flex">
           <div>插槽使用及自定义日期面板</div>
-          <t-date-picker v-model="date" @change="change">
+          <lw-date-picker v-model="date" @change="change">
             <template #default="cell">
               <div class="cell_slot" :class="{ current: cell.isCurrent }">
                 <span class="customize_text">{{ cell.text }}</span>
                 <span v-if="isHoliday(cell)" class="slot_holiday" />
               </div>
             </template>
-          </t-date-picker>
+          </lw-date-picker>
         </div>
       </div>
     </lw-layout-page-item>

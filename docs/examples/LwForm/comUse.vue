@@ -1,7 +1,7 @@
 <template>
   <lw-layout-page>
     <lw-layout-page-item>
-      <t-form
+      <lw-form
         ref="TFormDemo"
         v-model="formOpts.ref"
         :formOpts="formOpts"
@@ -110,7 +110,7 @@ const formOpts: any = reactive({
       value: "sex",
       placeholder: "TSelect单选",
       type: "select-arr",
-      comp: "t-select",
+      comp: "lw-select",
       ref: "adioSelect",
       isSelfCom: true,
       bind: { optionSource: sexList, valueCustom: "value" }
@@ -120,7 +120,7 @@ const formOpts: any = reactive({
       value: "status",
       placeholder: "TSelect单选",
       type: "select-arr",
-      comp: "t-select",
+      comp: "lw-select",
       isSelfCom: true,
       bind: { optionSource: statusList, valueCustom: "value" }
     },
@@ -128,7 +128,7 @@ const formOpts: any = reactive({
       label: "爱好",
       value: "hobby",
       placeholder: "TSelect多选",
-      comp: "t-select",
+      comp: "lw-select",
       isSelfCom: true,
       bind: { multiple: true, optionSource: hobbyList, valueCustom: "value" }
     },
@@ -136,7 +136,7 @@ const formOpts: any = reactive({
       label: "爱好1",
       value: "hobby1",
       placeholder: "TSelect多选",
-      comp: "t-select",
+      comp: "lw-select",
       isSelfCom: true,
       bind: { multiple: true, optionSource: hobbyList, valueCustom: "value" }
     },
@@ -145,7 +145,7 @@ const formOpts: any = reactive({
       value: "createDate",
       placeholder: "TDatePicker选择年份",
       bind: { type: "year" },
-      comp: "t-date-picker",
+      comp: "lw-date-picker",
       eventHandle: {
         change: val => createDateChange(val)
       }
@@ -154,31 +154,31 @@ const formOpts: any = reactive({
       label: "日期",
       value: "date",
       placeholder: "TDatePicker选择日期",
-      comp: "t-date-picker"
+      comp: "lw-date-picker"
     },
     {
       label: "月份范围",
       value: "valDate1",
-      comp: "t-date-picker",
+      comp: "lw-date-picker",
       bind: { type: "monthrange", isPickerOptions: true }
     },
     {
       label: "日期范围",
       value: "valDate2",
-      comp: "t-date-picker",
+      comp: "lw-date-picker",
       bind: { type: "daterange", isPickerOptions: true }
     },
     {
       label: "时间范围",
       value: "valDate3",
-      comp: "t-date-picker",
+      comp: "lw-date-picker",
       bind: { type: "datetimerange", isPickerOptions: true }
     },
     {
       label: "虚拟列表",
       value: "hobby2",
       placeholder: "TSelect虚拟列表",
-      comp: "t-select",
+      comp: "lw-select",
       isSelfCom: true,
       bind: { useVirtual: true, optionSource: stepList }
     },
@@ -200,8 +200,8 @@ const formOpts: any = reactive({
     {
       label: "下拉选择表格-单选",
       value: "deptCode",
-      placeholder: "t-select-table单选使用",
-      comp: "t-select-table",
+      placeholder: "lw-select-table单选使用",
+      comp: "lw-select-table",
       isSelfCom: true,
       bind: {
         isKeyup: true,
@@ -224,8 +224,8 @@ const formOpts: any = reactive({
     {
       label: "下拉选择表格-多选",
       value: "createDeptCode",
-      placeholder: "t-select-table多选使用",
-      comp: "t-select-table",
+      placeholder: "lw-select-table多选使用",
+      comp: "lw-select-table",
       isSelfCom: true,
       bind: {
         multiple: true,

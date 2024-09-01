@@ -6,7 +6,7 @@
       <el-button type="primary" @click="onDisabled">禁用输入框</el-button>
     </lw-layout-page-item>
     <el-dialog :title="title" width="40%" v-model="dialogSelectEnt" draggable>
-      <t-form ref="TFormDemo" v-model="formOpts.ref" :formOpts="formOpts" :widthSize="1" />
+      <lw-form ref="TFormDemo" v-model="formOpts.ref" :formOpts="formOpts" :widthSize="1" />
       <template #footer>
         <div class="dialog-footer">
           <el-button @click="dialogSelectEnt = false">取 消</el-button>
@@ -138,7 +138,7 @@ const formOpts: any = reactive({
       label: "性别",
       value: "sex",
       placeholder: "TSelect单选",
-      comp: "t-select",
+      comp: "lw-select",
       isSelfCom: true,
       bind: () => {
         return {
@@ -152,7 +152,7 @@ const formOpts: any = reactive({
       label: "状态",
       value: "status",
       placeholder: "TSelect单选",
-      comp: "t-select",
+      comp: "lw-select",
       isSelfCom: true,
       bind: () => {
         return {
@@ -166,7 +166,7 @@ const formOpts: any = reactive({
       label: "爱好",
       value: "hobby",
       placeholder: "TSelect多选",
-      comp: "t-select",
+      comp: "lw-select",
       isSelfCom: true,
       bind: () => {
         return {

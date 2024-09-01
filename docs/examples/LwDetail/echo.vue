@@ -1,7 +1,7 @@
 <template>
   <lw-layout-page class="t_detail_demo">
     <lw-layout-page-item>
-      <t-detail
+      <lw-detail
         :listTypeInfo="DataSource.listTypeInfo"
         :dataList="DataSource.dataList"
         :descData="DataSource.descData"
@@ -12,7 +12,7 @@
           <span>--</span>
           <span>{{ DataSource.dataList.planStocktakeUserName }}</span>
         </template>
-      </t-detail>
+      </lw-detail>
     </lw-layout-page-item>
   </lw-layout-page>
 </template>

@@ -1,7 +1,7 @@
 <template>
   <lw-layout-page class="t-module-form_demo">
     <lw-layout-page-item>
-      <t-module-form
+      <lw-module-form
         title="模块表单组件运用"
         subTitle="模块表单222"
         ref="sourceForm"
@@ -50,7 +50,7 @@
           <el-button type="danger">线路信息</el-button>
           <el-button type="primary" @click="resetForm">重置</el-button>
         </template>
-      </t-module-form>
+      </lw-module-form>
     </lw-layout-page-item>
   </lw-layout-page>
 </template>
@@ -254,7 +254,7 @@ const formOpts: any = reactive({
           value: "desc",
           type: "textarea",
           comp: "el-input",
-          className: "t-form-block",
+          className: "lw-form-block",
           widthSize: 1
         }
       ],
@@ -373,7 +373,7 @@ const formOpts: any = reactive({
           value: "desc",
           type: "textarea",
           comp: "el-input",
-          className: "t-form-block"
+          className: "lw-form-block"
         }
       ],
       // 相关列表

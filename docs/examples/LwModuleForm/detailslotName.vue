@@ -1,7 +1,7 @@
 <template>
   <lw-layout-page class="t_module_form_demo">
     <lw-layout-page-item>
-      <t-module-form
+      <lw-module-form
         title="模块详情组件"
         subTitle="value插槽使用"
         ref="sourceDetail"
@@ -12,7 +12,7 @@
         <template #loadKgPerCar>
           <span style="color: red">value自定义插槽</span>
         </template>
-      </t-module-form>
+      </lw-module-form>
     </lw-layout-page-item>
   </lw-layout-page>
 </template>

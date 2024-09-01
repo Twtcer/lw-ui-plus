@@ -84,8 +84,6 @@ LwSelectTable/multipleDefaultSelectVal
 LwSelectTable/multiple
 :::
 
-
-
 ### 开启分页功能（支持翻页选中且默认开启）
 
 :::demo `isShowPagination` 开启分页功能；`@page-change`页码改变事件;传出当前选中的页码；`table` 数据源及表头信息；`keywords` 选项中的 value（选项的值）,label(选项的标签)
@@ -136,13 +134,13 @@ LwSelectTable/isShowInput
 ### 1、代码示例
 
 ```html
-<t-select-table
+<lw-select-table
   :table="table"
   :columns="table.columns"
   :max-height="400"
   :keywords="{ label: 'name', value: 'id' }"
   @radioChange="radioChange"
-></t-select-table>
+></lw-select-table>
 ```
 
 ### 2、配置参数（Attributes）继承 el-table 及 el-select 属性
@@ -181,7 +179,7 @@ LwSelectTable/isShowInput
 | inputWidth          | input 输入框的宽度(单位：px) 若设置 0，宽度 100%                                        | Number/String             | 550        |
 | inputAttr           | 继承所有 el-input 的属性                                                                | Object                    | -          |
 | isKeyup             | 单选是否开启键盘事件                                                                    | Boolean                   | false      |
-| isShowQuery         | 是否允许配置查询条件(继承 LwQueryCondition 的所有属性、事件、插槽)                       | Boolean                   | false      |
+| isShowQuery         | 是否允许配置查询条件(继承 LwQueryCondition 的所有属性、事件、插槽)                      | Boolean                   | false      |
 | isShowBlurBtn       | 条件查询组件是否显示隐藏下拉框按钮                                                      | Boolean                   | false      |
 | btnBind             | 显示下拉框按钮配置，继承`el-button`所有属性;`默认值{type:'danger',btnTxt:'关闭下拉框'}` | Object                    | -          |
 | isClearQuery        | 关闭下拉框是否清空搜索条件                                                              | Boolean                   | false      |

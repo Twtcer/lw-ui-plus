@@ -17,7 +17,7 @@
     v-else
     ref="selectRef"
     :model-value="multiple ? state.defaultValue : selectDefaultLabel"
-    popper-class="t-select-table"
+    popper-class="lw-select-table"
     :style="{ width: selectWidth ? `${selectWidth}px` : '100%' }"
     :multiple="multiple"
     v-bind="selectAttr"
@@ -762,7 +762,7 @@ defineExpose({
 </script>
 
 <style lang="scss">
-.t-select-table {
+.lw-select-table {
   // 单选样式
   .radioStyle {
     .el-radio {

@@ -1,7 +1,7 @@
 <template>
   <lw-layout-page>
     <lw-layout-page-item>
-      <t-select
+      <lw-select
         placeholder="请选择工序（多选分页）"
         v-model="selectVlaue"
         :optionSource="stepList"

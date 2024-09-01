@@ -13,8 +13,8 @@
           @change="handleChange"
         />
       </div>
-      <t-button style="margin-top: 15px" color="#626aef" :time="time" @click="exportExcel"
-        >导出</t-button
+      <lw-button style="margin-top: 15px" color="#626aef" :time="time" @click="exportExcel"
+        >导出</lw-button
       >
     </lw-layout-page-item>
   </lw-layout-page>

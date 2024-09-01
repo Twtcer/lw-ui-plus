@@ -1,12 +1,13 @@
 <template>
   <lw-layout-page>
     <lw-layout-page-item>
+      <client-only>
       <h3>Boolean类型</h3>
       <el-button @click="isEmptyBn = !isEmptyBn">切换状态</el-button>
-      <t-chart :options="options" :isEmpty="isEmptyBn" style="width: 100%; height: 500px" />
+      <lw-chart :options="options" :isEmpty="isEmptyBn" style="width: 100%; height: 500px" />
       <el-button @click="addData()">增加数据</el-button>
       <h3>Function类型</h3>
-      <t-chart
+      <lw-chart
         :options="options"
         :isEmpty="isEmptyFn"
         image="/lw-ui-plus/img/hero.jpg"
@@ -15,11 +16,12 @@
         style="width: 100%; height: 500px"
       />
       <h3>空状态插槽</h3>
-      <t-chart :options="options" :isEmpty="isEmptyFn" style="width: 100%; height: 500px">
+      <lw-chart :options="options" :isEmpty="isEmptyFn" style="width: 100%; height: 500px">
         <template #empty>
           <div style="text-align: center; margin-top: 100px; font-size: 32px">自定义空状态插槽</div>
         </template>
-      </t-chart>
+      </lw-chart>
+    </client-only>
     </lw-layout-page-item>
   </lw-layout-page>
 </template>

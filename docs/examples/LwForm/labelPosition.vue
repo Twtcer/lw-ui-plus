@@ -6,7 +6,7 @@
         <el-radio-button value="right">右对齐</el-radio-button>
         <el-radio-button value="top">顶部对齐</el-radio-button>
       </el-radio-group>
-      <t-form ref="TFormDemo" v-model="formOpts.ref" :formOpts="formOpts" :widthSize="1" />
+      <lw-form ref="TFormDemo" v-model="formOpts.ref" :formOpts="formOpts" :widthSize="1" />
     </lw-layout-page-item>
   </lw-layout-page>
 </template>

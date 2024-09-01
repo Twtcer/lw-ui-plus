@@ -1,6 +1,6 @@
 <template>
-  <div class="t-chart" v-bind="$attrs">
-    <div v-show="!formatEmpty" class="t-chart-container" :id="id" ref="echartRef" />
+  <div class="lw-chart" v-bind="$attrs">
+    <div v-show="!formatEmpty" class="lw-chart-container" :id="id" ref="echartRef" />
     <slot v-if="formatEmpty" name="empty">
       <el-empty v-bind="$attrs" :description="description" />
     </slot>
@@ -130,7 +130,7 @@ onBeforeUnmount(() => {
 </script>
 
 <style lang="scss" scoped>
-.t-chart {
+.lw-chart {
   position: relative;
   width: 100%;
   height: 100%;

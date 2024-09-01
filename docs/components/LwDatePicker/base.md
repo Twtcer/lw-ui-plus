@@ -39,7 +39,7 @@ LwDatePicker/slotCustomize
 > LwDatePicker 日期组件 **代码示例：**
 
 ```html
-<t-date-picker v-model="date" />
+<lw-date-picker v-model="date" />
 ```
 
 ### Attributes 继承 DatePicker DateTimePicker 的 Attributes

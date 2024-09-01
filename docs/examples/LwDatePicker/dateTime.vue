@@ -4,7 +4,7 @@
       <div class="box_content">
         <div class="box_flex">
           <div>选择日期&时间范围</div>
-          <t-date-picker
+          <lw-date-picker
             v-model="date"
             type="datetimerange"
             @change="change($event, 'datetimerange', date)"
@@ -12,7 +12,7 @@
         </div>
         <div class="box_flex">
           <div>快捷方式-选择日期&时间范围</div>
-          <t-date-picker
+          <lw-date-picker
             v-model="date1"
             type="datetimerange"
             isPickerOptions
@@ -21,7 +21,7 @@
         </div>
         <div class="box_flex">
           <div>选择日期&时间范围--默认时间设置及自定义分隔符号</div>
-          <t-date-picker
+          <lw-date-picker
             v-model="date2"
             type="datetimerange"
             range-separator="To"

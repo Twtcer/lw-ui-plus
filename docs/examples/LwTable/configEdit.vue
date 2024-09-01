@@ -101,7 +101,7 @@ let state: any = reactive({
         configEdit: {
           label: "装炉位置",
           isSelfCom: true,
-          editComponent: "t-select",
+          editComponent: "lw-select",
           bind: {
             valueCustom: "key",
             labelCustom: "label",
@@ -160,13 +160,13 @@ let state: any = reactive({
       },
       {
         prop: "startDate",
-        label: "t-date-picker",
+        label: "lw-date-picker",
         width: "160",
         canEdit: true,
         configEdit: {
           label: "生产日期",
           type: "date",
-          editComponent: "t-date-picker",
+          editComponent: "lw-date-picker",
           bind: {
             isPickerOptions: true
           }

@@ -1,7 +1,7 @@
 <template>
   <lw-layout-page>
     <lw-layout-page-item>
-      <t-select-table
+      <lw-select-table
         ref="selectTable"
         :table="table"
         :columns="table.columns"
@@ -12,7 +12,7 @@
         @input-blur="blurInput"
         @input-click="clickInput"
         @radioChange="radioChange"
-      ></t-select-table>
+      ></lw-select-table>
     </lw-layout-page-item>
   </lw-layout-page>
 </template>

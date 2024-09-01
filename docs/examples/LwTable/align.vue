@@ -14,8 +14,12 @@
         :isShowPagination="false"
       >
         <template #toolbar>
-          <el-button size="default" type="danger" @click="setDateLeft">点击{{ setDate }}左对齐</el-button>
-          <el-button size="default" type="primary" @click="setNameRight">点击{{ setName }}右对齐</el-button>
+          <el-button size="default" type="danger" @click="setDateLeft"
+            >点击{{ setDate }}左对齐</el-button
+          >
+          <el-button size="default" type="primary" @click="setNameRight"
+            >点击{{ setName }}右对齐</el-button
+          >
         </template>
       </lw-table>
     </lw-layout-page-item>

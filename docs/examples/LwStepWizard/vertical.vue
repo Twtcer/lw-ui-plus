@@ -1,7 +1,7 @@
 <template>
   <lw-layout-page class="t_step-wizard_demo">
     <lw-layout-page-item>
-      <t-step-wizard
+      <lw-step-wizard
         style="min-height: 100px"
         :stepData="stepData"
         :active="active"
@@ -12,7 +12,7 @@
         <template #first>第一步</template>
         <template #second>第二步骤</template>
         <template #third>第三步骤</template>
-      </t-step-wizard>
+      </lw-step-wizard>
     </lw-layout-page-item>
   </lw-layout-page>
 </template>
