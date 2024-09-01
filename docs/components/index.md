@@ -28,7 +28,7 @@ import "element-plus/theme-chalk/dark/css-vars.css"
 import locale from "element-plus/es/locale/lang/zh-cn"
 // element-plus图标
 import * as ElementPlusIconsVue from "@element-plus/icons-vue"
-import TuiPlus from "@twtcer/lw-ui-plus"
+import LwUiPlus from "@twtcer/lw-ui-plus"
 import "@twtcer/lw-ui-plus/lib/style.css"
 const app = createApp(App)
 // 注册所有图标
@@ -40,7 +40,7 @@ app.use(ElementPlus, {
   locale // 语言设置
   // size: Cookies.get('size') || 'medium' // 尺寸设置
 })
-app.use(TuiPlus)
+app.use(LwUiPlus)
 app.mount("#app")
 ```
 ### 按需引入
@@ -116,7 +116,7 @@ compilerOptions：{
 ```
 
 ### Git 提交规范（PR 提交规范）
-
+ 
 - `ci`: ci 配置文件和脚本的变动;
 - `chore`: 构建系统或辅助工具的变动;
 - `fix`: 代码 BUG 修复;

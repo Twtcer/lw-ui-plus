@@ -191,7 +191,7 @@
     },
     {
       "path": "/lw-ui-plus",
-      "name": "TuiPlus",
+      "name": "LwUiPlus",
       "redirect": "/lw-ui-plus/base",
       "meta": {
         "icon": "Tickets",
