@@ -1,5 +1,5 @@
 {
-  "name": "lw-ui-plus",
+  "name": "@twtcer/lw-ui-plus",
   "version": "1.0.0",
   "description": "基于Vue3|Element-plus|Vite|Ts|二开组件|文档",
   "author": "twtcer",
@@ -23,6 +23,7 @@
     "build:es": "vite build",
     "build:browser": "vite -f iife build",
     "deploy:doc": "deploy.sh",
+    "publish": "npm publish --access public",
     "lib:prettier": "prettier --write \"packages/**/*.{js,ts,json,tsx,css,less,scss,vue,html,md}\"",
     "docs:prettier": "prettier --write \"docs/**/*.{js,ts,json,tsx,css,less,scss,vue,html,md}\"",
     "docs:dev": "vitepress dev docs",
