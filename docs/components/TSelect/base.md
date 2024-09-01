@@ -1,72 +1,72 @@
-# TSelect 下拉选择组件
+# LwSelect 下拉选择组件
 
 ### 单选
 
 :::demo
-TSelect/single
+LwSelect/single
 :::
 
 ### 自定义显示下拉项 label
 
 :::demo 设置 customLabel 字符串表达式：`${_item.label}（${_item.id}）`;注意：表达式必须以`_item`开头，且后面的属性必须存在`optionSource`中
-TSelect/customLabel
+LwSelect/customLabel
 :::
 
 ### 单选分页
 
 :::demo 在组件中配置：`isShowPagination` 及 `paginationOption`
-TSelect/singePagination
+LwSelect/singePagination
 :::
 
 ### 单选禁用
 
 :::demo 在组件中数据源：`optionSource` 不满足条件时，新增`disabled`属性，设置为`true`即可
-TSelect/singleDisabled
+LwSelect/singleDisabled
 :::
 
 ### 多选禁用
 
 :::demo 在组件中数据源：`optionSource` 不满足条件时，新增`disabled`属性，设置为`true`即可
-TSelect/multipleDisabled
+LwSelect/multipleDisabled
 :::
 
 ### 多选
 
 :::demo
-TSelect/multiple
+LwSelect/multiple
 :::
 
 ### 多选--隐藏多余标签的多选
 
 :::demo
-TSelect/multipleCollapseTags
+LwSelect/multipleCollapseTags
 :::
 
 ### 多选分页
 
 :::demo 在组件中配置：`isShowPagination` 及 `paginationOption`；**`多选不支持翻页选中功能`**
-TSelect/pagination
+LwSelect/pagination
 :::
 
 ### 虚拟列表--单选
 
 :::demo 在组件中配置：`use-virtual` 即可
-TSelect/useVirtual
+LwSelect/useVirtual
 :::
 
 ### 虚拟列表--多选
 
 :::demo 在组件中配置：`use-virtual` 即可
-TSelect/useVirtualMultiple
+LwSelect/useVirtualMultiple
 :::
 
 ### 虚拟列表--隐藏多余标签的多选
 
 :::demo
-TSelect/useVirtualCollapseTags
+LwSelect/useVirtualCollapseTags
 :::
 
-### TSelect Attributes
+### LwSelect Attributes
 
 ---
 

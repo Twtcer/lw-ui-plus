@@ -38,11 +38,11 @@
   </div>
 </template>
 
-<script setup lang="ts" name="TAdaptivePage">
-import TLayoutPage from "../../layout-page/src/index.vue"
-import TLayoutPageItem from "../../layout-page-item/src/index.vue"
-import TTable from "../../table/src/index.vue"
-import TQueryCondition from "../../query-condition/src/index.vue"
+<script setup lang="ts" name="LwAdaptivePage">
+import LwLayoutPage from "../../layout-page/src/index.vue"
+import LwLayoutPageItem from "../../layout-page-item/src/index.vue"
+import LwTable from "../../table/src/index.vue"
+import LwQueryCondition from "../../query-condition/src/index.vue"
 import { getCurrentInstance, onMounted, ref, useSlots } from "vue"
 defineProps({
   leftWidth: {

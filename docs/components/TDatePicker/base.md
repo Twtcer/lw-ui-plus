@@ -1,42 +1,42 @@
-# TDatePicker 日期组件
+# LwDatePicker 日期组件
 
 ---
 
 ### 单个日期输出
 
 ::: demo
-TDatePicker/singleDate
+LwDatePicker/singleDate
 :::
 
 ### 日期范围选择
 
 ::: demo
-TDatePicker/dateRange
+LwDatePicker/dateRange
 :::
 
 ### 月份范围选择
 
 ::: demo
-TDatePicker/month
+LwDatePicker/month
 :::
 
 ### 日期&时间范围选择
 
 ::: demo
-TDatePicker/dateTime
+LwDatePicker/dateTime
 :::
 
 ### 插槽使用及自定义日期面板
 
 ::: demo
-TDatePicker/slotCustomize
+LwDatePicker/slotCustomize
 :::
 
-### TDatePicker 参数配置
+### LwDatePicker 参数配置
 
 ### 简介：基于 Element-plus DatePicker DateTimePicker 组件的二次封装，取决于 type 值
 
-> TDatePicker 日期组件 **代码示例：**
+> LwDatePicker 日期组件 **代码示例：**
 
 ```html
 <t-date-picker v-model="date" />

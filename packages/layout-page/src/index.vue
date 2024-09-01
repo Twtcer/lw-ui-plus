@@ -13,7 +13,7 @@
     </div>
   </div>
 </template>
-<script setup lang="ts" name="TLayoutPage">
+<script setup lang="ts" name="LwLayoutPage">
 import { onActivated, onMounted, ref, watch } from "vue"
 const props = defineProps({
   keepScrollDisabled: {

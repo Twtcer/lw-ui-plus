@@ -1,66 +1,66 @@
-# TDetail 详情组件
+# LwDetail 详情组件
 
 ### 基础用法
 
 :::demo
-TDetail/base
+LwDetail/base
 :::
 
 ### 加边框
 
 :::demo
-TDetail/border
+LwDetail/border
 :::
 
 ### 每行展示多少项
 
 :::demo
-TDetail/descColumn
+LwDetail/descColumn
 :::
 
 ### 垂直布局
 
 :::demo
-TDetail/vertical
+LwDetail/vertical
 :::
 
 ### 插槽显示
 
 :::demo
-TDetail/slotName
+LwDetail/slotName
 :::
 
 ### 字典回显
 
 :::demo 需要配置：`listTypeInfo`和`dataList`
-TDetail/echo
+LwDetail/echo
 :::
 
 ### tooltip 显示
 
 :::demo
-TDetail/tooltip
+LwDetail/tooltip
 :::
 
 ### label不显示冒号
 
 :::demo
-TDetail/isColon
+LwDetail/isColon
 :::
 
 ### label文字不加粗
 
 :::demo
-TDetail/isLabelBold
+LwDetail/isLabelBold
 :::
 
 ### label render显示
 
 :::demo
-TDetail/labelRender
+LwDetail/labelRender
 :::
 
-### TDetail Attributes
+### LwDetail Attributes
 
 ---
 

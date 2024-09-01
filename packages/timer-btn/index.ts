@@ -1,5 +1,5 @@
 import TimerBtn from "./src/index.vue"
 import { withInstall } from "../withInstall"
 
-const TTimerBtn = withInstall(TimerBtn)
-export default TTimerBtn
+const LwTimerBtn = withInstall(TimerBtn)
+export default LwTimerBtn

@@ -1,39 +1,39 @@
-# TCheckbox 多选框组
+# LwCheckbox 多选框组
 
 ### 基础用法
 
 :::demo 基于 Element-plus 的 `el-checkbox` 二次封装的**多选框**，继承原组件的所有属性
-TCheckbox/base
+LwCheckbox/base
 :::
 
 ### 尺寸大小
 
 :::demo 通过 size 属性用来控制多选框的大小
-TCheckbox/size
+LwCheckbox/size
 :::
 
 ### 按钮样式
 
 :::demo 你可以让多选框看起来像一个按钮一样, 只需要将`type`属性设置为 button
-TCheckbox/button
+LwCheckbox/button
 :::
 
 ### 带有边框
 
 :::demo 设置 border 属性为 true 可以渲染为带有边框的多选框。
-TCheckbox/border
+LwCheckbox/border
 :::
 
 ### 插槽使用及自定义
 
 :::demo 给选项添加 slot 属性，可以自定义单个插槽。也可以通过默认插槽，实现自定义 radio
-TCheckbox/slot
+LwCheckbox/slot
 :::
 
 ### 可选项
 
 :::demo 设置 props 属性，可设置 `value`, `label`, `disabled` 取值
-TCheckbox/props
+LwCheckbox/props
 :::
 
 ### 2、配置参数（Attributes）继承 el-checkbox Attributes

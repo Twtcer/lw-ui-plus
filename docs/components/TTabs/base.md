@@ -1,27 +1,27 @@
-# TTabs 组件
+# LwTabs 组件
 
 ### 基础用法
 
 :::demo
-TTabs/base
+LwTabs/base
 :::
 
 ### 卡片效果
 
 :::demo
-TTabs/card
+LwTabs/card
 :::
 
 ### 带有边框
 
 :::demo
-TTabs/border
+LwTabs/border
 :::
 
 ### 位置
 
 :::demo
-TTabs/position
+LwTabs/position
 :::
 
 ### 配置参数继承 el-tabs Attributes/events/插槽

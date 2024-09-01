@@ -385,7 +385,7 @@
       "children": [
         {
           "path": "/assembly/t-form",
-          "name": "TForm",
+          "name": "LwForm",
           "redirect": "/assembly/t-form/base",
           "meta": {
             "icon": "Tickets",
@@ -400,7 +400,7 @@
             {
               "path": "/assembly/t-form/base",
               "name": "baseDemo",
-              "component": "/TForm/base/index",
+              "component": "/LwForm/base/index",
               "meta": {
                 "icon": "Menu",
                 "title": "基本表单",
@@ -414,7 +414,7 @@
             {
               "path": "/assembly/t-form/comUse",
               "name": "comUse",
-              "component": "/TForm/comUse/index",
+              "component": "/LwForm/comUse/index",
               "meta": {
                 "icon": "Menu",
                 "title": "配合组件使用",
@@ -428,7 +428,7 @@
             {
               "path": "/assembly/t-form/echo",
               "name": "echo",
-              "component": "/TForm/echo/index",
+              "component": "/LwForm/echo/index",
               "meta": {
                 "icon": "Menu",
                 "title": "回显",
@@ -442,7 +442,7 @@
             {
               "path": "/assembly/t-form/eventHandle",
               "name": "eventHandle",
-              "component": "/TForm/eventHandle/index",
+              "component": "/LwForm/eventHandle/index",
               "meta": {
                 "icon": "Menu",
                 "title": "集成事件使用",
@@ -456,7 +456,7 @@
             {
               "path": "/assembly/t-form/isHideItem",
               "name": "isHideItem",
-              "component": "/TForm/isHideItem/index",
+              "component": "/LwForm/isHideItem/index",
               "meta": {
                 "icon": "Menu",
                 "title": "动态显示隐藏项",
@@ -470,7 +470,7 @@
             {
               "path": "/assembly/t-form/isTrim",
               "name": "isTrim",
-              "component": "/TForm/isTrim/index",
+              "component": "/LwForm/isTrim/index",
               "meta": {
                 "icon": "Menu",
                 "title": "去除空格",
@@ -484,7 +484,7 @@
             {
               "path": "/assembly/t-form/labelPosition",
               "name": "labelPosition",
-              "component": "/TForm/labelPosition/index",
+              "component": "/LwForm/labelPosition/index",
               "meta": {
                 "icon": "Menu",
                 "title": "对齐方式",
@@ -498,7 +498,7 @@
             {
               "path": "/assembly/t-form/labelRender",
               "name": "labelRenderForm",
-              "component": "/TForm/labelRender/index",
+              "component": "/LwForm/labelRender/index",
               "meta": {
                 "icon": "Menu",
                 "title": "自定义label",
@@ -512,7 +512,7 @@
             {
               "path": "/assembly/t-form/rules",
               "name": "rules",
-              "component": "/TForm/rules/index",
+              "component": "/LwForm/rules/index",
               "meta": {
                 "icon": "Menu",
                 "title": "规则校验",
@@ -526,7 +526,7 @@
             {
               "path": "/assembly/t-form/slotName",
               "name": "slotNameForm",
-              "component": "/TForm/slotName/index",
+              "component": "/LwForm/slotName/index",
               "meta": {
                 "icon": "Menu",
                 "title": "表单插槽渲染",
@@ -540,7 +540,7 @@
             {
               "path": "/assembly/t-form/textShow",
               "name": "textShow",
-              "component": "/TForm/textShow/index",
+              "component": "/LwForm/textShow/index",
               "meta": {
                 "icon": "Menu",
                 "title": "文本显示",
@@ -554,7 +554,7 @@
             {
               "path": "/assembly/t-form/widthSize",
               "name": "widthSize",
-              "component": "/TForm/widthSize/index",
+              "component": "/LwForm/widthSize/index",
               "meta": {
                 "icon": "Menu",
                 "title": "每行展示项",
@@ -569,7 +569,7 @@
         },
         {
           "path": "/assembly/t-select-table",
-          "name": "TSelectTable",
+          "name": "LwSelectTable",
           "redirect": "/assembly/t-select-table/radio",
           "meta": {
             "icon": "MessageBox",
@@ -584,7 +584,7 @@
             {
               "path": "/assembly/t-select-table/radio",
               "name": "radioSelectTable",
-              "component": "/TSelectTable/radio",
+              "component": "/LwSelectTable/radio",
               "meta": {
                 "icon": "Menu",
                 "title": "单选",
@@ -598,7 +598,7 @@
             {
               "path": "/assembly/t-select-table/radioKeyup",
               "name": "radioKeyupSelectTable",
-              "component": "/TSelectTable/radioKeyup",
+              "component": "/LwSelectTable/radioKeyup",
               "meta": {
                 "icon": "Menu",
                 "title": "单选-键盘事件",
@@ -612,7 +612,7 @@
             {
               "path": "/assembly/t-select-table/dynamic",
               "name": "dynamic",
-              "component": "/TSelectTable/dynamic",
+              "component": "/LwSelectTable/dynamic",
               "meta": {
                 "icon": "Menu",
                 "title": "单选--动态数据",
@@ -626,7 +626,7 @@
             {
               "path": "/assembly/t-select-table/dynamicMultiple",
               "name": "dynamicMultiple",
-              "component": "/TSelectTable/dynamicMultiple",
+              "component": "/LwSelectTable/dynamicMultiple",
               "meta": {
                 "icon": "Menu",
                 "title": "多选--动态",
@@ -640,7 +640,7 @@
             {
               "path": "/assembly/t-select-table/isShowFirstColumn",
               "name": "isShowFirstColumn",
-              "component": "/TSelectTable/isShowFirstColumn",
+              "component": "/LwSelectTable/isShowFirstColumn",
               "meta": {
                 "icon": "Menu",
                 "title": "不显示首列单选",
@@ -654,7 +654,7 @@
             {
               "path": "/assembly/t-select-table/radioDefaultSelectVal",
               "name": "radioDefaultSelectVal",
-              "component": "/TSelectTable/radioDefaultSelectVal",
+              "component": "/LwSelectTable/radioDefaultSelectVal",
               "meta": {
                 "icon": "Menu",
                 "title": "单选（默认选中）",
@@ -668,7 +668,7 @@
             {
               "path": "/assembly/t-select-table/multipleDefaultSelectVal",
               "name": "multipleDefaultSelectVal",
-              "component": "/TSelectTable/multipleDefaultSelectVal",
+              "component": "/LwSelectTable/multipleDefaultSelectVal",
               "meta": {
                 "icon": "Menu",
                 "title": "多选（默认选中）",
@@ -682,7 +682,7 @@
             {
               "path": "/assembly/t-select-table/multiple",
               "name": "selectTableMultiple",
-              "component": "/TSelectTable/multiple",
+              "component": "/LwSelectTable/multiple",
               "meta": {
                 "icon": "Menu",
                 "title": "多选",
@@ -696,7 +696,7 @@
             {
               "path": "/assembly/t-select-table/isShowPagination",
               "name": "isShowPagination",
-              "component": "/TSelectTable/isShowPagination",
+              "component": "/LwSelectTable/isShowPagination",
               "meta": {
                 "icon": "Menu",
                 "title": "分页功能",
@@ -710,7 +710,7 @@
             {
               "path": "/assembly/t-select-table/isShowQuery",
               "name": "isShowQuery",
-              "component": "/TSelectTable/isShowQuery",
+              "component": "/LwSelectTable/isShowQuery",
               "meta": {
                 "icon": "Menu",
                 "title": "显示查询条件",
@@ -724,7 +724,7 @@
             {
               "path": "/assembly/t-select-table/isShowQueryMultiple",
               "name": "isShowQueryMultiple",
-              "component": "/TSelectTable/isShowQueryMultiple",
+              "component": "/LwSelectTable/isShowQueryMultiple",
               "meta": {
                 "icon": "Menu",
                 "title": "是否显示下拉框",
@@ -738,7 +738,7 @@
             {
               "path": "/assembly/t-select-table/isShowQueryBtnBind",
               "name": "isShowQueryBtnBind",
-              "component": "/TSelectTable/isShowQueryBtnBind",
+              "component": "/LwSelectTable/isShowQueryBtnBind",
               "meta": {
                 "icon": "Menu",
                 "title": "按钮自定义",
@@ -752,7 +752,7 @@
             {
               "path": "/assembly/t-select-table/isShowQuerySpan",
               "name": "isShowQuerySpan",
-              "component": "/TSelectTable/isShowQuerySpan",
+              "component": "/LwSelectTable/isShowQuerySpan",
               "meta": {
                 "icon": "Menu",
                 "title": "样式布局配置",
@@ -767,7 +767,7 @@
         },
         {
           "path": "/assembly/t-table",
-          "name": "TTable",
+          "name": "LwTable",
           "redirect": "/assembly/t-table/base",
           "meta": {
             "icon": "Menu",
@@ -782,7 +782,7 @@
             {
               "path": "/assembly/t-table/base",
               "name": "baseTTable",
-              "component": "/TTable/base/index",
+              "component": "/LwTable/base/index",
               "meta": {
                 "icon": "Menu",
                 "title": "基本表格",
@@ -796,7 +796,7 @@
             {
               "path": "/assembly/t-table/border",
               "name": "border",
-              "component": "/TTable/border/index",
+              "component": "/LwTable/border/index",
               "meta": {
                 "icon": "Menu",
                 "title": "边框表格",
@@ -810,7 +810,7 @@
             {
               "path": "/assembly/t-table/columnSetting",
               "name": "columnSetting",
-              "component": "/TTable/columnSetting/index",
+              "component": "/LwTable/columnSetting/index",
               "meta": {
                 "icon": "Menu",
                 "title": "显示隐藏列",
@@ -824,7 +824,7 @@
             {
               "path": "/assembly/t-table/copy",
               "name": "copy",
-              "component": "/TTable/copy/index",
+              "component": "/LwTable/copy/index",
               "meta": {
                 "icon": "Menu",
                 "title": "单元格复制",
@@ -838,7 +838,7 @@
             {
               "path": "/assembly/t-table/filters",
               "name": "filters",
-              "component": "/TTable/filters/index",
+              "component": "/LwTable/filters/index",
               "meta": {
                 "icon": "Menu",
                 "title": "某列过滤",
@@ -852,7 +852,7 @@
             {
               "path": "/assembly/t-table/headMerge",
               "name": "headMerge",
-              "component": "/TTable/headMerge/index",
+              "component": "/LwTable/headMerge/index",
               "meta": {
                 "icon": "Menu",
                 "title": "多级表头",
@@ -866,7 +866,7 @@
             {
               "path": "/assembly/t-table/operator",
               "name": "operator",
-              "component": "/TTable/operator/index",
+              "component": "/LwTable/operator/index",
               "meta": {
                 "icon": "Menu",
                 "title": "表格操作",
@@ -880,7 +880,7 @@
             {
               "path": "/assembly/t-table/pagination",
               "name": "pagination",
-              "component": "/TTable/pagination/index",
+              "component": "/LwTable/pagination/index",
               "meta": {
                 "icon": "Menu",
                 "title": "表格分页",
@@ -894,7 +894,7 @@
             {
               "path": "/assembly/t-table/radio",
               "name": "radio",
-              "component": "/TTable/radio/index",
+              "component": "/LwTable/radio/index",
               "meta": {
                 "icon": "Menu",
                 "title": "单选",
@@ -908,7 +908,7 @@
             {
               "path": "/assembly/t-table/renderCol",
               "name": "renderCol",
-              "component": "/TTable/renderCol/index",
+              "component": "/LwTable/renderCol/index",
               "meta": {
                 "icon": "Menu",
                 "title": "render渲染",
@@ -922,7 +922,7 @@
             {
               "path": "/assembly/t-table/renderHeader",
               "name": "renderHeader",
-              "component": "/TTable/renderHeader/index",
+              "component": "/LwTable/renderHeader/index",
               "meta": {
                 "icon": "Menu",
                 "title": "自定义表头",
@@ -936,7 +936,7 @@
             {
               "path": "/assembly/t-table/selection",
               "name": "selection",
-              "component": "/TTable/selection/index",
+              "component": "/LwTable/selection/index",
               "meta": {
                 "icon": "Menu",
                 "title": "多选",
@@ -950,7 +950,7 @@
             {
               "path": "/assembly/t-table/singleEdit",
               "name": "singleEdit",
-              "component": "/TTable/singleEdit/index",
+              "component": "/LwTable/singleEdit/index",
               "meta": {
                 "icon": "Menu",
                 "title": "单元格单独编辑",
@@ -964,7 +964,7 @@
             {
               "path": "/assembly/t-table/singleEditCell",
               "name": "singleEditCell",
-              "component": "/TTable/singleEditCell/index",
+              "component": "/LwTable/singleEditCell/index",
               "meta": {
                 "icon": "Menu",
                 "title": "单元格编辑",
@@ -978,7 +978,7 @@
             {
               "path": "/assembly/t-table/slotName",
               "name": "slotName",
-              "component": "/TTable/slotName/index",
+              "component": "/LwTable/slotName/index",
               "meta": {
                 "icon": "Menu",
                 "title": "插槽渲染",
@@ -993,7 +993,7 @@
         },
         {
           "path": "/assembly/t-query-condition",
-          "name": "TQueryCondition",
+          "name": "LwQueryCondition",
           "redirect": "/assembly/t-query-condition/base",
           "meta": {
             "icon": "MessageBox",
@@ -1008,7 +1008,7 @@
             {
               "path": "/assembly/t-query-condition/base",
               "name": "baseQueryDemo",
-              "component": "/TQueryCondition/base/index",
+              "component": "/LwQueryCondition/base/index",
               "meta": {
                 "icon": "Menu",
                 "title": "基本使用",
@@ -1022,7 +1022,7 @@
             {
               "path": "/assembly/t-query-condition/comUse",
               "name": "queryComUse",
-              "component": "/TQueryCondition/comUse/index",
+              "component": "/LwQueryCondition/comUse/index",
               "meta": {
                 "icon": "Menu",
                 "title": "配合组件使用",
@@ -1036,7 +1036,7 @@
             {
               "path": "/assembly/t-query-condition/isExpansion",
               "name": "isExpansion",
-              "component": "/TQueryCondition/isExpansion/index",
+              "component": "/LwQueryCondition/isExpansion/index",
               "meta": {
                 "icon": "Menu",
                 "title": "默认展开",
@@ -1050,7 +1050,7 @@
             {
               "path": "/assembly/t-query-condition/labelRender",
               "name": "labelRender",
-              "component": "/TQueryCondition/labelRender/index",
+              "component": "/LwQueryCondition/labelRender/index",
               "meta": {
                 "icon": "Menu",
                 "title": "自定义label",
@@ -1064,7 +1064,7 @@
             {
               "path": "/assembly/t-query-condition/slotName",
               "name": "slotNameQuery",
-              "component": "/TQueryCondition/slotName/index",
+              "component": "/LwQueryCondition/slotName/index",
               "meta": {
                 "icon": "Menu",
                 "title": "插槽渲染",
@@ -1079,7 +1079,7 @@
         },
         {
           "path": "/assembly/t-module-form",
-          "name": "TModuleForm",
+          "name": "LwModuleForm",
           "redirect": "/assembly/t-module-form-index",
           "meta": {
             "icon": "Tickets",
@@ -1094,7 +1094,7 @@
             {
               "path": "/assembly/t-module-form/t-module-form-index",
               "name": "TModuleFormFormindex",
-              "component": "/TModuleForm/index",
+              "component": "/LwModuleForm/index",
               "meta": {
                 "icon": "Menu",
                 "title": "表单-基本",
@@ -1108,7 +1108,7 @@
             {
               "path": "/assembly/t-module-form/t-module-form-slotName",
               "name": "TModuleFormFormslotName",
-              "component": "/TModuleForm/slotName",
+              "component": "/LwModuleForm/slotName",
               "meta": {
                 "icon": "Menu",
                 "title": "表单-模块插槽",
@@ -1122,7 +1122,7 @@
             {
               "path": "/assembly/t-module-form/t-module-form-disabled",
               "name": "TModuleFormFormdisabled",
-              "component": "/TModuleForm/disabled",
+              "component": "/LwModuleForm/disabled",
               "meta": {
                 "icon": "Menu",
                 "title": "表单-模块是否展开",
@@ -1136,7 +1136,7 @@
             {
               "path": "/assembly/t-module-form/t-module-form-labelPosition",
               "name": "TModuleFormFormlabelPosition",
-              "component": "/TModuleForm/labelPosition",
+              "component": "/LwModuleForm/labelPosition",
               "meta": {
                 "icon": "Menu",
                 "title": "表单-对齐方式",
@@ -1150,7 +1150,7 @@
             {
               "path": "/assembly/t-module-form/t-module-form-rules",
               "name": "TModuleFormFormrules",
-              "component": "/TModuleForm/rules",
+              "component": "/LwModuleForm/rules",
               "meta": {
                 "icon": "Menu",
                 "title": "表单-表单验证",
@@ -1164,7 +1164,7 @@
             {
               "path": "/assembly/t-module-form/t-module-form-validateError",
               "name": "TModuleFormFormvalidateError",
-              "component": "/TModuleForm/validateError",
+              "component": "/LwModuleForm/validateError",
               "meta": {
                 "icon": "Menu",
                 "title": "表单-校验错误提示",
@@ -1178,7 +1178,7 @@
             {
               "path": "/assembly/t-module-form/t-module-form-footer",
               "name": "TModuleFormFormfooter",
-              "component": "/TModuleForm/footer",
+              "component": "/LwModuleForm/footer",
               "meta": {
                 "icon": "Menu",
                 "title": "表单-自定义底部按钮",
@@ -1192,7 +1192,7 @@
             {
               "path": "/assembly/t-module-form/t-module-form-tabs",
               "name": "TModuleFormFormtabs",
-              "component": "/TModuleForm/tabs",
+              "component": "/LwModuleForm/tabs",
               "meta": {
                 "icon": "Menu",
                 "title": "表单-显示tabs",
@@ -1206,7 +1206,7 @@
             {
               "path": "/assembly/t-module-form/t-module-form-isGoBackEvent  ",
               "name": "TModuleFormFormisGoBackEvent",
-              "component": "/TModuleForm/isGoBackEvent",
+              "component": "/LwModuleForm/isGoBackEvent",
               "meta": {
                 "icon": "Menu",
                 "title": "表单-自定义返回事件",
@@ -1220,7 +1220,7 @@
             {
               "path": "/assembly/t-module-form/t-module-form-isShowBack",
               "name": "TModuleFormFormisShowBack",
-              "component": "/TModuleForm/isShowBack",
+              "component": "/LwModuleForm/isShowBack",
               "meta": {
                 "icon": "Menu",
                 "title": "表单-没有返回icon",
@@ -1234,7 +1234,7 @@
             {
               "path": "/assembly/t-module-form/t-module-form-extra",
               "name": "TModuleFormFormextra",
-              "component": "/TModuleForm/extra",
+              "component": "/LwModuleForm/extra",
               "meta": {
                 "icon": "Menu",
                 "title": "表单-Title右侧插槽",
@@ -1248,7 +1248,7 @@
             {
               "path": "/assembly/t-module-form/t-module-form-titleBtn",
               "name": "TModuleFormFormtitleBtn",
-              "component": "/TModuleForm/titleBtn",
+              "component": "/LwModuleForm/titleBtn",
               "meta": {
                 "icon": "Menu",
                 "title": "表单-模块Title右侧插槽",
@@ -1262,7 +1262,7 @@
             {
               "path": "/assembly/t-module-form/t-module-form-detail",
               "name": "TModuleFormDetailsdetail",
-              "component": "/TModuleForm/detail",
+              "component": "/LwModuleForm/detail",
               "meta": {
                 "icon": "Menu",
                 "title": "详情-基本使用",
@@ -1276,7 +1276,7 @@
             {
               "path": "/assembly/t-module-form/t-module-form-detailspan",
               "name": "TModuleFormDetailsdetailspan",
-              "component": "/TModuleForm/detailspan",
+              "component": "/LwModuleForm/detailspan",
               "meta": {
                 "icon": "Menu",
                 "title": "详情-span设置",
@@ -1290,7 +1290,7 @@
             {
               "path": "/assembly/t-module-form/t-module-form-tooltip",
               "name": "TModuleFormDetailstooltip",
-              "component": "/TModuleForm/tooltip",
+              "component": "/LwModuleForm/tooltip",
               "meta": {
                 "icon": "Menu",
                 "title": "详情-提示项",
@@ -1304,7 +1304,7 @@
             {
               "path": "/assembly/t-module-form/t-module-form-detailslot",
               "name": "TModuleFormDetailsdetailslot",
-              "component": "/TModuleForm/detailslot",
+              "component": "/LwModuleForm/detailslot",
               "meta": {
                 "icon": "Menu",
                 "title": "详情-模块插槽",
@@ -1318,7 +1318,7 @@
             {
               "path": "/assembly/t-module-form/t-module-form-detailslotName",
               "name": "TModuleFormDetailsdetailslotName",
-              "component": "/TModuleForm/detailslotName",
+              "component": "/LwModuleForm/detailslotName",
               "meta": {
                 "icon": "Menu",
                 "title": "详情-value插槽",
@@ -1332,7 +1332,7 @@
             {
               "path": "/assembly/t-module-form/t-module-form-detaildisabled",
               "name": "TModuleFormDetailsdetaildisabled",
-              "component": "/TModuleForm/detaildisabled",
+              "component": "/LwModuleForm/detaildisabled",
               "meta": {
                 "icon": "Menu",
                 "title": "详情-模块禁止收缩",
@@ -1346,7 +1346,7 @@
             {
               "path": "/assembly/t-module-form/t-module-form-detailTitleBtn",
               "name": "TModuleFormDetailsdetailTitleBtn",
-              "component": "/TModuleForm/detailTitleBtn",
+              "component": "/LwModuleForm/detailTitleBtn",
               "meta": {
                 "icon": "Menu",
                 "title": "详情-模块Title右侧插槽",
@@ -1361,7 +1361,7 @@
         },
         {
           "path": "/assembly/t-select",
-          "name": "TSelect",
+          "name": "LwSelect",
           "redirect": "/assembly/t-select/single",
           "meta": {
             "icon": "MessageBox",
@@ -1376,7 +1376,7 @@
             {
               "path": "/assembly/t-select/single",
               "name": "single",
-              "component": "/tuiplus/TSelect/single",
+              "component": "/tuiplus/LwSelect/single",
               "meta": {
                 "icon": "Menu",
                 "title": "单选",
@@ -1390,7 +1390,7 @@
             {
               "path": "/assembly/t-select/singePagination",
               "name": "singePagination",
-              "component": "/tuiplus/TSelect/singePagination",
+              "component": "/tuiplus/LwSelect/singePagination",
               "meta": {
                 "icon": "Menu",
                 "title": "单选分页",
@@ -1404,7 +1404,7 @@
             {
               "path": "/assembly/t-select/useVirtual",
               "name": "useVirtual",
-              "component": "/tuiplus/TSelect/useVirtual",
+              "component": "/tuiplus/LwSelect/useVirtual",
               "meta": {
                 "icon": "Menu",
                 "title": "单选虚拟列表",
@@ -1418,7 +1418,7 @@
             {
               "path": "/assembly/t-select/multiple",
               "name": "multiple",
-              "component": "/tuiplus/TSelect/multiple",
+              "component": "/tuiplus/LwSelect/multiple",
               "meta": {
                 "icon": "Menu",
                 "title": "多选",
@@ -1432,7 +1432,7 @@
             {
               "path": "/assembly/t-select/multipleCollapseTags",
               "name": "multipleCollapseTags",
-              "component": "/tuiplus/TSelect/multipleCollapseTags",
+              "component": "/tuiplus/LwSelect/multipleCollapseTags",
               "meta": {
                 "icon": "Menu",
                 "title": "多选Tag",
@@ -1446,7 +1446,7 @@
             {
               "path": "/assembly/t-select/pagination",
               "name": "pagination",
-              "component": "/tuiplus/TSelect/pagination",
+              "component": "/tuiplus/LwSelect/pagination",
               "meta": {
                 "icon": "Menu",
                 "title": "多选分页",
@@ -1460,7 +1460,7 @@
             {
               "path": "/assembly/t-select/useVirtualMultiple",
               "name": "useVirtualMultiple",
-              "component": "/tuiplus/TSelect/useVirtualMultiple",
+              "component": "/tuiplus/LwSelect/useVirtualMultiple",
               "meta": {
                 "icon": "Menu",
                 "title": "多选虚拟列表",
@@ -1475,7 +1475,7 @@
         },
         {
           "path": "/assembly/t-detail",
-          "name": "TDetail",
+          "name": "LwDetail",
           "redirect": "/assembly/t-detail/base",
           "meta": {
             "icon": "MessageBox",
@@ -1490,7 +1490,7 @@
             {
               "path": "/assembly/t-detail/base",
               "name": "baseTDetail",
-              "component": "/tuiplus/TDetail/base/index",
+              "component": "/tuiplus/LwDetail/base/index",
               "meta": {
                 "icon": "Menu",
                 "title": "基本使用",
@@ -1504,7 +1504,7 @@
             {
               "path": "/assembly/t-detail/border",
               "name": "borderTDetail",
-              "component": "/tuiplus/TDetail/border/index",
+              "component": "/tuiplus/LwDetail/border/index",
               "meta": {
                 "icon": "Menu",
                 "title": "边框",
@@ -1518,7 +1518,7 @@
             {
               "path": "/assembly/t-detail/descColumn",
               "name": "descColumn",
-              "component": "/tuiplus/TDetail/descColumn/index",
+              "component": "/tuiplus/LwDetail/descColumn/index",
               "meta": {
                 "icon": "Menu",
                 "title": "一行展示项",
@@ -1532,7 +1532,7 @@
             {
               "path": "/assembly/t-detail/dictionaryEcho",
               "name": "dictionaryEcho",
-              "component": "/tuiplus/TDetail/dictionaryEcho/index",
+              "component": "/tuiplus/LwDetail/dictionaryEcho/index",
               "meta": {
                 "icon": "Menu",
                 "title": "字典显示",
@@ -1546,7 +1546,7 @@
             {
               "path": "/assembly/t-detail/slotName",
               "name": "slotNameTDetail",
-              "component": "/tuiplus/TDetail/slotName/index",
+              "component": "/tuiplus/LwDetail/slotName/index",
               "meta": {
                 "icon": "Menu",
                 "title": "插槽显示",
@@ -1560,7 +1560,7 @@
             {
               "path": "/assembly/t-detail/tooltip",
               "name": "tooltip",
-              "component": "/tuiplus/TDetail/tooltip/index",
+              "component": "/tuiplus/LwDetail/tooltip/index",
               "meta": {
                 "icon": "Menu",
                 "title": "tip提示",
@@ -1574,7 +1574,7 @@
             {
               "path": "/assembly/t-detail/vertical",
               "name": "vertical",
-              "component": "/tuiplus/TDetail/vertical/index",
+              "component": "/tuiplus/LwDetail/vertical/index",
               "meta": {
                 "icon": "Menu",
                 "title": "垂直显示",
@@ -1589,7 +1589,7 @@
         },
         {
           "path": "/assembly/t-step-wizard",
-          "name": "TStepWizard",
+          "name": "LwStepWizard",
           "redirect": "/assembly/t-step-wizard/index",
           "meta": {
             "icon": "MessageBox",
@@ -1604,7 +1604,7 @@
             {
               "path": "/assembly/t-step-wizard/index",
               "name": "baseTDetail",
-              "component": "/tuiplus/TStepWizard/index",
+              "component": "/tuiplus/LwStepWizard/index",
               "meta": {
                 "icon": "Menu",
                 "title": "基本使用",
@@ -1618,7 +1618,7 @@
             {
               "path": "/assembly/t-step-wizard/demo",
               "name": "borderTDetail",
-              "component": "/tuiplus/TStepWizard/demo",
+              "component": "/tuiplus/LwStepWizard/demo",
               "meta": {
                 "icon": "Menu",
                 "title": "element页面",

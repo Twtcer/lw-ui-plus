@@ -9,7 +9,7 @@
   </el-button>
 </template>
 
-<script setup lang="ts" name="TButton">
+<script setup lang="ts" name="LwButton">
 import { ref } from "vue"
 const props = defineProps({
   time: {

@@ -1,277 +1,277 @@
-# TTable 表格
+# LwTable 表格
 
 用于展示多条结构类似的数据， 可对数据进行排序、筛选、对比或其他自定义操作。
 
 ### 基础用法
 
 :::demo
-TTable/base
+LwTable/base
 :::
 
 ### 斑马线表格
 :::demo 在`t-table`标签中添加`stripe`
-TTable/stripe
+LwTable/stripe
 :::
 
 
 ### 边框表格
 
 :::demo 在`table`标签中添加`border:true`
-TTable/border
+LwTable/border
 :::
 
 ### 表格大小
 :::demo 在`table`标签中添加`size:'small'`设置表格大小，可选值`large`、`default`、`small`
-TTable/size
+LwTable/size
 :::
 
 ### 对齐方式
 
-:::demo 在`TTable`标签中添加`align:'center'`设置整个 table 对齐方式，在`columns`中设置`align`设置每列对齐方式（`columns优先级`高于`整体的对齐方式`）----`align`可选值`left`、`center`、`right`
-TTable/align
+:::demo 在`LwTable`标签中添加`align:'center'`设置整个 table 对齐方式，在`columns`中设置`align`设置每列对齐方式（`columns优先级`高于`整体的对齐方式`）----`align`可选值`left`、`center`、`right`
+LwTable/align
 :::
 
 ### 基本表尾合计
 
-:::demo 在`TTable`标签中添加`show-summary`,默认情况下，对于合计行，第一列不进行数据求合操作，而是显示「合计」二字（可通过sum-text配置），其余列会将本列所有`数值`(不区分`Number`与`String`类型)进行求合操作，并显示出来。
-TTable/showSummary
+:::demo 在`LwTable`标签中添加`show-summary`,默认情况下，对于合计行，第一列不进行数据求合操作，而是显示「合计」二字（可通过sum-text配置），其余列会将本列所有`数值`(不区分`Number`与`String`类型)进行求合操作，并显示出来。
+LwTable/showSummary
 :::
 
 ### 自定义表尾合计
 
-:::demo 在`TTable`标签中添加`show-summary`,自定义合计逻辑：使用 `summary-method` 并传入一个方法，返回一个数组，这个数组中的各项就会显示在合计行的各列中，可以是一个 VNode 或 String。
-TTable/summaryMethod
+:::demo 在`LwTable`标签中添加`show-summary`,自定义合计逻辑：使用 `summary-method` 并传入一个方法，返回一个数组，这个数组中的各项就会显示在合计行的各列中，可以是一个 VNode 或 String。
+LwTable/summaryMethod
 :::
 
 ### 常规排序
 
 :::demo 在`columns`某一项中添加`sort`或`sortable`
-TTable/sort
+LwTable/sort
 :::
 
 ### 指定数据排序
 
 :::demo 在`columns`某一项中添加`sort:true`或`sortable:true`,在`bind`中添加`sortMethod`来指定按照哪个属性数据排序
-TTable/sortMethod
+LwTable/sortMethod
 :::
 
 ### 特定项远程排序
 
 :::demo 在`columns`某一项中添加`sort:custom`或`sortable:custom`,则代表用户希望远程排序，需要监听 `Table` 的 `sort-change` 事件
-TTable/sortCellChange
+LwTable/sortCellChange
 :::
 
 ### 自定义排序规则
 
-:::demo 在`TTable`组件标签中添加`sortable:custom`,则表示需要自定义排序，需要监听 `Table` 的 `sort-change` 事件
-TTable/sortable
+:::demo 在`LwTable`组件标签中添加`sortable:custom`,则表示需要自定义排序，需要监听 `Table` 的 `sort-change` 事件
+LwTable/sortable
 :::
 
 ### 复选框表格
 
 :::demo 在`table`对象中添加`firstColumn:{ type: 'selection', fixed: true }`
-TTable/selection
+LwTable/selection
 :::
 
 ### 复选框表格--翻页选中功能selectionDisabled
 
 :::demo 在`table`对象中添加`firstColumn:{ type: 'selection', isPaging: true , fixed: true }`
-TTable/pageCheck
+LwTable/pageCheck
 :::
 
 ### 复选框表格--禁用功能
 
 :::demo 在`table`对象中添加`firstColumn:{ type: 'selection', selectable: selectableFun }`;`selectableFun`的返回值用来决定这一行的 `CheckBox` 是否可以勾选。
-TTable/selectionDisabled
+LwTable/selectionDisabled
 :::
 
 ### 表格--筛选功能
 
 :::demo 在`columns`列中某一项的`bind`中设置`filters`和`filter-method`属性即可开启该列的筛选，`filters`是一个数组，`filter-method` 是一个方法，它用于决定某些数据是否显示， 会传入`三个参数`：`value`、 `row` 、`column`。
-TTable/filterMethod
+LwTable/filterMethod
 :::
 
 ### 单选框表格
 
 :::demo 在`table`对象中添加`firstColumn:{ type: 'radio', fixed: true }`,可以再次点击取消选中；添加`@radioChange`事件传当前选中行是数据；默认点击整行选中 可以设置`rowClickRadio：false`,只有点击单选框才选中
-TTable/radio
+LwTable/radio
 :::
 
 ### 单选框--默认选中项及开启点击整行选中
 
 :::demo 在`table`对象中添加`firstColumn:{ type: 'radio', fixed: true }`,可以再次点击取消选中；添加`@radioChange`事件传当前选中行是数据；默认点击整行选中,defaultRadioCol: 表默认选中项
-TTable/radioDefault
+LwTable/radioDefault
 :::
 
 ### 序列号表格
 
 :::demo 在`table`对象中添加`firstColumn:{ type: 'index', fixed: true }`；可以新增`label`属性来定义表头名默认'序号'
-TTable/serialNum
+LwTable/serialNum
 :::
 
 ### 第一列显示复选框和序列号
 
 :::demo
-TTable/selectionIndex
+LwTable/selectionIndex
 :::
 
 ### 第一列显示单选框和序列号
 
 :::demo
-TTable/radioIndex
+LwTable/radioIndex
 :::
 
 ### 双击单元格复制(默认不开启)
 
-:::demo 若需要关闭（在 TTable 标签中设置属性：`isCopy:true`）
-TTable/isCopy
+:::demo 若需要关闭（在 LwTable 标签中设置属性：`isCopy:true`）
+LwTable/isCopy
 :::
 
 ### 集成分页器
 
 :::demo
-TTable/isShowPagination
+LwTable/isShowPagination
 :::
 
 ### 分页器-设置 layout 自定义插槽使用
 
 :::demo
-TTable/paginationSlot
+LwTable/paginationSlot
 :::
 
 ### 字典过滤渲染
 
 :::demo `columns`中某项添加`filters: { list: 'statusList', key: 'id', label: 'label' }`；`table`中添加`listTypeInfo: { statusList:[数据源] }`字典类型的数据源
-TTable/filters
+LwTable/filters
 :::
 
 ### 某列 render 渲染
 
 :::demo
-TTable/render
+LwTable/render
 :::
 
 ### 某列 作用域插槽渲染
 
 :::demo
-TTable/slotName
+LwTable/slotName
 :::
 
 ### 自定义表头渲染
 
 :::demo
-TTable/renderHeader
+LwTable/renderHeader
 :::
 
 ### 列--动态显示隐藏且拖动排序
 
 :::demo 在`TTable标签`中设置`columnSetting`开启`并且`需要设置`name`属性且在项目中`必须`保持唯一性。属性`columnSetBind`配置更改 button 样式：继承`el-button`所有属性;`column`配置`isShowHidden`属性更改是否默认隐藏显示（true:默认设置列不显示；反之或者不设置`isShowHidden`属性显示）;`注意：如果isShowHidden设置为true后，即便选中显示，但每次刷新都不会显示`。
-TTable/columnSetting
+LwTable/columnSetting
 :::
 
 ### 行--拖拽排序
 
 :::demo 属性`isRowSort`是否开启行拖拽排序;事件`@rowSort`，返回最终排序的 table 数据;`注意`: `row-key` 需要设置，否则拖动排序可能显示不正常
-TTable/rowSort
+LwTable/rowSort
 :::
 
 ### 表头合并单元格（多级表头）
 
 :::demo 只需要配置`columns`中某项新增`children：Array[]`属性;表头合并自动加边框
-TTable/multileHead
+LwTable/multileHead
 :::
 
 ### 表头合并（多级表头）-插槽使用
 
 :::demo 只需要配置`columns`中某项新增`children：Array[]`属性;表头合并自动加边框
-TTable/slotNameMerge
+LwTable/slotNameMerge
 :::
 
 ### 多级表头--单元格编辑
 
 :::demo
-TTable/multileHeadEdit
+LwTable/multileHeadEdit
 :::
 
 ### 表格操作按钮
 
 :::demo `operator数组`：`operator 数组`是显示按钮数且点击后将当前行数据传出；`operatorConfig` 对象是操作列样式（可以设置宽度/列标题及是否固定在最左/右侧）；按钮的颜色是以 `ElementUI` 内置 `button` 的 `type` 为准；隐藏按钮——`noshow`:多种状态控制按钮的显示与隐藏；例如：`noshow:[{key:'fields',val:'isHasVal'},{key:'status',val:[0,1,99]},{key:'channelCode',val:['bank']}]`；注释： `noshow` 中的 `key` 值(fields/status/channelCode)是表格后台返回的字段； 当 `val` 等于字符串'isHasVal'时,字段'fields'返回为空时，此行操作按钮隐藏； `以上综合：`当'status'为 0/1/99 并且'channelCode'为'bank'及'fields'为空时；`show: { key: 'status', val: [3,4] }`表 status 值为 3 或者 4 时，显示此操作健 根据后台字段返回是数字还是字符串来显示
-TTable/operator
+LwTable/operator
 :::
 
 ### 自定义操作按钮样式
 
 :::demo 设置`operator`数组中的`bind对象`继承`el-button`所有属性
-TTable/operatorBtn
+LwTable/operatorBtn
 :::
 
 ### 操作按钮 render 方式
 
 :::demo 设置`operator`数组中的` render函数``遵循tsx方式 `
-TTable/operatorRender
+LwTable/operatorRender
 :::
 
 ### 操作按钮插槽方式
 
 :::demo
-TTable/operatorSlotName
+LwTable/operatorSlotName
 :::
 
 ### Tree-Table
 
-:::demo 按照`el-table`方式配置；新增`isTree`属性——其作用是布局 TTable-Tree 样式
-TTable/treeTable
+:::demo 按照`el-table`方式配置；新增`isTree`属性——其作用是布局 LwTable-Tree 样式
+LwTable/treeTable
 :::
 
 ### 超级 TreTable 使用
 
 :::demo 按照`el-table`方式配置
-TTable/treeMenuTable
+LwTable/treeMenuTable
 :::
 
 ### 单元格编辑功能
 
 :::demo
-TTable/configEdit
+LwTable/configEdit
 :::
 
 ### 单元格单独编辑
 
 :::demo
-TTable/configEditUse
+LwTable/configEditUse
 :::
 
 ### 单元格编辑--键盘事件
 
 :::demo `isKeyup` 单元格编辑是否开启键盘事件;向上、向下、回车横向的下一个输入框
-TTable/singleEditKeyup
+LwTable/singleEditKeyup
 :::
 
 ### 单元格编辑--使用组件事件
 
 :::demo `eventHandle`继承第三方组件事件，根据第三方组件事件传参，若第三方组件事件`本身有参数`则返回`三`个参数不然就是后`两`个参数：第一个就是本身自己带的参数，第二个是`porp`，第三个是`scope`(`scope.row`)--就是当前行的数据；`scope.$index`就是当前行数
-TTable/eventHandle
+LwTable/eventHandle
 :::
 
 ### 单元格编辑--校验 rules
 
 :::demo `columns`: `columns`某一项的 rules;`table`: rules; `saveMethod方法`:singleEdit.value.saveMethod((data) => {console.log('callback 返回数据', data)})
-TTable/rules
+LwTable/rules
 :::
 
-### 单元格编辑--TSelectTable 校验 rules
+### 单元格编辑--LwSelectTable 校验 rules
 
 :::demo
-TTable/rulesSelectTable
+LwTable/rulesSelectTable
 :::
 
 ### 展开行
 
 :::demo 在`table`对象中添加`firstColumn:{ type: 'expand', fixed: true }` `expand`作用域插槽，解构传出`{scope}`
-TTable/expand
+LwTable/expand
 :::
 
-### TTable 参数配置
+### LwTable 参数配置
 
 ---
 
@@ -365,8 +365,8 @@ TTable/expand
 | ----size                | el-button 的 size                                                         | String           | 'default' |
 | ----icon                | el-button 的 icon                                                         | String           | 'Setting' |
 | align                   | table 对齐方式 可选值`left`、`center`、`right`                            | String           | 'center'  |
-| isSlotToolbar           | TAdaptivePage 组件是否使用了 Toolbar 插槽                                 | Boolean          | false     |
-| isSlotTitle             | TAdaptivePage 组件是否使用了 title 插槽                                   | Boolean          | -         |
+| isSlotToolbar           | LwAdaptivePage 组件是否使用了 Toolbar 插槽                                 | Boolean          | false     |
+| isSlotTitle             | LwAdaptivePage 组件是否使用了 title 插槽                                   | Boolean          | -         |
 | sortable                | 设置为 'custom',需要监听 Table 的 sort-change 事件                        | Boolean/string   | -         |
 
 ### 3、events 其他事件按照 el-table 直接使用（如 sort-change 排序事件）
@@ -394,9 +394,9 @@ TTable/expand
 
 | 插槽名     | 说明                                                | 参数  |
 | :--------- | :-------------------------------------------------- | :---- |
-| title      | TTable 左侧 Title                                   | -     |
-| titleTip   | TTable 头部 tip                                     | -     |
-| toolbar    | TTable 右侧 toolbar                                 | -     |
+| title      | LwTable 左侧 Title                                   | -     |
+| titleTip   | LwTable 头部 tip                                     | -     |
+| toolbar    | LwTable 右侧 toolbar                                 | -     |
 | expand     | table.firstColumn.type：`expand` 展开行插槽         | scope |
 | -          | el-table-column 某列自定义插槽（slotName 命名）     | scope |
 | -          | el-table-column 单元格编辑插槽（editSlotName 命名） | scope |

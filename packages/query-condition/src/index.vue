@@ -118,7 +118,7 @@
   </el-form>
 </template>
 
-<script setup lang="ts" name="TQueryCondition">
+<script setup lang="ts" name="LwQueryCondition">
 import RenderComp from "./renderComp.vue"
 import MoreChoose from "./moreChoose.vue"
 import { computed, ref, watch, useSlots, onMounted, reactive } from "vue"

@@ -57,7 +57,7 @@
   </component>
 </template>
 
-<script setup lang="ts" name="TSelect">
+<script setup lang="ts" name="LwSelect">
 import { computed, ref, useSlots } from "vue"
 const props: any = defineProps({
   modelValue: {

@@ -1,134 +1,134 @@
-# TModuleForm 模块表单/详情组件
+# LwModuleForm 模块表单/详情组件
 
 ---
 
 ### 表单-基本使用
 
 ::: demo
-TModuleForm/index
+LwModuleForm/index
 :::
 
 ### 表单-模块插槽使用
 
 ::: demo
-TModuleForm/slotName
+LwModuleForm/slotName
 :::
 
 ### 表单-模块是否展开
 
 ::: demo
-TModuleForm/disabled
+LwModuleForm/disabled
 :::
 
 ### 表单-对齐方式
 
 ::: demo
-TModuleForm/labelPosition
+LwModuleForm/labelPosition
 :::
 
 ### 表单-表单验证
 
 ::: demo
-TModuleForm/rules
+LwModuleForm/rules
 :::
 
 ### 表单-校验错误提示
 
 ::: demo
-TModuleForm/validateError
+LwModuleForm/validateError
 :::
 
 ### 表单-自定义底部按钮
 
 ::: demo
-TModuleForm/footer
+LwModuleForm/footer
 :::
 
 ### 表单-显示 tabs
 
 ::: demo 注意只显示在最后一个模块;设置属性`isTabMargin`tabs 是否与模块隔离
-TModuleForm/tabs
+LwModuleForm/tabs
 :::
 
 ### 表单-自定义返回事件
 
 ::: demo
-TModuleForm/isGoBackEvent
+LwModuleForm/isGoBackEvent
 :::
 
 ### 表单-没有返回 icon
 
 ::: demo
-TModuleForm/isShowBack
+LwModuleForm/isShowBack
 :::
 
 ### 表单-Title 右侧插槽使用
 
 ::: demo
-TModuleForm/extra
+LwModuleForm/extra
 :::
 
 ### 表单-模块 Title 右侧插槽使用
 
 ::: demo
-TModuleForm/titleBtn
+LwModuleForm/titleBtn
 :::
 
 ### 表单-不显示 header
 
 ::: demo 添加属性`isShowHeader`，将不显示头部
-TModuleForm/isShowHeader
+LwModuleForm/isShowHeader
 :::
 
 ### 详情-基本使用
 
 ::: demo
-TModuleForm/detail
+LwModuleForm/detail
 :::
 
 ### 详情-span 设置
 
 ::: demo
-TModuleForm/detailspan
+LwModuleForm/detailspan
 :::
 
 ### 详情-提示项
 
 ::: demo
-TModuleForm/tooltip
+LwModuleForm/tooltip
 :::
 
 ### 详情-模块插槽使用
 
 ::: demo
-TModuleForm/detailslot
+LwModuleForm/detailslot
 :::
 
 ### 详情-value 插槽使用
 
 ::: demo
-TModuleForm/detailslotName
+LwModuleForm/detailslotName
 :::
 
 ### 详情-模块禁止收缩
 
 ::: demo
-TModuleForm/detaildisabled
+LwModuleForm/detaildisabled
 :::
 
 ### 详情-模块 Title 右侧插槽使用
 
 ::: demo
-TModuleForm/detailTitleBtn
+LwModuleForm/detailTitleBtn
 :::
 
-### TModuleForm Attributes
+### LwModuleForm Attributes
 
 ---
 
-### 1、简介：基于 TForm 表单组件及 TDetail 详情组件的再次封装，使页面可以分模块的方式（可以收缩）展示 form 表单或者详情页面
+### 1、简介：基于 LwForm 表单组件及 LwDetail 详情组件的再次封装，使页面可以分模块的方式（可以收缩）展示 form 表单或者详情页面
 
-> TModuleForm 模块表单/详情组件**代码示例：**
+> LwModuleForm 模块表单/详情组件**代码示例：**
 
 ```html
 <!-- 第一种 表单形式 -->

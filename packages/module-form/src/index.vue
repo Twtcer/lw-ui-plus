@@ -65,7 +65,7 @@
   </div>
 </template>
 
-<script setup lang="ts" name="TModuleForm">
+<script setup lang="ts" name="LwModuleForm">
 import { ref, useAttrs, useSlots, nextTick, computed } from "vue"
 import type { PropType } from "vue"
 import ModuleDetail from "./moduleDetail.vue"

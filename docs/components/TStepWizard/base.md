@@ -1,28 +1,28 @@
-# TStepWizard 步骤组件
+# LwStepWizard 步骤组件
 
 ### 基础用法
 
 :::demo
-TStepWizard/base
+LwStepWizard/base
 :::
 
 ### 垂直的步骤条
 
 :::demo
-TStepWizard/vertical
+LwStepWizard/vertical
 :::
 
 ### 开启简洁风格
 
 :::demo 开启简洁风格时：`align-center` / `description` / `direction` / `space` 都将失效。
-TStepWizard/simple
+LwStepWizard/simple
 :::
 
-### TStepWizard 参数配置
+### LwStepWizard 参数配置
 
 ### 1. 简介：基于 Element-plus el-steps el-step 步骤条组件的二次封装，着重于数据层面，HTML 一行代码
 
-> TStepWizard 步骤组件 **代码示例：**
+> LwStepWizard 步骤组件 **代码示例：**
 
 ```html
 <t-step-wizard

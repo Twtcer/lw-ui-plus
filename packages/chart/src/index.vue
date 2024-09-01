@@ -8,7 +8,7 @@
   </div>
 </template>
 
-<script setup lang="ts" name="TChart">
+<script setup lang="ts" name="LwChart">
 import {
   onMounted,
   getCurrentInstance,

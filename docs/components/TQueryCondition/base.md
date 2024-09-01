@@ -1,4 +1,4 @@
-# TQueryCondition 查询条件组件
+# LwQueryCondition 查询条件组件
 
 ---
 
@@ -6,91 +6,91 @@
 
 ::: demo
 
-TQueryCondition/base
+LwQueryCondition/base
 
 :::
 
 ### 收起&展开——默认展开
 
 ::: demo 通过设置`isExpansion`
-TQueryCondition/isExpansion
+LwQueryCondition/isExpansion
 :::
 
 ### 设置折叠时默认显示几行
 
 ::: demo 通过设置`maxVisibleRows`来设置折叠时默认显示几行，默认为 1
-TQueryCondition/maxVisibleSpans
+LwQueryCondition/maxVisibleSpans
 :::
 
 ### Tsx 用法
 
 ::: demo
-TQueryCondition/labelRender
+LwQueryCondition/labelRender
 :::
 
 ### 输入框插槽使用用法
 
 ::: demo
-TQueryCondition/slotName
+LwQueryCondition/slotName
 :::
 
 ### 联动使用(使用第三方组件事件)
 
 ::: demo
-TQueryCondition/eventHandle
+LwQueryCondition/eventHandle
 :::
 
 ### 结合自己封装组件使用
 
 ::: demo
-TQueryCondition/TSelectUse
+LwQueryCondition/TSelectUse
 :::
 
 ### 按钮操作使用
 
 ::: demo
-TQueryCondition/querybar
+LwQueryCondition/querybar
 :::
 
 ### 自定义操作按钮
 
 ::: demo 设置`footerBtn`插槽，可以自定义按钮，不开启收起&展开功能
-TQueryCondition/footerBtn
+LwQueryCondition/footerBtn
 :::
 
 ### 不展示操作按钮
 
 ::: demo 设置`:isFooter=false`,不展示按钮，不开启收起&展开功能
-TQueryCondition/footer
+LwQueryCondition/footer
 :::
 
 ### 每行展示多少项
 
 ::: demo 开启`isShowWidthSize`；设置`widthSize`值`（默认 4）`；不开启`isShowWidthSize`，则根据`width > 1000 && width < 1280`展示 3 项，`width > 768 && width <= 1000`展示 2 项`width <= 768`展示1项；(width=window.innerWidth)
 
-TQueryCondition/widthSize
+LwQueryCondition/widthSize
 :::
 
 ### 动态增减查询条件项
 
 ::: demo
-TQueryCondition/dynamic
+LwQueryCondition/dynamic
 :::
 
 ### 自定义修改按钮文案
 
 ::: demo
-TQueryCondition/btnBind
+LwQueryCondition/btnBind
 :::
 
 ### 以下拉方式展示更多条件
 
 ::: demo 设置`isDropDownSelectMore`开启； `popoverAttrs`默认值：`{ showTxt: '更多', title: '所有条件', allTxt: '全选', reverseTxt: '反选', clearTxt: '清空'placement: 'bottom', width: 240, trigger: 'click', ...props.popoverAttrs }`
 
-TQueryCondition/isDropDownSelectMore
+LwQueryCondition/isDropDownSelectMore
 :::
 
-### TQueryCondition 参数配置
+### LwQueryCondition 参数配置
 
 ---
 

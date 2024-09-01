@@ -18,7 +18,7 @@
   </el-checkbox-group>
 </template>
 
-<script setup lang="ts" name="TCheckbox">
+<script setup lang="ts" name="LwCheckbox">
 import { computed, ref } from "vue"
 import type { PropType } from "vue"
 import type { OptionsProps, CheckboxItem } from "./checkbox"

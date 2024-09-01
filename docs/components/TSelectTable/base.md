@@ -1,4 +1,4 @@
-# TSelectTable 下拉选择表格组件
+# LwSelectTable 下拉选择表格组件
 
 ::: warning 注意
 
@@ -9,79 +9,79 @@
 ### 单选
 
 ::: demo `table` 数据源及表头信息;`keywords` 选项中的 value（选项的值）,label(选项的标签);`@radioChange` 选中事件，传出当前选中对象
-TSelectTable/radio
+LwSelectTable/radio
 :::
 
 ### 单选--禁用
 
 ::: demo `table`的`data` 数据源满足某条件时，新增`isRadioDisabled`属性为`true`，禁用单选。
-TSelectTable/isRadioDisabled
+LwSelectTable/isRadioDisabled
 :::
 
 ### 多选--禁用复选框
 
 :::demo `multiple` 开启多选；设置`selectable`属性其类型：`Function(row: any, index: number)` 可根据返回值来决定 `CheckBox` 是否可以勾选.
-TSelectTable/selectable
+LwSelectTable/selectable
 :::
 
 ### 是否显示下拉框
 
 ::: demo 若设置`selfExpanded`为`true`，下拉框将始终不会关闭；另一种方式： 设置`isExpanded` 为`true`;
-TSelectTable/expanded
+LwSelectTable/expanded
 :::
 
 ### 单选 -- 开启键盘事件（上下选择高亮，回车选中）
 
 ::: demo `table` 数据源及表头信息;`keywords` 选项中的 value（选项的值）,label(选项的标签);`@radioChange` 选中事件，传出当前选中对象；`isKeyup` 是否开启键盘事件（默认不开启）上下选择高亮，回车选中；键盘向上/下滚动条根据移动的选择区域而滚动必须设置`max-height`。
-TSelectTable/radioKeyup
+LwSelectTable/radioKeyup
 :::
 
 ### 单选--动态获取下拉数据源
 
 ::: demo `table` 数据源及表头信息;`keywords` 选项中的 value（选项的值）,label(选项的标签);`@radioChange` 选中事件，传出当前选中对象
-TSelectTable/dynamic
+LwSelectTable/dynamic
 :::
 
 ### 多选--动态获取下拉数据源
 
 :::demo `multiple` 开启多选；`table` 数据源及表头信息；`keywords` 选项中的 value（选项的值）,label(选项的标签)；`@selectionChange` 多选事件，传出当前选中项，及选中项的 keywords.value 集合
-TSelectTable/dynamicMultiple
+LwSelectTable/dynamicMultiple
 :::
 
 ### 不显示首列单选
 
 ::: demo `table` 数据源及表头信息;`keywords` 选项中的 value（选项的值）,label(选项的标签);`@radioChange` 选中事件，传出当前选中对象
-TSelectTable/isShowFirstColumn
+LwSelectTable/isShowFirstColumn
 :::
 
 ### 动态赋默认选中值(单选)
 
 ::: demo
-TSelectTable/radioDynamicDefaultSelectVal
+LwSelectTable/radioDynamicDefaultSelectVal
 :::
 
 ### 动态赋默认选中值(多选)
 
 ::: demo
-TSelectTable/multipleDynamicDefaultSelectVal
+LwSelectTable/multipleDynamicDefaultSelectVal
 :::
 
 ### 单选（默认选中）
 
 :::demo `table` 数据源及表头信息;`keywords` 选项中的 value（选项的值）,label(选项的标签);`@radioChange` 选中事件，传出当前选中对象;`defaultSelectVal` 设置`第一页`默认选中项（即`keywords.value`值）是`Array`类型`且只有一个值`（即：keywords.value 是"id",那么需要默认选中哪项就输入该项 table.data 数据的 id 值即可）
-TSelectTable/radioDefaultSelectVal
+LwSelectTable/radioDefaultSelectVal
 :::
 
 ### 多选（默认选中）
 
 :::demo `multiple` 开启多选；`table` 数据源及表头信息；`keywords` 选项中的 value（选项的值）,label(选项的标签)；`@selectionChange` 多选事件，传出当前选中项，及选中项的 keywords.value 集合;`defaultSelectVal` 设置`第一页`默认选中项（即`keywords.value`值）是`Array`类型（即：`keywords.value`是"id",那么需要默认选中哪项就输入该项`table.data`数据的`id`值即可）
-TSelectTable/multipleDefaultSelectVal
+LwSelectTable/multipleDefaultSelectVal
 :::
 
 ### 多选
 
 :::demo `multiple` 开启多选；`table` 数据源及表头信息；`keywords` 选项中的 value（选项的值）,label(选项的标签)；`@selectionChange` 多选事件，传出当前选中项，及选中项的 keywords.value 集合
-TSelectTable/multiple
+LwSelectTable/multiple
 :::
 
 
@@ -89,47 +89,47 @@ TSelectTable/multiple
 ### 开启分页功能（支持翻页选中且默认开启）
 
 :::demo `isShowPagination` 开启分页功能；`@page-change`页码改变事件;传出当前选中的页码；`table` 数据源及表头信息；`keywords` 选项中的 value（选项的值）,label(选项的标签)
-TSelectTable/isShowPagination
+LwSelectTable/isShowPagination
 :::
 
 ### 显示查询条件
 
-:::demo `isShowQuery` 是否开启查询条件配置，其配置继承查询条件组件（TQueryCondition 组件）的所有属性/插槽/事件；注意：`不可设置TQueryCondition组件的maxVisibleSpans属性` ;
-TSelectTable/isShowQuery
+:::demo `isShowQuery` 是否开启查询条件配置，其配置继承查询条件组件（LwQueryCondition 组件）的所有属性/插槽/事件；注意：`不可设置TQueryCondition组件的maxVisibleSpans属性` ;
+LwSelectTable/isShowQuery
 :::
 
 ### 查询条件--显示隐藏下拉框按钮
 
 :::demo `isShowBlurBtn` 条件查询组件是否显示隐藏下拉框按钮
-TSelectTable/isShowQueryMultiple
+LwSelectTable/isShowQueryMultiple
 :::
 
 ### 查询条件--下拉框按钮自定义配置
 
 :::demo `btnBind` 配置隐藏下拉框按钮，继承`el-button`所有属性
-TSelectTable/isShowQueryBtnBind
+LwSelectTable/isShowQueryBtnBind
 :::
 
 ### 查询条件--样式布局配置
 
 :::demo `tableWidth` table 宽度默认 550px，`labelWidth`查询条件 label 的宽度，默认 120px,**重点：设置`opts`下的`span`**
-TSelectTable/isShowQuerySpan
+LwSelectTable/isShowQuerySpan
 :::
 
 ### 下拉框插槽使用
 
 :::demo 设置`el-table`:头部插槽`toolbar`（位置：查询条件下面）;底部插槽`footer`（位置：分页器上面）
-TSelectTable/slotUse
+LwSelectTable/slotUse
 :::
 
 ### input 框显示
 
 :::demo 设置`isShowInput`显示 input 框，可以动态更改`isShowInput`值来切换显示下拉框；input 框的双向绑定是：`v-model:input-value`
 
-TSelectTable/isShowInput
+LwSelectTable/isShowInput
 :::
 
-### TSelectTable 参数配置
+### LwSelectTable 参数配置
 
 ---
 
@@ -181,7 +181,7 @@ TSelectTable/isShowInput
 | inputWidth          | input 输入框的宽度(单位：px) 若设置 0，宽度 100%                                        | Number/String             | 550        |
 | inputAttr           | 继承所有 el-input 的属性                                                                | Object                    | -          |
 | isKeyup             | 单选是否开启键盘事件                                                                    | Boolean                   | false      |
-| isShowQuery         | 是否允许配置查询条件(继承 TQueryCondition 的所有属性、事件、插槽)                       | Boolean                   | false      |
+| isShowQuery         | 是否允许配置查询条件(继承 LwQueryCondition 的所有属性、事件、插槽)                       | Boolean                   | false      |
 | isShowBlurBtn       | 条件查询组件是否显示隐藏下拉框按钮                                                      | Boolean                   | false      |
 | btnBind             | 显示下拉框按钮配置，继承`el-button`所有属性;`默认值{type:'danger',btnTxt:'关闭下拉框'}` | Object                    | -          |
 | isClearQuery        | 关闭下拉框是否清空搜索条件                                                              | Boolean                   | false      |

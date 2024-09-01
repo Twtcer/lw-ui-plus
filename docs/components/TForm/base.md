@@ -1,92 +1,92 @@
-# TForm 表单组件
+# LwForm 表单组件
 
 ---
 
 ### 基础用法
 
 ::: demo
-TForm/base
+LwForm/base
 :::
 
 ### 继承 Element-plus 组件的事件使用
 
 ::: demo
-TForm/eventHandle
+LwForm/eventHandle
 :::
 
 ### el-input 去除前后空格（type=password 除外）
 
 ::: demo
-TForm/isTrim
+LwForm/isTrim
 :::
 
 ### 对齐方式
 
 :::demo 通过设置 `formOpts.labelPosition` 属性可以改变表单域标签的位置，可选值为 `top`、`left`、`right`，默认`right`
-TForm/labelPosition
+LwForm/labelPosition
 :::
 
 ### 每行展示多少项
 
 :::demo 通过设置 `widthSize` 属性可以改变表单域每行显示项，可选值为 `1`、`2`、`3`、`4`、`5`、`6`，默认`2`————即每行显示两项；**若某一项需要单独显示一行（通常是备注或者文本域）需要在 fieldList 中设置 `widthSize` 为 1**
-TForm/widthSize
+LwForm/widthSize
 :::
 
 ### 表单校验规则
 
-:::demo `TForm` 组件提供了表单验证的功能，只需要通过 `rules` 属性传入约定的验证规则，并将 `Form-Item` 的 `prop` 属性设置为需校验的字段名即可。校验规则参见 [async-validator](https://github.com/yiminghe/async-validator);可以`自定义校验规则`可以参考`email`方式来写
-TForm/rules
+:::demo `LwForm` 组件提供了表单验证的功能，只需要通过 `rules` 属性传入约定的验证规则，并将 `Form-Item` 的 `prop` 属性设置为需校验的字段名即可。校验规则参见 [async-validator](https://github.com/yiminghe/async-validator);可以`自定义校验规则`可以参考`email`方式来写
+LwForm/rules
 :::
 
 ### 自定义 label jsx 渲染
 
 :::demo 第一种：`tsx`方式—————配置`labelRender`**当`labelRender`与`label`同时存在时：优先渲染`labelRender`**；第二种：使用`labelSlotName`插槽
-TForm/labelRender
+LwForm/labelRender
 :::
 
 ### 输入框插槽使用
 
-:::demo `TForm`组件提供了自定义 `输入框插槽`或下拉选择的`option插槽`的功能输入框插槽：配置`slotName`option 插槽：配置`childSlotName`
-TForm/slotName
+:::demo `LwForm`组件提供了自定义 `输入框插槽`或下拉选择的`option插槽`的功能输入框插槽：配置`slotName`option 插槽：配置`childSlotName`
+LwForm/slotName
 :::
 
 ### 文本展示
 
-:::demo `TForm`组件提供了`文本展示`的功能设置 `textShow: true`; `textValue`——显示的文本
-TForm/textShow
+:::demo `LwForm`组件提供了`文本展示`的功能设置 `textShow: true`; `textValue`——显示的文本
+LwForm/textShow
 :::
 
 ### 结合自己封装组件使用
 
 :::demo
-TForm/comUse
+LwForm/comUse
 :::
 
 ### 赋值回显数据
 
 :::demo
-TForm/echo
+LwForm/echo
 :::
 
 ### 联动选择
 
 :::demo
-TForm/linkage
+LwForm/linkage
 :::
 
 ### 弹窗显示表单
 
 :::demo
-TForm/isHideItem
+LwForm/isHideItem
 :::
 
-### TForm 参数配置
+### LwForm 参数配置
 
 ---
 
 ### 1. 简介：基于 Element-plus Form 表单组件的二次封装，着重于数据层面，HTML 一行代码
 
-> TForm 表单组件 **代码示例：**
+> LwForm 表单组件 **代码示例：**
 
 ```html
 <t-form v-model="formOpts.ref" :formOpts="formOpts" :widthSize="2" @handleEvent="handleEvent" />
@@ -138,12 +138,12 @@ TForm/isHideItem
 | 事件名      | 说明                      | 返回值                                                   |
 | :---------- | :------------------------ | :------------------------------------------------------- |
 | handleEvent | 单个查询条件触发事件      | fieldList 中 type/查询条件输入的值/fieldList 中 event 值 |
-| getRefs     | 获取 TForm 使用组件的 ref | fieldList 中 最好需要传 ref 标识来区分是哪个组件的 ref   |
+| getRefs     | 获取 LwForm 使用组件的 ref | fieldList 中 最好需要传 ref 标识来区分是哪个组件的 ref   |
 
 ### 4. Methods 继承 element-plus el-form 的 methods
 
 | 事件名          | 说明                                             | 返回值                        |
 | :-------------- | :----------------------------------------------- | :---------------------------- |
 | selfValidate    | 自定义校验                                       | valid:Boolean;formData:object |
-| selfResetFields | 自定义重置方法（主要清空使用 TSelectTable 组件） | -                             |
+| selfResetFields | 自定义重置方法（主要清空使用 LwSelectTable 组件） | -                             |
 

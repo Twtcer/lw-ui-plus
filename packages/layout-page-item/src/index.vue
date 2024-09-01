@@ -3,7 +3,7 @@
     <slot />
   </section>
 </template>
-<script setup lang="ts" name="TLayoutPageItem">
+<script setup lang="ts" name="LwLayoutPageItem">
 defineProps({
   isNoMargin: {
     type: Boolean,

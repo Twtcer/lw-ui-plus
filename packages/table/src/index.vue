@@ -48,7 +48,7 @@
       <slot name="titleTip" />
     </div>
     <el-table
-      ref="TTable"
+      ref="LwTable"
       :data="state.tableData"
       :class="{
         cursor: isCopy,
@@ -333,7 +333,7 @@
   </div>
 </template>
 
-<script setup lang="ts" name="TTable">
+<script setup lang="ts" name="LwTable">
 import { computed, ref, watch, useSlots, reactive, onMounted, onUpdated } from "vue"
 // import type { PropType } from "vue"
 import { ElMessage } from "element-plus"
@@ -451,7 +451,7 @@ const radioVal = ref(null)
 // 判断单选选中及取消选中
 const forbidden = ref(true)
 // 获取el-table ref
-const TTable: any = ref<HTMLElement | null>(null)
+const LwTable: any = ref<HTMLElement | null>(null)
 // 获取t-table ref
 const TTableBox: any = ref<HTMLElement | null>(null)
 // 获取columnSet Ref
@@ -508,7 +508,7 @@ onMounted(() => {
   initSort()
 })
 onUpdated(() => {
-  TTable.value.doLayout()
+  LwTable.value.doLayout()
 })
 // 默认选中（单选项）---index必须是大于等于1（且只能默认选中第一页的数据）
 const defaultRadioSelect = (index: number | any) => {
@@ -911,55 +911,55 @@ const saveMethod = (callback: (arg0: any) => any) => {
 }
 // 清空复选框
 const clearSelection = () => {
-  return TTable.value.clearSelection()
+  return LwTable.value.clearSelection()
 }
 // 返回当前选中的行
 const getSelectionRows = () => {
-  return TTable.value.getSelectionRows()
+  return LwTable.value.getSelectionRows()
 }
 // 取消某一项选中项
 const toggleRowSelection = (row: any, selected = false) => {
-  return TTable.value.toggleRowSelection(row, selected)
+  return LwTable.value.toggleRowSelection(row, selected)
 }
 // 全部选中
 const toggleAllSelection = () => {
-  return TTable.value.toggleAllSelection()
+  return LwTable.value.toggleAllSelection()
 }
 // 用于可扩展的表格或树表格，如果某行被扩展，则切换。 使用第二个参数，您可以直接设置该行应该被扩展或折叠。
 const toggleRowExpansion = (row: any, expanded: any) => {
-  return TTable.value.toggleRowExpansion(row, expanded)
+  return LwTable.value.toggleRowExpansion(row, expanded)
 }
 // 用于单选表格，设定某一行为选中行， 如果调用时不加参数，则会取消目前高亮行的选中状态。
 const setCurrentRow = (row: any) => {
-  return TTable.value.setCurrentRow(row)
+  return LwTable.value.setCurrentRow(row)
 }
 // 清空排序条件
 const clearSort = () => {
-  return TTable.value.clearSort()
+  return LwTable.value.clearSort()
 }
 // 传入由columnKey 组成的数组以清除指定列的过滤条件。 如果没有参数，清除所有过滤器
 const clearFilter = (columnKey: any) => {
-  return TTable.value.clearFilter(columnKey)
+  return LwTable.value.clearFilter(columnKey)
 }
 //  Table 进行重新布局
 const doLayout = (columnKey: any) => {
-  return TTable.value.doLayout(columnKey)
+  return LwTable.value.doLayout(columnKey)
 }
 //  手动排序表格。 参数 prop 属性指定排序列，order 指定排序顺序。
 const sort = (prop: string, order: string) => {
-  return TTable.value.sort(prop, order)
+  return LwTable.value.sort(prop, order)
 }
 //  滚动到一组特定坐标。
 const scrollTo = (options: any, yCoord: any) => {
-  return TTable.value.scrollTo(options, yCoord)
+  return LwTable.value.scrollTo(options, yCoord)
 }
 //  设置垂直滚动位置
 const setScrollTop = (top: any) => {
-  return TTable.value.setScrollTop(top)
+  return LwTable.value.setScrollTop(top)
 }
 //  设置水平滚动位置
 const setScrollLeft = (left: any) => {
-  return TTable.value.setScrollLeft(left)
+  return LwTable.value.setScrollLeft(left)
 }
 
 // 清空校验规则

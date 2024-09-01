@@ -3,47 +3,47 @@ import type { Component, App } from "vue"
 // import ElementPlus from 'element-plus'
 // import 'element-plus/dist/index.css'
 // import locale from 'element-plus/lib/locale/lang/zh-cn' // 因element-plus默认是英文，我们指定一下默认中文
-import TLayoutPage from "./layout-page"
-import TLayoutPageItem from "./layout-page-item"
-import TQueryCondition from "./query-condition"
-import TTable from "./table"
-import TForm from "./form"
-import TSelect from "./select"
-import TSelectTable from "./select-table"
-import TDetail from "./detail"
-import TButton from "./button"
-import TStepWizard from "./step-wizard"
-import TTimerBtn from "./timer-btn"
-import TModuleForm from "./module-form"
-import TAdaptivePage from "./adaptive-page"
-import TDatePicker from "./date-picker"
-import TRadio from "./radio"
-import TCheckbox from "./checkbox"
-import TChart from "./chart"
-import TTabs from "./tabs"
+import LwLayoutPage from "./layout-page"
+import LwLayoutPageItem from "./layout-page-item"
+import LwQueryCondition from "./query-condition"
+import LwTable from "./table"
+import LwForm from "./form"
+import LwSelect from "./select"
+import LwSelectTable from "./select-table"
+import LwDetail from "./detail"
+import LwButton from "./button"
+import LwStepWizard from "./step-wizard"
+import LwTimerBtn from "./timer-btn"
+import LwModuleForm from "./module-form"
+import LwAdaptivePage from "./adaptive-page"
+import LwDatePicker from "./date-picker"
+import LwRadio from "./radio"
+import LwCheckbox from "./checkbox"
+import LwChart from "./chart"
+import LwTabs from "./tabs"
 
 // 存储组件列表
 const components: {
   [propName: string]: Component
 } = {
-  TLayoutPage,
-  TLayoutPageItem,
-  TQueryCondition,
-  TTable,
-  TForm,
-  TSelect,
-  TSelectTable,
-  TDetail,
-  TButton,
-  TStepWizard,
-  TTimerBtn,
-  TModuleForm,
-  TAdaptivePage,
-  TDatePicker,
-  TRadio,
-  TCheckbox,
-  TChart,
-  TTabs
+  LwLayoutPage,
+  LwLayoutPageItem,
+  LwQueryCondition,
+  LwTable,
+  LwForm,
+  LwSelect,
+  LwSelectTable,
+  LwDetail,
+  LwButton,
+  LwStepWizard,
+  LwTimerBtn,
+  LwModuleForm,
+  LwAdaptivePage,
+  LwDatePicker,
+  LwRadio,
+  LwCheckbox,
+  LwChart,
+  LwTabs
 }
 // 插件声明：声明所有插件
 // 插件注册：在 Vue 项目的入口文件中，通过 ( app.use(插件) ) 进行注册
@@ -74,24 +74,24 @@ if (typeof window !== "undefined" && window.Vue) {
 
 // 按需引入
 export {
-  TLayoutPage,
-  TLayoutPageItem,
-  TQueryCondition,
-  TTable,
-  TForm,
-  TSelect,
-  TSelectTable,
-  TDetail,
-  TButton,
-  TStepWizard,
-  TTimerBtn,
-  TModuleForm,
-  TAdaptivePage,
-  TDatePicker,
-  TRadio,
-  TCheckbox,
-  TChart,
-  TTabs
+  LwLayoutPage,
+  LwLayoutPageItem,
+  LwQueryCondition,
+  LwTable,
+  LwForm,
+  LwSelect,
+  LwSelectTable,
+  LwDetail,
+  LwButton,
+  LwStepWizard,
+  LwTimerBtn,
+  LwModuleForm,
+  LwAdaptivePage,
+  LwDatePicker,
+  LwRadio,
+  LwCheckbox,
+  LwChart,
+  LwTabs
 }
 /**
  * @description 公共方法

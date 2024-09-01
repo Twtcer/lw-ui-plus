@@ -29,8 +29,8 @@
 <script setup lang="tsx">
 import { ElMessageBox } from "element-plus"
 import { ref, reactive, onMounted } from "vue"
-import data from "../TSelectTable/data.json"
-import data1 from "../TSelectTable/data2.json"
+import data from "../LwSelectTable/data.json"
+import data1 from "../LwSelectTable/data2.json"
 // 获取ref
 const TFormDemo: any = ref(null)
 const selectTableRef: any = ref(null)

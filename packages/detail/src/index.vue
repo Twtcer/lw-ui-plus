@@ -66,7 +66,7 @@
   </el-descriptions>
 </template>
 
-<script setup lang="ts" name="TDetail">
+<script setup lang="ts" name="LwDetail">
 import RenderTooltip from "./renderTooltip.vue"
 import RenderLabel from "./renderLabel.vue"
 defineProps({

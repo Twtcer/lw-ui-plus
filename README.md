@@ -43,7 +43,7 @@ import "element-plus/theme-chalk/dark/css-vars.css";
 import locale from "element-plus/es/locale/lang/zh-cn";
 // element-plus图标
 import * as ElementPlusIconsVue from "@element-plus/icons-vue";
-import TuiPlus from '@twtcer/lw-ui-plus'
+import LwUiPlus from '@twtcer/lw-ui-plus'
 import '@twtcer/lw-ui-plus/lib/style.css'
 const app = createApp(App)
 // 注册所有图标
@@ -55,7 +55,7 @@ const app = createApp(App)
     locale // 语言设置
     // size: Cookies.get('size') || 'medium' // 尺寸设置
   });
-app.use(TuiPlus)
+app.use(LwUiPlus)
 app.mount('#app')
 ```
 
@@ -66,30 +66,30 @@ app.mount('#app')
 import '@twtcer/lw-ui-plus/lib/style.css'
 // 单个.vue文件引入
 <script setup lang="ts">
-  import {TDetail, TForm} from "@twtcer/lw-ui-plus"
+  import {LwDetail, LwForm} from "@twtcer/lw-ui-plus"
 </script>
 ```
 ## 全部组件如下
 | 组件名称        | 说明                                                                                                                                                       |
 | :-------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| TLayoutPage     | 布局页面                                                                                                                                                   |
-| TLayoutPageItem | 布局页面子项                                                                                                                                               |
-| TAdaptivePage   | [一屏组件](https://twtcer.github.io/lw-ui-plus/components/TAdaptivePage/base.html?_blank)（继承TTable 及 TQueryCondition 组件的所有属性、事件、插槽、方法） |
-| TQueryCondition | [条件查询组件](https://twtcer.github.io/lw-ui-plus/components/TQueryCondition/base.html?_blank)                                                             |
-| TTable          | [表格组件](https://twtcer.github.io/lw-ui-plus/components/TTable/base.html?_blank)                                                                          |
-| TForm           | [表单组件](https://twtcer.github.io/lw-ui-plus/components/TForm/base.html?_blank)                                                                           |
-| TSelectTable    | [下拉选择表格组件](https://twtcer.github.io/lw-ui-plus/components/TSelectTable/base.html?_blank)                                                            |
-| TSelect         | [下拉选择组件](https://twtcer.github.io/lw-ui-plus/components/TSelect/base.html?_blank)                                                                     |
-| TDetail         | [详情组件](https://twtcer.github.io/lw-ui-plus/components/TDetail/base.html?_blank)                                                                         |
-| TButton         | [防抖按钮组件](https://twtcer.github.io/lw-ui-plus/components/TButton/base.html?_blank)                                                                     |
-| TStepWizard     | [步骤条组件](https://twtcer.github.io/lw-ui-plus/components/TStepWizard/base.html?_blank)                                                                   |
-| TTimerBtn       | 定时按钮组件                                                                                                                                               |
-| TModuleForm     | [模块表单/详情组件](https://twtcer.github.io/lw-ui-plus/components/TModuleForm/base.html?_blank)                                                            |
-| TDatePicker     | [日期选择器组件](https://twtcer.github.io/lw-ui-plus/components/TDatePicker/base.html?_blank)                                                               |
-| TRadio          | [单选组件](https://twtcer.github.io/lw-ui-plus/components/TRadio/base.html?_blank)                                                                          |
-| TCheckbox       | [多选组件](https://twtcer.github.io/lw-ui-plus/components/TCheckbox/base.html?_blank)                                                                       |
-| TChart          | [图表组件](https://twtcer.github.io/lw-ui-plus/components/TChart/base.html?_blank)                                                                          |
-| TTabs           | [标签页组件](https://twtcer.github.io/lw-ui-plus/components/TTabs/base.html?_blank)                                                                         |
+| LwLayoutPage     | 布局页面                                                                                                                                                   |
+| LwLayoutPageItem | 布局页面子项                                                                                                                                               |
+| LwAdaptivePage   | [一屏组件](https://twtcer.github.io/lw-ui-plus/components/LwAdaptivePage/base.html?_blank)（继承TTable 及 LwQueryCondition 组件的所有属性、事件、插槽、方法） |
+| LwQueryCondition | [条件查询组件](https://twtcer.github.io/lw-ui-plus/components/LwQueryCondition/base.html?_blank)                                                             |
+| LwTable          | [表格组件](https://twtcer.github.io/lw-ui-plus/components/LwTable/base.html?_blank)                                                                          |
+| LwForm           | [表单组件](https://twtcer.github.io/lw-ui-plus/components/LwForm/base.html?_blank)                                                                           |
+| LwSelectTable    | [下拉选择表格组件](https://twtcer.github.io/lw-ui-plus/components/LwSelectTable/base.html?_blank)                                                            |
+| LwSelect         | [下拉选择组件](https://twtcer.github.io/lw-ui-plus/components/LwSelect/base.html?_blank)                                                                     |
+| LwDetail         | [详情组件](https://twtcer.github.io/lw-ui-plus/components/LwDetail/base.html?_blank)                                                                         |
+| LwButton         | [防抖按钮组件](https://twtcer.github.io/lw-ui-plus/components/LwButton/base.html?_blank)                                                                     |
+| LwStepWizard     | [步骤条组件](https://twtcer.github.io/lw-ui-plus/components/LwStepWizard/base.html?_blank)                                                                   |
+| LwTimerBtn       | 定时按钮组件                                                                                                                                               |
+| LwModuleForm     | [模块表单/详情组件](https://twtcer.github.io/lw-ui-plus/components/LwModuleForm/base.html?_blank)                                                            |
+| LwDatePicker     | [日期选择器组件](https://twtcer.github.io/lw-ui-plus/components/LwDatePicker/base.html?_blank)                                                               |
+| LwRadio          | [单选组件](https://twtcer.github.io/lw-ui-plus/components/LwRadio/base.html?_blank)                                                                          |
+| LwCheckbox       | [多选组件](https://twtcer.github.io/lw-ui-plus/components/LwCheckbox/base.html?_blank)                                                                       |
+| LwChart          | [图表组件](https://twtcer.github.io/lw-ui-plus/components/LwChart/base.html?_blank)                                                                          |
+| LwTabs           | [标签页组件](https://twtcer.github.io/lw-ui-plus/components/LwTabs/base.html?_blank)                                                                         |
 
 
 ## Use CDN in Project(暂不支持)
@@ -142,15 +142,7 @@ npm run docs:dev
 
 <a href="https://github.com/twtcer/lw-ui-plus/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=twtcer/lw-ui-plus" alt="contributors" />
-</a>
-
-## 微信交流群
-
->目前微信群已超过 200 人，需要加微信好友(请备注 lw-ui-plus)，拉大家进群
-
-|                微信二维码                 |
-| :---------------------------------------: |
-| <img src="./public/twtcer.jpg" width=170> |
+</a>  
 
 ## Git 提交规范
 

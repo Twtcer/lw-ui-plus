@@ -149,8 +149,8 @@
   </el-select>
 </template>
 
-<script setup lang="ts" name="TSelectTable">
-import TQueryCondition from "../../query-condition/src/index.vue"
+<script setup lang="ts" name="LwSelectTable">
+import LwQueryCondition from "../../query-condition/src/index.vue"
 import RenderCol from "./renderCol.vue"
 import {
   computed,

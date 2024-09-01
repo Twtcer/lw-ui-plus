@@ -54,7 +54,7 @@ const columnBind = computed(() => {
 })
 // 获取缓存数据
 const getColumnSetCache = () => {
-  let value: any = localStorage.getItem(`lw-ui-plus:TTable.columnSet-${props.name || props.title}`)
+  let value: any = localStorage.getItem(`lw-ui-plus:LwTable.columnSet-${props.name || props.title}`)
   let columnOption = initColumnSet()
   let valueArr = JSON.parse(value) || []
   columnOption.map(item => {
@@ -116,7 +116,7 @@ watch(
   val => {
     emits("columnSetting", val)
     localStorage.setItem(
-      `lw-ui-plus:TTable.columnSet-${props.name || props.title}`,
+      `lw-ui-plus:LwTable.columnSet-${props.name || props.title}`,
       JSON.stringify(val)
     )
   },
@@ -124,7 +124,7 @@ watch(
 )
 // 重新赋值
 const reSetColumnSet = () => {
-  let value: any = localStorage.getItem(`lw-ui-plus:TTable.columnSet-${props.name || props.title}`)
+  let value: any = localStorage.getItem(`lw-ui-plus:LwTable.columnSet-${props.name || props.title}`)
   // console.log("重新赋值", JSON.parse(value))
   state.columnSet = JSON.parse(value)
   emits("columnSetting", state.columnSet)
